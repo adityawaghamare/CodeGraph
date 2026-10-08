@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "nodes": [],
+  "edges": [],
+  "heuristics": [],
+  "coverage": {
+    "filesAnalyzed": 0,
+    "skippedFiles": [
+      {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/cli-warnings/large.txt",
+        "reason": "File too large (6291456 > 5242880)"
+      }
+    ]
+  }
+}

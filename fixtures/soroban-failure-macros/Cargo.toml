@@ -1,0 +1,3 @@
+[package]
+name = "soroban-failure-macros"
+version = "0.1.0"

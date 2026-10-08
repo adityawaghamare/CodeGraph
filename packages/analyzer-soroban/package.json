@@ -1,0 +1,26 @@
+{
+  "name": "@codegraph/analyzer-soroban",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@codegraph/core": "workspace:*",
+    "@codegraph/shared": "workspace:*",
+    "@iarna/toml": "^2.2.5",
+    "tree-sitter-wasms": "^0.1.13",
+    "web-tree-sitter": "^0.20.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tree-sitter-cli": "^0.27.0",
+    "tree-sitter-rust": "^0.24.0",
+    "vitest": "^1.5.0"
+  }
+}

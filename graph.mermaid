@@ -1,0 +1,511 @@
+graph TD
+  contract_ContractContext_authrs["ContractContext (Contract)"]
+  contract_CreateContractHostFnContext_authrs["CreateContractHostFnContext (Contract)"]
+  contract_CreateContractWithConstructorHostFnContext_authrs["CreateContractWithConstructorHostFnContext (Contract)"]
+  contract_SubContractInvocation_authrs["SubContractInvocation (Contract)"]
+  contract_ContractExecutableRef_librs["ContractExecutableRef (Contract)"]
+  contract_TestContract_addressrs["TestContract (Contract)"]
+  contract_Contract_auth_06_register_native_constructorrs["Contract (Contract)"]
+  function_Contract____constructor_auth_06_register_native_constructorrs["__constructor()"]
+  contract_Probe_auth_06_register_native_constructorrs["Probe (Contract)"]
+  function_Probe__need_auth_auth_06_register_native_constructorrs["need_auth()"]
+  contract_Contract_auth_10_oners["Contract (Contract)"]
+  function_Contract__add_auth_10_oners["add()"]
+  contract_Contract_auth_15_one_repeatrs["Contract (Contract)"]
+  function_Contract__add_auth_15_one_repeatrs["add()"]
+  contract_Contract_auth_17_no_consume_requirementrs["Contract (Contract)"]
+  function_Contract__add_auth_17_no_consume_requirementrs["add()"]
+  contract_ContractA_auth_20_deep_one_addressrs["ContractA (Contract)"]
+  function_ContractA__fna_auth_20_deep_one_addressrs["fna()"]
+  contract_ContractB_auth_20_deep_one_addressrs["ContractB (Contract)"]
+  function_ContractB__fnb_auth_20_deep_one_addressrs["fnb()"]
+  contract_ContractA_auth_30_deep_one_address_repeatrs["ContractA (Contract)"]
+  function_ContractA__fna_auth_30_deep_one_address_repeatrs["fna()"]
+  contract_ContractB_auth_30_deep_one_address_repeatrs["ContractB (Contract)"]
+  function_ContractB__fnb_auth_30_deep_one_address_repeatrs["fnb()"]
+  contract_ContractA_auth_35_deep_one_address_repeat_groupedrs["ContractA (Contract)"]
+  function_ContractA__fna_auth_35_deep_one_address_repeat_groupedrs["fna()"]
+  contract_ContractB_auth_35_deep_one_address_repeat_groupedrs["ContractB (Contract)"]
+  function_ContractB__fnb_auth_35_deep_one_address_repeat_groupedrs["fnb()"]
+  contract_ContractA_auth_40_multi_one_addressrs["ContractA (Contract)"]
+  function_ContractA__fna_auth_40_multi_one_addressrs["fna()"]
+  contract_ContractB_auth_40_multi_one_addressrs["ContractB (Contract)"]
+  function_ContractB__fnb_auth_40_multi_one_addressrs["fnb()"]
+  contract_Contract_contract_add_i32rs["Contract (Contract)"]
+  function_Contract__add_contract_add_i32rs["add()"]
+  contract_Contract_contract_assertrs["Contract (Contract)"]
+  function_Contract__assert_contract_assertrs["assert()"]
+  contract_Contract_contract_custom_account_implrs["Contract (Contract)"]
+  function_Contract____check_auth_contract_custom_account_implrs["__check_auth()"]
+  contract_Contract_contract_docsrs["Contract (Contract)"]
+  function_Contract__add_contract_docsrs["add()"]
+  contract_S_contract_docsrs["S (Contract)"]
+  contract_S_contract_docsrs_1["S (Contract)"]
+  contract_Contract_contract_durationrs["Contract (Contract)"]
+  function_Contract__exec_contract_durationrs["exec()"]
+  contract_Contract_contract_error_referencesrs["Contract (Contract)"]
+  function_Contract__sdk_contract_error_referencesrs["sdk()"]
+  function_Contract__local_contract_error_referencesrs["local()"]
+  function_Contract__a_contract_error_referencesrs["a()"]
+  function_Contract__b_contract_error_referencesrs["b()"]
+  contract_Contract_contract_eventrs["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_1["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_1["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_2["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_2["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_3["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_3["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_4["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_4["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_5["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_5["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_6["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_6["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_7["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_7["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_8["Contract (Contract)"]
+  contract_MyType1_contract_eventrs["MyType1 (Contract)"]
+  contract_MyType2_contract_eventrs["MyType2 (Contract)"]
+  contract_MyEvent_contract_eventrs_8["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_9["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_9["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_10["Contract (Contract)"]
+  contract_Deposit_contract_eventrs["Deposit (Contract)"]
+  contract_Contract_contract_eventrs_11["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_10["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_12["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_11["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_13["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_12["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_14["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_13["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_15["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_14["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_16["Contract (Contract)"]
+  contract_Deposit_contract_eventrs_1["Deposit (Contract)"]
+  contract_Contract_contract_eventrs_17["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_15["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_18["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_16["MyEvent (Contract)"]
+  contract_Contract_contract_eventrs_19["Contract (Contract)"]
+  contract_MyEvent_contract_eventrs_17["MyEvent (Contract)"]
+  contract_OwnerContract_contract_executable_refrs["OwnerContract (Contract)"]
+  function_OwnerContract__set_executable_contract_executable_refrs["set_executable()"]
+  function_OwnerContract__upgrade_to_own_ref_contract_executable_refrs["upgrade_to_own_ref()"]
+  contract_DeployerContract_contract_executable_refrs["DeployerContract (Contract)"]
+  function_DeployerContract__deploy_contract_executable_refrs["deploy()"]
+  function_DeployerContract__upgrade_to_ref_contract_executable_refrs["upgrade_to_ref()"]
+  function_DeployerContract__deploy_with_args_contract_executable_refrs["deploy_with_args()"]
+  function_DeployerContract__deploy_for_contract_executable_refrs["deploy_for()"]
+  contract_RecordingAccount_contract_executable_refrs["RecordingAccount (Contract)"]
+  function_RecordingAccount____check_auth_contract_executable_refrs["__check_auth()"]
+  contract_Contract_contract_fnrs["Contract (Contract)"]
+  function_Contract__add_contract_fnrs["add()"]
+  function_Contract__add_with_unused_arg_contract_fnrs["add_with_unused_arg()"]
+  function_Contract__add_with_mut_arg_contract_fnrs["add_with_mut_arg()"]
+  function_Contract__add_with_ref_arg_contract_fnrs["add_with_ref_arg()"]
+  function_Contract__void_fn_contract_fnrs["void_fn()"]
+  function_Contract__tuple_single_fn_contract_fnrs["tuple_single_fn()"]
+  function_Contract__tuple_two_fn_contract_fnrs["tuple_two_fn()"]
+  contract_Contract2_contract_fnrs["Contract2 (Contract)"]
+  function_Contract2__add_contract_fnrs["add()"]
+  contract_Contract_contract_fn_macro_rulesrs["Contract (Contract)"]
+  contract_Contract_contract_invokers["Contract (Contract)"]
+  function_Contract__panic_contract_invokers["panic()"]
+  contract_Contract_contract_invoke_arg_countrs["Contract (Contract)"]
+  function_Contract__add_with_contract_invoke_arg_countrs["add_with()"]
+  contract_AddContract_contract_invoke_arg_countrs["AddContract (Contract)"]
+  function_AddContract__add_contract_invoke_arg_countrs["add()"]
+  contract_Contract_contract_invoke_panicsrs["Contract (Contract)"]
+  function_Contract__panic_contract_invoke_panicsrs["panic()"]
+  function_Contract__need_auth_contract_invoke_panicsrs["need_auth()"]
+  contract_State_contract_overlapping_type_fn_namesrs["State (Contract)"]
+  contract_Contract_contract_overlapping_type_fn_namesrs["Contract (Contract)"]
+  function_Contract__state_contract_overlapping_type_fn_namesrs["state()"]
+  contract_Contract_contract_snapshotrs["Contract (Contract)"]
+  function_Contract__store_contract_snapshotrs["store()"]
+  function_Contract__get_contract_snapshotrs["get()"]
+  contract_Contract_contract_storers["Contract (Contract)"]
+  function_Contract__get_persistent_contract_storers["get_persistent()"]
+  function_Contract__set_persistent_contract_storers["set_persistent()"]
+  function_Contract__get_temporary_contract_storers["get_temporary()"]
+  function_Contract__set_temporary_contract_storers["set_temporary()"]
+  function_Contract__get_instance_contract_storers["get_instance()"]
+  function_Contract__set_instance_contract_storers["set_instance()"]
+  function_Contract__extend_ttl_persistent_contract_storers["extend_ttl_persistent()"]
+  function_Contract__extend_ttl_temporary_contract_storers["extend_ttl_temporary()"]
+  function_Contract__extend_ttl_instance_contract_storers["extend_ttl_instance()"]
+  function_Contract__ext_ttl_persistent_lim_contract_storers["ext_ttl_persistent_lim()"]
+  function_Contract__ext_ttl_instance_lim_contract_storers["ext_ttl_instance_lim()"]
+  contract_Contract_contract_timepointrs["Contract (Contract)"]
+  function_Contract__exec_contract_timepointrs["exec()"]
+  contract_Contract_contract_trait_emptyrs["Contract (Contract)"]
+  contract_Contract_contract_type_aliasesrs["Contract (Contract)"]
+  function_Contract__aliased_contract_type_aliasesrs["aliased()"]
+  contract_Udt2_contract_udt_enumrs["Udt2 (Contract)"]
+  contract_Contract_contract_udt_enumrs["Contract (Contract)"]
+  function_Contract__add_contract_udt_enumrs["add()"]
+  contract_Contract_contract_udt_enum_errorrs["Contract (Contract)"]
+  function_Contract__f_contract_udt_enum_errorrs["f()"]
+  contract_Udt_contract_udt_optionrs["Udt (Contract)"]
+  contract_Contract_contract_udt_optionrs["Contract (Contract)"]
+  function_Contract__add_contract_udt_optionrs["add()"]
+  contract_UdtAllOptional_contract_udt_optionrs["UdtAllOptional (Contract)"]
+  contract_UdtUnit_contract_udt_optionrs["UdtUnit (Contract)"]
+  contract_rContract_contract_udt_raw_identifierrs["r#Contract (Contract)"]
+  contract_rTestEvent_contract_udt_raw_identifierrs["r#TestEvent (Contract)"]
+  contract_rTupleStruct_contract_udt_raw_identifierrs["r#TupleStruct (Contract)"]
+  function_rTupleStruct__rtype_contract_udt_raw_identifierrs["r#type()"]
+  contract_Udt_contract_udt_structrs["Udt (Contract)"]
+  contract_UdtWithLongName_contract_udt_structrs["UdtWithLongName (Contract)"]
+  contract_UdtWithNonAlphabeticallyOrderedFields_contract_udt_structrs["UdtWithNonAlphabeticallyOrderedFields (Contract)"]
+  contract_Contract_contract_udt_structrs["Contract (Contract)"]
+  function_Contract__add_contract_udt_structrs["add()"]
+  function_Contract__add_udt_with_long_name_contract_udt_structrs["add_udt_with_long_name()"]
+  contract_Inner_contract_udt_struct_aliased_importrs["Inner (Contract)"]
+  contract_Outer_contract_udt_struct_aliased_importrs["Outer (Contract)"]
+  contract_Contract_contract_udt_struct_aliased_importrs["Contract (Contract)"]
+  function_Contract__add_contract_udt_struct_aliased_importrs["add()"]
+  contract_Udt_contract_udt_struct_tuplers["Udt (Contract)"]
+  contract_Contract_contract_udt_struct_tuplers["Contract (Contract)"]
+  function_Contract__add_contract_udt_struct_tuplers["add()"]
+  contract_Contract_contractimpl_trait_call_resolutionrs["Contract (Contract)"]
+  function_Contract__value_contractimpl_trait_call_resolutionrs["value()"]
+  contract_Contract_contractimportrs["Contract (Contract)"]
+  function_Contract__sub_contractimportrs["sub()"]
+  contract_Contract_contractimportrs_1["Contract (Contract)"]
+  function_Contract__add_with_contractimportrs["add_with()"]
+  function_Contract__sub_with_contractimportrs["sub_with()"]
+  contract_Contract_contractimport_with_errorrs["Contract (Contract)"]
+  function_Contract__hello_with_contractimport_with_errorrs["hello_with()"]
+  contract_Contract_contracttrait_crate_pathrs["Contract (Contract)"]
+  function_Contract__overridden_method_contracttrait_crate_pathrs["overridden_method()"]
+  contract_Contract_crypto_bls12_381rs["Contract (Contract)"]
+  function_Contract__g1_mul_with_crypto_bls12_381rs["g1_mul_with()"]
+  function_Contract__verify_with_crypto_bls12_381rs["verify_with()"]
+  contract_ModularAccount_delegate_authrs["ModularAccount (Contract)"]
+  function_ModularAccount____constructor_delegate_authrs["__constructor()"]
+  function_ModularAccount____check_auth_delegate_authrs["__check_auth()"]
+  contract_DelegateAccount_delegate_authrs["DelegateAccount (Contract)"]
+  function_DelegateAccount____constructor_delegate_authrs["__constructor()"]
+  function_DelegateAccount____check_auth_delegate_authrs["__check_auth()"]
+  contract_Protected_delegate_authrs["Protected (Contract)"]
+  function_Protected__protected_delegate_authrs["protected()"]
+  contract_Contract_envrs["Contract (Contract)"]
+  function_Contract__test_envrs["test()"]
+  function_Contract__need_auth_envrs["need_auth()"]
+  contract_Contract_env_test_state_in_contractrs["Contract (Contract)"]
+  function_Contract__gen_address_env_test_state_in_contractrs["gen_address()"]
+  function_Contract__register_env_test_state_in_contractrs["register()"]
+  function_Contract__auth_count_env_test_state_in_contractrs["auth_count()"]
+  function_Contract__set_config_env_test_state_in_contractrs["set_config()"]
+  function_Contract__to_ledger_snapshot_env_test_state_in_contractrs["to_ledger_snapshot()"]
+  function_Contract__to_snapshot_env_test_state_in_contractrs["to_snapshot()"]
+  contract_Contract_env_uploadrs["Contract (Contract)"]
+  function_Contract__hello_env_uploadrs["hello()"]
+  contract_OtherContract_env_uploadrs["OtherContract (Contract)"]
+  function_OtherContract__hello_env_uploadrs["hello()"]
+  contract_Contract_extend_ttl_overflowrs["Contract (Contract)"]
+  function_Contract__set_persistent_extend_ttl_overflowrs["set_persistent()"]
+  function_Contract__extend_persistent_extend_ttl_overflowrs["extend_persistent()"]
+  function_Contract__extend_instance_extend_ttl_overflowrs["extend_instance()"]
+  contract_Contract_max_ttlrs["Contract (Contract)"]
+  contract_Udt_muxed_addressrs["Udt (Contract)"]
+  contract_MuxedAddressContract_muxed_addressrs["MuxedAddressContract (Contract)"]
+  function_MuxedAddressContract__get_muxed_ids_muxed_addressrs["get_muxed_ids()"]
+  function_MuxedAddressContract__echo_udt_muxed_addressrs["echo_udt()"]
+  contract_TestPrngContract_prngrs["TestPrngContract (Contract)"]
+  contract_TestPrngRangeContract_prng_rangers["TestPrngRangeContract (Contract)"]
+  contract_Contract_register_at_stellar_asset_contractrs["Contract (Contract)"]
+  function_Contract__hello_register_at_stellar_asset_contractrs["hello()"]
+  function_Contract__decimals_register_at_stellar_asset_contractrs["decimals()"]
+  contract_Contract_snapshot_source_native_wasm_hashrs["Contract (Contract)"]
+  function_Contract__hello_snapshot_source_native_wasm_hashrs["hello()"]
+  contract_Contract_storage_testutilsrs["Contract (Contract)"]
+  contract_TestContract_token_clientrs["TestContract (Contract)"]
+  function_TestContract__init_token_clientrs["init()"]
+  function_TestContract__get_token_token_clientrs["get_token()"]
+  function_TestContract__approve_token_clientrs["approve()"]
+  function_TestContract__allowance_token_clientrs["allowance()"]
+  contract_Foo_arbitraryrs["Foo (Contract)"]
+  contract_Foo_arbitraryrs_1["Foo (Contract)"]
+  contract_MockAuthContract_mock_authrs["MockAuthContract (Contract)"]
+  function_MockAuthContract____check_auth_mock_authrs["__check_auth()"]
+  contract_Address_contractevent_contracterror_name_errorsrs["Address (Contract)"]
+  contract_Generic_contractevent_contracterror_name_errorsrs["Generic (Contract)"]
+  contract_Ev_contractevent_sparse_arg_errorsrs["Ev (Contract)"]
+  contract_Ev2_contractevent_sparse_arg_errorsrs["Ev2 (Contract)"]
+  contract_ExplicitTopic_contractevent_topic_length_errorsrs["ExplicitTopic (Contract)"]
+  contract_AbCdEfGhIjKlMnOpQrStUvWx_contractevent_topic_length_errorsrs["AbCdEfGhIjKlMnOpQrStUvWx (Contract)"]
+  contract_Fits_contractevent_topic_length_errorsrs["Fits (Contract)"]
+  contract_C_contracttrait_cfg_errorsrs["C (Contract)"]
+  function_C__hidden_contracttrait_cfg_errorsrs["hidden()"]
+  contract_D_contracttrait_cfg_errorsrs["D (Contract)"]
+  function_D__hidden_contracttrait_cfg_errorsrs["hidden()"]
+  contract_C_contracttrait_without_traitrs["C (Contract)"]
+  function_C__f_contracttrait_without_traitrs["f()"]
+  contract_S_contracttype_lib_removedrs["S (Contract)"]
+  contract_Ev_contracttype_lib_removedrs["Ev (Contract)"]
+  contract_S_export_arg_errorsrs["S (Contract)"]
+  contract_S2_export_arg_errorsrs["S2 (Contract)"]
+  contract_Ev_export_arg_errorsrs["Ev (Contract)"]
+  contract_Contract_hash_arg_errorsrs["Contract (Contract)"]
+  function_Contract__f_hash_arg_errorsrs["f()"]
+  contract_TooLong_spec_name_length_errorsrs["TooLong (Contract)"]
+  contract_TooLongEvent_spec_name_length_errorsrs["TooLongEvent (Contract)"]
+  contract_Refers_spec_name_length_errorsrs["Refers (Contract)"]
+  contract_HoldsHuge_spec_type_def_bytesn_length_errorsrs["HoldsHuge (Contract)"]
+  contract_Approve_eventsrs["Approve (Contract)"]
+  contract_TransferWithAmountOnly_eventsrs["TransferWithAmountOnly (Contract)"]
+  contract_Transfer_eventsrs["Transfer (Contract)"]
+  contract_Burn_eventsrs["Burn (Contract)"]
+  contract_MintWithAmountOnly_eventsrs["MintWithAmountOnly (Contract)"]
+  contract_Mint_eventsrs["Mint (Contract)"]
+  contract_Clawback_eventsrs["Clawback (Contract)"]
+  contract_TokenMetadata_metadatars["TokenMetadata (Contract)"]
+  contract_Contract_eventsrs["Contract (Contract)"]
+  contract_Approve_librs["Approve (Contract)"]
+  contract_TransferWithAmountOnly_librs["TransferWithAmountOnly (Contract)"]
+  contract_Transfer_librs["Transfer (Contract)"]
+  contract_TransferWithMuxedString_librs["TransferWithMuxedString (Contract)"]
+  contract_TransferWithMuxedBytes_librs["TransferWithMuxedBytes (Contract)"]
+  contract_Burn_librs["Burn (Contract)"]
+  contract_MintWithAmountOnly_librs["MintWithAmountOnly (Contract)"]
+  contract_Mint_librs["Mint (Contract)"]
+  contract_MintWithMuxedString_librs["MintWithMuxedString (Contract)"]
+  contract_MintWithMuxedBytes_librs["MintWithMuxedBytes (Contract)"]
+  contract_Clawback_librs["Clawback (Contract)"]
+  contract_SetAdmin_librs["SetAdmin (Contract)"]
+  contract_SetAuthorized_librs["SetAuthorized (Contract)"]
+  contract_Contract_librs["Contract (Contract)"]
+  function_Contract____check_auth_librs["__check_auth()"]
+  contract_TestContract_librs["TestContract (Contract)"]
+  function_Contract__add_librs["add()"]
+  function_Contract__safe_add_librs["safe_add()"]
+  function_Contract__safe_add_two_librs["safe_add_two()"]
+  function_Contract__num_list_librs["num_list()"]
+  function_Contract__exec_librs["exec()"]
+  function_Contract__set_val_librs["set_val()"]
+  function_Contract__get_val_librs["get_val()"]
+  function_Contract__both_librs["both()"]
+  function_Contract__wrapped_librs["wrapped()"]
+  function_Contract__double_wrapped_librs["double_wrapped()"]
+  function_Contract__valval_librs["valval()"]
+  function_Contract__tuple_librs["tuple()"]
+  function_Contract__valref_librs["valref()"]
+  function_Contract__exec2_librs["exec2()"]
+  contract_AttributeEvent_librs["AttributeEvent (Contract)"]
+  function_Contract__always_librs["always()"]
+  function_Contract__cfg_included_librs["cfg_included()"]
+  function_Contract__cfg_excluded_librs["cfg_excluded()"]
+  function_Contract__publish_librs["publish()"]
+  function_Contract__trait_override_librs["trait_override()"]
+  function_Contract__trait_default_librs["trait_default()"]
+  function_Contract__trait_default_stacked_cfg_librs["trait_default_stacked_cfg()"]
+  function_Contract__trait_override_stacked_cfg_librs["trait_override_stacked_cfg()"]
+  function_Contract__trait_override_negated_cfg_librs["trait_override_negated_cfg()"]
+  function_Contract__trait_override_dual_cfg_librs["trait_override_dual_cfg()"]
+  function_Contract__trait_override_dual_cfg_librs_1["trait_override_dual_cfg()"]
+  function_Contract__trait_default_dual_cfg_librs["trait_default_dual_cfg()"]
+  function_Contract__trait_default_dual_cfg_librs_1["trait_default_dual_cfg()"]
+  contract_ContractA_librs["ContractA (Contract)"]
+  function_ContractA__fn1_librs["fn1()"]
+  contract_Contract_librs_1["Contract (Contract)"]
+  function_Contract____check_auth_librs_1["__check_auth()"]
+  contract_ContractB_librs["ContractB (Contract)"]
+  function_ContractB__fn2_librs["fn2()"]
+  contract_Contract_librs_2["Contract (Contract)"]
+  function_Contract____check_auth_librs_2["__check_auth()"]
+  contract_Contract_librs_3["Contract (Contract)"]
+  function_Contract____check_auth_librs_3["__check_auth()"]
+  contract_DummyProof_librs["DummyProof (Contract)"]
+  function_Contract__g1_mul_librs["g1_mul()"]
+  function_Contract__g2_mul_librs["g2_mul()"]
+  function_Contract__dummy_verify_librs["dummy_verify()"]
+  function_Contract__fr_vec_get_librs["fr_vec_get()"]
+  contract_MockProof_librs["MockProof (Contract)"]
+  function_Contract__verify_pairing_librs["verify_pairing()"]
+  function_Contract__g1_add_librs["g1_add()"]
+  function_Contract____constructor_librs["__constructor()"]
+  function_Contract__get_data_librs["get_data()"]
+  function_Contract__put_librs["put()"]
+  function_Contract__get_librs["get()"]
+  function_Contract__del_librs["del()"]
+  function_Contract__test_u32_librs["test_u32()"]
+  function_Contract__test_string_librs["test_string()"]
+  function_Contract__test_env_param_librs["test_env_param()"]
+  function_Contract__test_struct_librs["test_struct()"]
+  contract_ContractCratePath_librs["ContractCratePath (Contract)"]
+  contract_ContractGlobalPath_librs["ContractGlobalPath (Contract)"]
+  contract_ContractRelativePath_librs["ContractRelativePath (Contract)"]
+  contract_ContractSelfPath_librs["ContractSelfPath (Contract)"]
+  contract_ContractSuperPath_librs["ContractSuperPath (Contract)"]
+  function_Contract__empty_librs["empty()"]
+  function_Contract__hello_librs["hello()"]
+  function_Contract__persisted_librs["persisted()"]
+  contract_SingleValue_librs["SingleValue (Contract)"]
+  contract_SingleValueVoid_librs["SingleValueVoid (Contract)"]
+  contract_VecValues_librs["VecValues (Contract)"]
+  contract_MapValues_librs["MapValues (Contract)"]
+  function_MapValues__single_value_librs["single_value()"]
+  function_MapValues__single_value_void_librs["single_value_void()"]
+  function_MapValues__vec_values_librs["vec_values()"]
+  function_MapValues__map_values_librs["map_values()"]
+  function_MapValues__transfer_librs["transfer()"]
+  function_MapValues__failed_transfer_librs["failed_transfer()"]
+  function_Transfer__transfer_librs["transfer()"]
+  function_Transfer__failed_transfer_librs["failed_transfer()"]
+  function_Contract__run_librs["run()"]
+  function_Contract__add_with_librs["add_with()"]
+  function_Contract__safe_add_with_librs["safe_add_with()"]
+  function_Contract__safe_add_with_two_librs["safe_add_with_two()"]
+  contract_AddContract_librs["AddContract (Contract)"]
+  function_AddContract__add_librs["add()"]
+  function_one_feat1rs["one()"]
+  function_two_feat2rs["two()"]
+  function_Contract__zero_librs["zero()"]
+  function_Contract__empty2_librs["empty2()"]
+  function_Contract__empty3_librs["empty3()"]
+  function_Contract__calc_librs["calc()"]
+  function_Contract__fn_struct_a_librs["fn_struct_a()"]
+  function_Contract__fn_struct_tuple_a_librs["fn_struct_tuple_a()"]
+  function_Contract__fn_enum_a_librs["fn_enum_a()"]
+  function_Contract__fn_enum_int_a_librs["fn_enum_int_a()"]
+  function_Contract__fn_error_a_librs["fn_error_a()"]
+  function_Contract__fn_event_a_librs["fn_event_a()"]
+  function_Contract__fn_event_d_librs["fn_event_d()"]
+  function_Contract__with_param_librs["with_param()"]
+  function_Contract__with_return_librs["with_return()"]
+  function_Contract__with_error_librs["with_error()"]
+  function_Contract__with_panic_error_librs["with_panic_error()"]
+  function_Contract__with_assert_error_librs["with_assert_error()"]
+  function_Contract__with_panic_raw_error_librs["with_panic_raw_error()"]
+  function_Contract__with_vec_librs["with_vec()"]
+  function_Contract__with_vec_nested_librs["with_vec_nested()"]
+  function_Contract__with_map_librs["with_map()"]
+  function_Contract__with_option_librs["with_option()"]
+  function_Contract__with_result_librs["with_result()"]
+  function_Contract__with_recursion_librs["with_recursion()"]
+  function_Contract__with_auth_contexts_librs["with_auth_contexts()"]
+  function_Contract__with_invoker_auth_librs["with_invoker_auth()"]
+  function_Contract__with_executable_librs["with_executable()"]
+  function_Contract__publish_simple_librs["publish_simple()"]
+  function_Contract__publish_topic_type_librs["publish_topic_type()"]
+  function_Contract__publish_data_type_librs["publish_data_type()"]
+  function_Contract__publish_nested_topic_librs["publish_nested_topic()"]
+  function_Contract__publish_nested_data_librs["publish_nested_data()"]
+  function_Contract__with_lib_struct_librs["with_lib_struct()"]
+  function_Contract__with_wasm_imported_librs["with_wasm_imported()"]
+  function_Contract__with_non_pub_librs["with_non_pub()"]
+  function_Contract__with_non_pub_error_librs["with_non_pub_error()"]
+  function_Contract__with_tuple_librs["with_tuple()"]
+  function_Contract__with_tuple_return_librs["with_tuple_return()"]
+  function_Contract__publish_ref_event_librs["publish_ref_event()"]
+  function_Contract__void_fn_librs["void_fn()"]
+  function_Contract__tuple1_librs["tuple1()"]
+  function_Contract__tuple2_librs["tuple2()"]
+  function_Contract__recursive_librs["recursive()"]
+  function_Contract__recursive_enum_librs["recursive_enum()"]
+  function_Contract__value_librs["value()"]
+  contract__Contract_librs["_Contract (Contract)"]
+  function_Contract____constructor_auth_06_register_native_constructorrs -.->|writes| Storage
+  function_ContractA__fna_auth_20_deep_one_addressrs -->|calls| Unknown
+  function_ContractA__fna_auth_30_deep_one_address_repeatrs -->|calls| Unknown
+  function_ContractA__fna_auth_35_deep_one_address_repeat_groupedrs -->|calls| Unknown
+  function_ContractA__fna_auth_40_multi_one_addressrs -->|calls| Unknown
+  function_RecordingAccount____check_auth_contract_executable_refrs -.->|writes| Storage
+  function_Contract__add_with_contract_invoke_arg_countrs -->|calls| Unknown
+  function_Contract__store_contract_snapshotrs -.->|writes| Storage
+  function_Contract__get_contract_snapshotrs -.->|reads| Storage
+  function_Contract__get_contract_snapshotrs -.->|reads| Storage
+  function_Contract__get_persistent_contract_storers -.->|reads| Storage
+  function_Contract__set_persistent_contract_storers -.->|writes| Storage
+  function_Contract__get_temporary_contract_storers -.->|reads| Storage
+  function_Contract__set_temporary_contract_storers -.->|writes| Storage
+  function_Contract__get_instance_contract_storers -.->|reads| Storage
+  function_Contract__set_instance_contract_storers -.->|writes| Storage
+  function_ModularAccount____constructor_delegate_authrs -.->|writes| Storage
+  function_ModularAccount____constructor_delegate_authrs -.->|writes| Storage
+  function_ModularAccount____check_auth_delegate_authrs -.->|reads| Storage
+  function_ModularAccount____check_auth_delegate_authrs -.->|reads| Storage
+  function_ModularAccount____check_auth_delegate_authrs -.->|reads| Storage
+  function_ModularAccount____check_auth_delegate_authrs -.->|reads| Storage
+  function_DelegateAccount____constructor_delegate_authrs -.->|writes| Storage
+  function_DelegateAccount____check_auth_delegate_authrs -.->|reads| Storage
+  function_DelegateAccount____check_auth_delegate_authrs -.->|reads| Storage
+  function_Contract__set_persistent_extend_ttl_overflowrs -.->|writes| Storage
+  function_TestContract__init_token_clientrs -.->|writes| Storage
+  function_Contract__set_val_librs -.->|writes| Storage
+  function_Contract__get_val_librs -.->|reads| Storage
+  function_Contract__get_val_librs -.->|reads| Storage
+  function_ContractB__fn2_librs -->|calls| Unknown
+  function_Contract____constructor_librs -.->|writes| Storage
+  function_Contract____constructor_librs -.->|writes| Storage
+  function_Contract____constructor_librs -.->|writes| Storage
+  function_Contract__get_data_librs -.->|reads| Storage
+  function_Contract__get_data_librs -.->|reads| Storage
+  function_Contract__get_data_librs -.->|reads| Storage
+  function_Contract__put_librs -.->|writes| Storage
+  function_Contract__get_librs -.->|reads| Storage
+  function_Contract__hello_librs -.->|writes| Storage
+  function_Contract__persisted_librs -.->|reads| Storage
+  function_Contract__persisted_librs -.->|reads| Storage
+  function_Contract__add_with_librs -->|calls| Unknown
+  test_account ==>|depends on| soroban-sdk
+  test_add_i128 ==>|depends on| soroban-sdk
+  test_add_u128 ==>|depends on| soroban-sdk
+  test_add_u64 ==>|depends on| soroban-sdk
+  test_alloc ==>|depends on| soroban-sdk
+  test_associated_types ==>|depends on| soroban-sdk
+  test_associated_type_chained ==>|depends on| soroban-sdk
+  test_associated_types_contracttrait ==>|depends on| soroban-sdk
+  test_attributes ==>|depends on| soroban-sdk
+  test_auth ==>|depends on| soroban-sdk
+  test_bls ==>|depends on| soroban-sdk
+  test_bn254 ==>|depends on| soroban-sdk
+  test_constructor ==>|depends on| soroban-sdk
+  test_constructor_with_auth ==>|depends on| soroban-sdk
+  test_contract_data ==>|depends on| soroban-sdk
+  test_contracttrait_impl_full ==>|depends on| soroban-sdk
+  test_contracttrait_impl_full ==>|depends on| test_contracttrait_trait
+  test_contracttrait_impl_partial ==>|depends on| soroban-sdk
+  test_contracttrait_impl_partial ==>|depends on| test_contracttrait_trait
+  test_contracttrait_path_crate ==>|depends on| soroban-sdk
+  test_contracttrait_path_global ==>|depends on| soroban-sdk
+  test_contracttrait_path_global ==>|depends on| test_contracttrait_trait
+  test_contracttrait_path_relative ==>|depends on| soroban-sdk
+  test_contracttrait_path_self ==>|depends on| soroban-sdk
+  test_contracttrait_path_super ==>|depends on| soroban-sdk
+  test_contracttrait_trait ==>|depends on| soroban-sdk
+  test_empty ==>|depends on| soroban-sdk
+  test_empty2 ==>|depends on| soroban-sdk
+  test_errors ==>|depends on| soroban-sdk
+  test_events ==>|depends on| soroban-sdk
+  test_events_ref ==>|depends on| soroban-sdk
+  test_fuzz ==>|depends on| soroban-sdk
+  test_fuzz-fuzz ==>|depends on| soroban-sdk
+  test_fuzz-fuzz ==>|depends on| test_fuzz
+  test_fuzz_afl ==>|depends on| soroban-sdk
+  test_fuzz_afl-fuzz ==>|depends on| soroban-sdk
+  test_fuzz_afl-fuzz ==>|depends on| test_fuzz_afl
+  test_generics ==>|depends on| soroban-sdk
+  test_import_contract ==>|depends on| soroban-sdk
+  test_invoke_contract ==>|depends on| soroban-sdk
+  test_logging ==>|depends on| soroban-sdk
+  test_macros ==>|depends on| soroban-sdk
+  test_macros ==>|depends on| proc_macros
+  test_modular ==>|depends on| soroban-sdk
+  test_multiimpl ==>|depends on| soroban-sdk
+  test_mutability ==>|depends on| soroban-sdk
+  test_spec_import ==>|depends on| soroban-sdk
+  test_spec_import ==>|depends on| test_spec_lib
+  test_spec_lib ==>|depends on| soroban-sdk
+  test_spec_shaking_v2 ==>|depends on| soroban-sdk
+  test_spec_shaking_v2 ==>|depends on| test_spec_lib
+  test_tuples ==>|depends on| soroban-sdk
+  test_udt ==>|depends on| soroban-sdk
+  test_workspace_contract ==>|depends on| soroban-sdk
+  test_workspace_contract ==>|depends on| test_workspace_lib
+  test_workspace_lib ==>|depends on| soroban-sdk
+  test_zero ==>|depends on| soroban-sdk

@@ -1,0 +1,4844 @@
+{
+  "schemaVersion": 1,
+  "nodes": [
+    {
+      "id": "contract_AccountContract_15_librs_0",
+      "type": "contract",
+      "name": "AccountContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/account/src/lib.rs",
+      "span": {
+        "startLine": 16,
+        "endLine": 16
+      }
+    },
+    {
+      "id": "function___constructor_49_librs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/account/src/lib.rs",
+      "span": {
+        "startLine": 50,
+        "endLine": 59
+      },
+      "meta": {
+        "parentContract": "contract_AccountContract_15_librs_0"
+      }
+    },
+    {
+      "id": "function_add_limit_64_librs_4",
+      "type": "function",
+      "name": "add_limit",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/account/src/lib.rs",
+      "span": {
+        "startLine": 65,
+        "endLine": 76
+      },
+      "meta": {
+        "parentContract": "contract_AccountContract_15_librs_0"
+      }
+    },
+    {
+      "id": "function___check_auth_108_librs_6",
+      "type": "function",
+      "name": "__check_auth",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/account/src/lib.rs",
+      "span": {
+        "startLine": 109,
+        "endLine": 143
+      },
+      "meta": {
+        "parentContract": "contract_AccountContract_15_librs_0"
+      }
+    },
+    {
+      "id": "contract_AllocContract_6_librs_0",
+      "type": "contract",
+      "name": "AllocContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/alloc/src/lib.rs",
+      "span": {
+        "startLine": 7,
+        "endLine": 7
+      }
+    },
+    {
+      "id": "function_sum_11_librs_1",
+      "type": "function",
+      "name": "sum",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/alloc/src/lib.rs",
+      "span": {
+        "startLine": 12,
+        "endLine": 22
+      },
+      "meta": {
+        "parentContract": "contract_AllocContract_6_librs_0"
+      }
+    },
+    {
+      "id": "contract_SwapSpec_19_librs_0",
+      "type": "contract",
+      "name": "SwapSpec",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/atomic_multiswap/src/lib.rs",
+      "span": {
+        "startLine": 20,
+        "endLine": 24
+      }
+    },
+    {
+      "id": "contract_AtomicMultiSwapContract_26_librs_1",
+      "type": "contract",
+      "name": "AtomicMultiSwapContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/atomic_multiswap/src/lib.rs",
+      "span": {
+        "startLine": 27,
+        "endLine": 27
+      }
+    },
+    {
+      "id": "function_multi_swap_34_librs_2",
+      "type": "function",
+      "name": "multi_swap",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/atomic_multiswap/src/lib.rs",
+      "span": {
+        "startLine": 35,
+        "endLine": 72
+      },
+      "meta": {
+        "parentContract": "contract_AtomicMultiSwapContract_26_librs_1"
+      }
+    },
+    {
+      "id": "contract_AtomicSwapContract_9_librs_0",
+      "type": "contract",
+      "name": "AtomicSwapContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/atomic_swap/src/lib.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 10
+      }
+    },
+    {
+      "id": "function_swap_16_librs_1",
+      "type": "function",
+      "name": "swap",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/atomic_swap/src/lib.rs",
+      "span": {
+        "startLine": 17,
+        "endLine": 49
+      },
+      "meta": {
+        "parentContract": "contract_AtomicSwapContract_9_librs_0"
+      }
+    },
+    {
+      "id": "contract_IncrementContract_21_librs_0",
+      "type": "contract",
+      "name": "IncrementContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/auth/src/lib.rs",
+      "span": {
+        "startLine": 22,
+        "endLine": 22
+      }
+    },
+    {
+      "id": "function_increment_26_librs_1",
+      "type": "function",
+      "name": "increment",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/auth/src/lib.rs",
+      "span": {
+        "startLine": 27,
+        "endLine": 62
+      },
+      "meta": {
+        "parentContract": "contract_IncrementContract_21_librs_0"
+      }
+    },
+    {
+      "id": "contract_IncrementContract_19_librs_0",
+      "type": "contract",
+      "name": "IncrementContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/bls_signature/src/lib.rs",
+      "span": {
+        "startLine": 20,
+        "endLine": 20
+      }
+    },
+    {
+      "id": "function___constructor_44_librs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/bls_signature/src/lib.rs",
+      "span": {
+        "startLine": 45,
+        "endLine": 57
+      },
+      "meta": {
+        "parentContract": "contract_IncrementContract_19_librs_0"
+      }
+    },
+    {
+      "id": "function_increment_58_librs_5",
+      "type": "function",
+      "name": "increment",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/bls_signature/src/lib.rs",
+      "span": {
+        "startLine": 59,
+        "endLine": 65
+      },
+      "meta": {
+        "parentContract": "contract_IncrementContract_19_librs_0"
+      }
+    },
+    {
+      "id": "function___check_auth_74_librs_9",
+      "type": "function",
+      "name": "__check_auth",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/bls_signature/src/lib.rs",
+      "span": {
+        "startLine": 75,
+        "endLine": 106
+      },
+      "meta": {
+        "parentContract": "contract_IncrementContract_19_librs_0"
+      }
+    },
+    {
+      "id": "contract_ContractA_5_librs_0",
+      "type": "contract",
+      "name": "ContractA",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/cross_contract/contract_a/src/lib.rs",
+      "span": {
+        "startLine": 6,
+        "endLine": 6
+      }
+    },
+    {
+      "id": "function_add_9_librs_1",
+      "type": "function",
+      "name": "add",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/cross_contract/contract_a/src/lib.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 12
+      },
+      "meta": {
+        "parentContract": "contract_ContractA_5_librs_0"
+      }
+    },
+    {
+      "id": "contract_ContractB_11_librs_0",
+      "type": "contract",
+      "name": "ContractB",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/cross_contract/contract_b/src/lib.rs",
+      "span": {
+        "startLine": 12,
+        "endLine": 12
+      }
+    },
+    {
+      "id": "function_add_with_15_librs_1",
+      "type": "function",
+      "name": "add_with",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/cross_contract/contract_b/src/lib.rs",
+      "span": {
+        "startLine": 16,
+        "endLine": 19
+      },
+      "meta": {
+        "parentContract": "contract_ContractB_11_librs_0"
+      }
+    },
+    {
+      "id": "contract_IncrementContract_13_librs_0",
+      "type": "contract",
+      "name": "IncrementContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/custom_types/src/lib.rs",
+      "span": {
+        "startLine": 14,
+        "endLine": 14
+      }
+    },
+    {
+      "id": "function_increment_18_librs_1",
+      "type": "function",
+      "name": "increment",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/custom_types/src/lib.rs",
+      "span": {
+        "startLine": 19,
+        "endLine": 32
+      },
+      "meta": {
+        "parentContract": "contract_IncrementContract_13_librs_0"
+      }
+    },
+    {
+      "id": "function_get_state_33_librs_3",
+      "type": "function",
+      "name": "get_state",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/custom_types/src/lib.rs",
+      "span": {
+        "startLine": 34,
+        "endLine": 39
+      },
+      "meta": {
+        "parentContract": "contract_IncrementContract_13_librs_0"
+      }
+    },
+    {
+      "id": "contract_ContractA_23_librs_0",
+      "type": "contract",
+      "name": "ContractA",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deep_contract_auth/src/lib.rs",
+      "span": {
+        "startLine": 24,
+        "endLine": 24
+      }
+    },
+    {
+      "id": "function_call_b_27_librs_1",
+      "type": "function",
+      "name": "call_b",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deep_contract_auth/src/lib.rs",
+      "span": {
+        "startLine": 28,
+        "endLine": 49
+      },
+      "meta": {
+        "parentContract": "contract_ContractA_23_librs_0"
+      }
+    },
+    {
+      "id": "contract_ContractB_58_librs_3",
+      "type": "contract",
+      "name": "ContractB",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deep_contract_auth/src/lib.rs",
+      "span": {
+        "startLine": 59,
+        "endLine": 59
+      }
+    },
+    {
+      "id": "function_authorized_fn_b_62_librs_4",
+      "type": "function",
+      "name": "authorized_fn_b",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deep_contract_auth/src/lib.rs",
+      "span": {
+        "startLine": 63,
+        "endLine": 67
+      },
+      "meta": {
+        "parentContract": "contract_ContractB_58_librs_3"
+      }
+    },
+    {
+      "id": "contract_ContractC_75_librs_6",
+      "type": "contract",
+      "name": "ContractC",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deep_contract_auth/src/lib.rs",
+      "span": {
+        "startLine": 76,
+        "endLine": 76
+      }
+    },
+    {
+      "id": "function_authorized_fn_c_79_librs_7",
+      "type": "function",
+      "name": "authorized_fn_c",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deep_contract_auth/src/lib.rs",
+      "span": {
+        "startLine": 80,
+        "endLine": 82
+      },
+      "meta": {
+        "parentContract": "contract_ContractC_75_librs_6"
+      }
+    },
+    {
+      "id": "contract_Contract_5_librs_0",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deployer/contract/src/lib.rs",
+      "span": {
+        "startLine": 6,
+        "endLine": 6
+      }
+    },
+    {
+      "id": "function___constructor_11_librs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deployer/contract/src/lib.rs",
+      "span": {
+        "startLine": 12,
+        "endLine": 14
+      },
+      "meta": {
+        "parentContract": "contract_Contract_5_librs_0"
+      }
+    },
+    {
+      "id": "function_value_15_librs_3",
+      "type": "function",
+      "name": "value",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deployer/contract/src/lib.rs",
+      "span": {
+        "startLine": 16,
+        "endLine": 18
+      },
+      "meta": {
+        "parentContract": "contract_Contract_5_librs_0"
+      }
+    },
+    {
+      "id": "contract_Deployer_10_librs_0",
+      "type": "contract",
+      "name": "Deployer",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deployer/deployer/src/lib.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 11
+      }
+    },
+    {
+      "id": "function___constructor_17_librs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deployer/deployer/src/lib.rs",
+      "span": {
+        "startLine": 18,
+        "endLine": 20
+      },
+      "meta": {
+        "parentContract": "contract_Deployer_10_librs_0"
+      }
+    },
+    {
+      "id": "function_deploy_24_librs_3",
+      "type": "function",
+      "name": "deploy",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deployer/deployer/src/lib.rs",
+      "span": {
+        "startLine": 25,
+        "endLine": 47
+      },
+      "meta": {
+        "parentContract": "contract_Deployer_10_librs_0"
+      }
+    },
+    {
+      "id": "contract_IncrementContract_14_librs_0",
+      "type": "contract",
+      "name": "IncrementContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/errors/src/lib.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 15
+      }
+    },
+    {
+      "id": "function_increment_20_librs_1",
+      "type": "function",
+      "name": "increment",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/errors/src/lib.rs",
+      "span": {
+        "startLine": 21,
+        "endLine": 40
+      },
+      "meta": {
+        "parentContract": "contract_IncrementContract_14_librs_0"
+      }
+    },
+    {
+      "id": "contract_Contract_16_librs_0",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/eth_abi/src/lib.rs",
+      "span": {
+        "startLine": 17,
+        "endLine": 17
+      }
+    },
+    {
+      "id": "function_exec_32_librs_1",
+      "type": "function",
+      "name": "exec",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/eth_abi/src/lib.rs",
+      "span": {
+        "startLine": 33,
+        "endLine": 45
+      },
+      "meta": {
+        "parentContract": "contract_Contract_16_librs_0"
+      }
+    },
+    {
+      "id": "contract_IncrementEvent_9_librs_0",
+      "type": "contract",
+      "name": "IncrementEvent",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/events/src/lib.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 12
+      }
+    },
+    {
+      "id": "contract_IncrementContract_14_librs_1",
+      "type": "contract",
+      "name": "IncrementContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/events/src/lib.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 15
+      }
+    },
+    {
+      "id": "function_increment_19_librs_2",
+      "type": "function",
+      "name": "increment",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/events/src/lib.rs",
+      "span": {
+        "startLine": 20,
+        "endLine": 37
+      },
+      "meta": {
+        "parentContract": "contract_IncrementContract_14_librs_1"
+      }
+    },
+    {
+      "id": "contract_TimeBound_30_librs_0",
+      "type": "contract",
+      "name": "TimeBound",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/fuzzing/src/lib.rs",
+      "span": {
+        "startLine": 31,
+        "endLine": 34
+      }
+    },
+    {
+      "id": "contract_ClaimableBalance_37_librs_1",
+      "type": "contract",
+      "name": "ClaimableBalance",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/fuzzing/src/lib.rs",
+      "span": {
+        "startLine": 38,
+        "endLine": 43
+      }
+    },
+    {
+      "id": "contract_ClaimableBalanceContract_45_librs_2",
+      "type": "contract",
+      "name": "ClaimableBalanceContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/fuzzing/src/lib.rs",
+      "span": {
+        "startLine": 46,
+        "endLine": 46
+      }
+    },
+    {
+      "id": "function_deposit_60_librs_3",
+      "type": "function",
+      "name": "deposit",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/fuzzing/src/lib.rs",
+      "span": {
+        "startLine": 61,
+        "endLine": 102
+      },
+      "meta": {
+        "parentContract": "contract_ClaimableBalanceContract_45_librs_2"
+      }
+    },
+    {
+      "id": "function_claim_103_librs_6",
+      "type": "function",
+      "name": "claim",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/fuzzing/src/lib.rs",
+      "span": {
+        "startLine": 104,
+        "endLine": 145
+      },
+      "meta": {
+        "parentContract": "contract_ClaimableBalanceContract_45_librs_2"
+      }
+    },
+    {
+      "id": "contract_VerificationKey_16_librs_0",
+      "type": "contract",
+      "name": "VerificationKey",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/groth16_verifier/contracts/bn254_verifier/src/lib.rs",
+      "span": {
+        "startLine": 17,
+        "endLine": 23
+      }
+    },
+    {
+      "id": "contract_Proof_26_librs_1",
+      "type": "contract",
+      "name": "Proof",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/groth16_verifier/contracts/bn254_verifier/src/lib.rs",
+      "span": {
+        "startLine": 27,
+        "endLine": 31
+      }
+    },
+    {
+      "id": "contract_Groth16Verifier_33_librs_2",
+      "type": "contract",
+      "name": "Groth16Verifier",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/groth16_verifier/contracts/bn254_verifier/src/lib.rs",
+      "span": {
+        "startLine": 34,
+        "endLine": 34
+      }
+    },
+    {
+      "id": "function_verify_proof_37_librs_3",
+      "type": "function",
+      "name": "verify_proof",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/groth16_verifier/contracts/bn254_verifier/src/lib.rs",
+      "span": {
+        "startLine": 38,
+        "endLine": 66
+      },
+      "meta": {
+        "parentContract": "contract_Groth16Verifier_33_librs_2"
+      }
+    },
+    {
+      "id": "contract_HelloContract_4_librs_0",
+      "type": "contract",
+      "name": "HelloContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/hello_world/src/lib.rs",
+      "span": {
+        "startLine": 5,
+        "endLine": 5
+      }
+    },
+    {
+      "id": "function_hello_8_librs_1",
+      "type": "function",
+      "name": "hello",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/logging/src/lib.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 11
+      },
+      "meta": {
+        "parentContract": "contract_Contract_4_librs_0"
+      }
+    },
+    {
+      "id": "contract_MockProof_10_librs_0",
+      "type": "contract",
+      "name": "MockProof",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/import_ark_bn254/src/lib.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 14
+      }
+    },
+    {
+      "id": "contract_Bn254Contract_16_librs_1",
+      "type": "contract",
+      "name": "Bn254Contract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/import_ark_bn254/src/lib.rs",
+      "span": {
+        "startLine": 17,
+        "endLine": 17
+      }
+    },
+    {
+      "id": "function_mock_verify_23_librs_2",
+      "type": "function",
+      "name": "mock_verify",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/import_ark_bn254/src/lib.rs",
+      "span": {
+        "startLine": 24,
+        "endLine": 33
+      },
+      "meta": {
+        "parentContract": "contract_Bn254Contract_16_librs_1"
+      }
+    },
+    {
+      "id": "contract_IncrementContract_6_librs_0",
+      "type": "contract",
+      "name": "IncrementContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_fuzz/src/lib.rs",
+      "span": {
+        "startLine": 7,
+        "endLine": 7
+      }
+    },
+    {
+      "id": "function_increment_11_librs_1",
+      "type": "function",
+      "name": "increment",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_fuzz/src/lib.rs",
+      "span": {
+        "startLine": 12,
+        "endLine": 31
+      },
+      "meta": {
+        "parentContract": "contract_IncrementContract_6_librs_0"
+      }
+    },
+    {
+      "id": "contract_IncrementContract_9_librs_0",
+      "type": "contract",
+      "name": "IncrementContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_pause/src/lib.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 10
+      }
+    },
+    {
+      "id": "function___constructor_24_librs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_pause/src/lib.rs",
+      "span": {
+        "startLine": 25,
+        "endLine": 27
+      },
+      "meta": {
+        "parentContract": "contract_IncrementContract_9_librs_0"
+      }
+    },
+    {
+      "id": "function_increment_29_librs_3",
+      "type": "function",
+      "name": "increment",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_pause/src/lib.rs",
+      "span": {
+        "startLine": 30,
+        "endLine": 55
+      },
+      "meta": {
+        "parentContract": "contract_IncrementContract_9_librs_0"
+      }
+    },
+    {
+      "id": "contract_Mock_7_test_mockrs_0",
+      "type": "contract",
+      "name": "Mock",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_pause/src/test_mock.rs",
+      "span": {
+        "startLine": 8,
+        "endLine": 8
+      }
+    },
+    {
+      "id": "function_paused_10_test_mockrs_1",
+      "type": "function",
+      "name": "paused",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_pause/src/test_mock.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 13
+      },
+      "meta": {
+        "parentContract": "contract_Mock_7_test_mockrs_0"
+      }
+    },
+    {
+      "id": "contract_Mock_34_test_mockrs_2",
+      "type": "contract",
+      "name": "Mock",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_pause/src/test_mock.rs",
+      "span": {
+        "startLine": 35,
+        "endLine": 35
+      }
+    },
+    {
+      "id": "function_paused_37_test_mockrs_3",
+      "type": "function",
+      "name": "paused",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_pause/src/test_mock.rs",
+      "span": {
+        "startLine": 38,
+        "endLine": 40
+      },
+      "meta": {
+        "parentContract": "contract_Mock_34_test_mockrs_2"
+      }
+    },
+    {
+      "id": "contract_LiquidityPool_146_librs_0",
+      "type": "contract",
+      "name": "LiquidityPool",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/liquidity_pool/src/lib.rs",
+      "span": {
+        "startLine": 147,
+        "endLine": 147
+      }
+    },
+    {
+      "id": "function___constructor_150_librs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/liquidity_pool/src/lib.rs",
+      "span": {
+        "startLine": 151,
+        "endLine": 161
+      },
+      "meta": {
+        "parentContract": "contract_LiquidityPool_146_librs_0"
+      }
+    },
+    {
+      "id": "function_balance_shares_162_librs_2",
+      "type": "function",
+      "name": "balance_shares",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/liquidity_pool/src/lib.rs",
+      "span": {
+        "startLine": 163,
+        "endLine": 165
+      },
+      "meta": {
+        "parentContract": "contract_LiquidityPool_146_librs_0"
+      }
+    },
+    {
+      "id": "function_deposit_166_librs_3",
+      "type": "function",
+      "name": "deposit",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/liquidity_pool/src/lib.rs",
+      "span": {
+        "startLine": 167,
+        "endLine": 212
+      },
+      "meta": {
+        "parentContract": "contract_LiquidityPool_146_librs_0"
+      }
+    },
+    {
+      "id": "function_swap_216_librs_6",
+      "type": "function",
+      "name": "swap",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/liquidity_pool/src/lib.rs",
+      "span": {
+        "startLine": 217,
+        "endLine": 292
+      },
+      "meta": {
+        "parentContract": "contract_LiquidityPool_146_librs_0"
+      }
+    },
+    {
+      "id": "function_withdraw_296_librs_8",
+      "type": "function",
+      "name": "withdraw",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/liquidity_pool/src/lib.rs",
+      "span": {
+        "startLine": 297,
+        "endLine": 329
+      },
+      "meta": {
+        "parentContract": "contract_LiquidityPool_146_librs_0"
+      }
+    },
+    {
+      "id": "function_get_rsrvs_330_librs_9",
+      "type": "function",
+      "name": "get_rsrvs",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/liquidity_pool/src/lib.rs",
+      "span": {
+        "startLine": 331,
+        "endLine": 333
+      },
+      "meta": {
+        "parentContract": "contract_LiquidityPool_146_librs_0"
+      }
+    },
+    {
+      "id": "contract_Contract_4_librs_0",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/logging/src/lib.rs",
+      "span": {
+        "startLine": 5,
+        "endLine": 5
+      }
+    },
+    {
+      "id": "contract_MerkleDistributionContract_39_librs_0",
+      "type": "contract",
+      "name": "MerkleDistributionContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/merkle_distribution/src/lib.rs",
+      "span": {
+        "startLine": 40,
+        "endLine": 40
+      }
+    },
+    {
+      "id": "function___constructor_52_librs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/merkle_distribution/src/lib.rs",
+      "span": {
+        "startLine": 53,
+        "endLine": 69
+      },
+      "meta": {
+        "parentContract": "contract_MerkleDistributionContract_39_librs_0"
+      }
+    },
+    {
+      "id": "function_claim_78_librs_4",
+      "type": "function",
+      "name": "claim",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/merkle_distribution/src/lib.rs",
+      "span": {
+        "startLine": 79,
+        "endLine": 134
+      },
+      "meta": {
+        "parentContract": "contract_MerkleDistributionContract_39_librs_0"
+      }
+    },
+    {
+      "id": "contract_Contract_47_librs_0",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+      "span": {
+        "startLine": 48,
+        "endLine": 48
+      }
+    },
+    {
+      "id": "function___constructor_51_librs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+      "span": {
+        "startLine": 52,
+        "endLine": 54
+      },
+      "meta": {
+        "parentContract": "contract_Contract_47_librs_0"
+      }
+    },
+    {
+      "id": "function_set_admin_56_librs_3",
+      "type": "function",
+      "name": "set_admin",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+      "span": {
+        "startLine": 57,
+        "endLine": 60
+      },
+      "meta": {
+        "parentContract": "contract_Contract_47_librs_0"
+      }
+    },
+    {
+      "id": "function_admin_62_librs_5",
+      "type": "function",
+      "name": "admin",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+      "span": {
+        "startLine": 63,
+        "endLine": 68
+      },
+      "meta": {
+        "parentContract": "contract_Contract_47_librs_0"
+      }
+    },
+    {
+      "id": "function_set_minter_71_librs_8",
+      "type": "function",
+      "name": "set_minter",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+      "span": {
+        "startLine": 72,
+        "endLine": 77
+      },
+      "meta": {
+        "parentContract": "contract_Contract_47_librs_0"
+      }
+    },
+    {
+      "id": "function_minter_80_librs_10",
+      "type": "function",
+      "name": "minter",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+      "span": {
+        "startLine": 81,
+        "endLine": 103
+      },
+      "meta": {
+        "parentContract": "contract_Contract_47_librs_0"
+      }
+    },
+    {
+      "id": "function_mint_107_librs_15",
+      "type": "function",
+      "name": "mint",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+      "span": {
+        "startLine": 108,
+        "endLine": 170
+      },
+      "meta": {
+        "parentContract": "contract_Contract_47_librs_0"
+      }
+    },
+    {
+      "id": "contract_NoopMintContract_111_testrs_0",
+      "type": "contract",
+      "name": "NoopMintContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/test.rs",
+      "span": {
+        "startLine": 112,
+        "endLine": 112
+      }
+    },
+    {
+      "id": "function_mint_115_testrs_1",
+      "type": "function",
+      "name": "mint",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/test.rs",
+      "span": {
+        "startLine": 116,
+        "endLine": 116
+      },
+      "meta": {
+        "parentContract": "contract_NoopMintContract_111_testrs_0"
+      }
+    },
+    {
+      "id": "contract_ModularAccount_25_librs_0",
+      "type": "contract",
+      "name": "ModularAccount",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/modular_account/src/lib.rs",
+      "span": {
+        "startLine": 26,
+        "endLine": 26
+      }
+    },
+    {
+      "id": "function___constructor_30_librs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/modular_account/src/lib.rs",
+      "span": {
+        "startLine": 31,
+        "endLine": 37
+      },
+      "meta": {
+        "parentContract": "contract_ModularAccount_25_librs_0"
+      }
+    },
+    {
+      "id": "function___check_auth_46_librs_3",
+      "type": "function",
+      "name": "__check_auth",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/modular_account/src/lib.rs",
+      "span": {
+        "startLine": 47,
+        "endLine": 81
+      },
+      "meta": {
+        "parentContract": "contract_ModularAccount_25_librs_0"
+      }
+    },
+    {
+      "id": "contract_DelegateAccount_30_testrs_0",
+      "type": "contract",
+      "name": "DelegateAccount",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/modular_account/src/test.rs",
+      "span": {
+        "startLine": 31,
+        "endLine": 31
+      }
+    },
+    {
+      "id": "function___check_auth_36_testrs_1",
+      "type": "function",
+      "name": "__check_auth",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/modular_account/src/test.rs",
+      "span": {
+        "startLine": 37,
+        "endLine": 49
+      },
+      "meta": {
+        "parentContract": "contract_DelegateAccount_30_testrs_0"
+      }
+    },
+    {
+      "id": "contract_Protected_53_testrs_3",
+      "type": "contract",
+      "name": "Protected",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/modular_account/src/test.rs",
+      "span": {
+        "startLine": 54,
+        "endLine": 54
+      }
+    },
+    {
+      "id": "function_protected_57_testrs_4",
+      "type": "function",
+      "name": "protected",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/modular_account/src/test.rs",
+      "span": {
+        "startLine": 58,
+        "endLine": 60
+      },
+      "meta": {
+        "parentContract": "contract_Protected_53_testrs_3"
+      }
+    },
+    {
+      "id": "contract_Contract_11_librs_0",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/multisig_1_of_n_account/contract/src/lib.rs",
+      "span": {
+        "startLine": 12,
+        "endLine": 12
+      }
+    },
+    {
+      "id": "function___constructor_36_librs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/multisig_1_of_n_account/contract/src/lib.rs",
+      "span": {
+        "startLine": 37,
+        "endLine": 41
+      },
+      "meta": {
+        "parentContract": "contract_Contract_11_librs_0"
+      }
+    },
+    {
+      "id": "function___check_auth_53_librs_3",
+      "type": "function",
+      "name": "__check_auth",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/multisig_1_of_n_account/contract/src/lib.rs",
+      "span": {
+        "startLine": 54,
+        "endLine": 73
+      },
+      "meta": {
+        "parentContract": "contract_Contract_11_librs_0"
+      }
+    },
+    {
+      "id": "contract_CustomTypesContract_9_librs_0",
+      "type": "contract",
+      "name": "CustomTypesContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 10
+      }
+    },
+    {
+      "id": "contract_Test_13_librs_1",
+      "type": "contract",
+      "name": "Test",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 14,
+        "endLine": 18
+      }
+    },
+    {
+      "id": "contract_TupleStruct_38_librs_2",
+      "type": "contract",
+      "name": "TupleStruct",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 39,
+        "endLine": 39
+      }
+    },
+    {
+      "id": "contract_ComplexStruct_63_librs_3",
+      "type": "contract",
+      "name": "ComplexStruct",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 64,
+        "endLine": 73
+      }
+    },
+    {
+      "id": "contract_AuthEvent_83_librs_4",
+      "type": "contract",
+      "name": "AuthEvent",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 84,
+        "endLine": 88
+      }
+    },
+    {
+      "id": "function_hello_91_librs_5",
+      "type": "function",
+      "name": "hello",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 92,
+        "endLine": 94
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_auth_95_librs_6",
+      "type": "function",
+      "name": "auth",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 96,
+        "endLine": 106
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_get_count_108_librs_7",
+      "type": "function",
+      "name": "get_count",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 109,
+        "endLine": 111
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_inc_113_librs_10",
+      "type": "function",
+      "name": "inc",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 114,
+        "endLine": 119
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_woid_120_librs_14",
+      "type": "function",
+      "name": "woid",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 121,
+        "endLine": 123
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_val_124_librs_15",
+      "type": "function",
+      "name": "val",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 125,
+        "endLine": 127
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_u32_fail_on_even_128_librs_16",
+      "type": "function",
+      "name": "u32_fail_on_even",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 129,
+        "endLine": 135
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_u32__136_librs_17",
+      "type": "function",
+      "name": "u32_",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 137,
+        "endLine": 139
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_i32__140_librs_18",
+      "type": "function",
+      "name": "i32_",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 141,
+        "endLine": 143
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_i64__144_librs_19",
+      "type": "function",
+      "name": "i64_",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 145,
+        "endLine": 147
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_strukt_hel_149_librs_20",
+      "type": "function",
+      "name": "strukt_hel",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 150,
+        "endLine": 152
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_strukt_153_librs_21",
+      "type": "function",
+      "name": "strukt",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 154,
+        "endLine": 156
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_simple_157_librs_22",
+      "type": "function",
+      "name": "simple",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 158,
+        "endLine": 160
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_complex_161_librs_23",
+      "type": "function",
+      "name": "complex",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 162,
+        "endLine": 164
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_addresse_165_librs_24",
+      "type": "function",
+      "name": "addresse",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 166,
+        "endLine": 168
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_bytes_169_librs_25",
+      "type": "function",
+      "name": "bytes",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 170,
+        "endLine": 172
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_bytes_n_173_librs_26",
+      "type": "function",
+      "name": "bytes_n",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 174,
+        "endLine": 176
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_card_177_librs_27",
+      "type": "function",
+      "name": "card",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 178,
+        "endLine": 180
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_boolean_181_librs_28",
+      "type": "function",
+      "name": "boolean",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 182,
+        "endLine": 184
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_not_186_librs_29",
+      "type": "function",
+      "name": "not",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 187,
+        "endLine": 189
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_i128_190_librs_30",
+      "type": "function",
+      "name": "i128",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 191,
+        "endLine": 193
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_u128_194_librs_31",
+      "type": "function",
+      "name": "u128",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 195,
+        "endLine": 197
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_multi_args_198_librs_32",
+      "type": "function",
+      "name": "multi_args",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 199,
+        "endLine": 205
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_map_206_librs_33",
+      "type": "function",
+      "name": "map",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 207,
+        "endLine": 209
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_vec_210_librs_34",
+      "type": "function",
+      "name": "vec",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 211,
+        "endLine": 213
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_tuple_214_librs_35",
+      "type": "function",
+      "name": "tuple",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 215,
+        "endLine": 217
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_option_219_librs_36",
+      "type": "function",
+      "name": "option",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 220,
+        "endLine": 222
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_u256_223_librs_37",
+      "type": "function",
+      "name": "u256",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 224,
+        "endLine": 226
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_i256_227_librs_38",
+      "type": "function",
+      "name": "i256",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 228,
+        "endLine": 230
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_string_231_librs_39",
+      "type": "function",
+      "name": "string",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 232,
+        "endLine": 234
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_tuple_strukt_235_librs_40",
+      "type": "function",
+      "name": "tuple_strukt",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 236,
+        "endLine": 238
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "function_complex_struct_239_librs_41",
+      "type": "function",
+      "name": "complex_struct",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+      "span": {
+        "startLine": 240,
+        "endLine": 242
+      },
+      "meta": {
+        "parentContract": "contract_AuthEvent_83_librs_4"
+      }
+    },
+    {
+      "id": "contract_Pause_6_librs_0",
+      "type": "contract",
+      "name": "Pause",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/pause/src/lib.rs",
+      "span": {
+        "startLine": 7,
+        "endLine": 7
+      }
+    },
+    {
+      "id": "function_paused_10_librs_1",
+      "type": "function",
+      "name": "paused",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/pause/src/lib.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 13
+      },
+      "meta": {
+        "parentContract": "contract_Pause_6_librs_0"
+      }
+    },
+    {
+      "id": "function_set_14_librs_4",
+      "type": "function",
+      "name": "set",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/pause/src/lib.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 17
+      },
+      "meta": {
+        "parentContract": "contract_Pause_6_librs_0"
+      }
+    },
+    {
+      "id": "contract_PrivacyPoolsContract_57_librs_0",
+      "type": "contract",
+      "name": "PrivacyPoolsContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 58,
+        "endLine": 58
+      }
+    },
+    {
+      "id": "function___constructor_61_librs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 62,
+        "endLine": 84
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "function_store_commitment_93_librs_9",
+      "type": "function",
+      "name": "store_commitment",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 94,
+        "endLine": 122
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "function_deposit_150_librs_19",
+      "type": "function",
+      "name": "deposit",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 151,
+        "endLine": 165
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "function_withdraw_205_librs_23",
+      "type": "function",
+      "name": "withdraw",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 206,
+        "endLine": 320
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "function_get_merkle_root_322_librs_38",
+      "type": "function",
+      "name": "get_merkle_root",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 323,
+        "endLine": 328
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "function_get_merkle_depth_330_librs_41",
+      "type": "function",
+      "name": "get_merkle_depth",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 331,
+        "endLine": 333
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "function_get_commitment_count_335_librs_44",
+      "type": "function",
+      "name": "get_commitment_count",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 336,
+        "endLine": 343
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "function_get_commitments_345_librs_47",
+      "type": "function",
+      "name": "get_commitments",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 346,
+        "endLine": 351
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "function_get_nullifiers_352_librs_50",
+      "type": "function",
+      "name": "get_nullifiers",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 353,
+        "endLine": 355
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "function_get_balance_357_librs_53",
+      "type": "function",
+      "name": "get_balance",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 358,
+        "endLine": 362
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "function_is_admin_373_librs_57",
+      "type": "function",
+      "name": "is_admin",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 374,
+        "endLine": 377
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "function_set_association_root_400_librs_60",
+      "type": "function",
+      "name": "set_association_root",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 401,
+        "endLine": 417
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "function_get_association_root_423_librs_62",
+      "type": "function",
+      "name": "get_association_root",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 424,
+        "endLine": 429
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "function_has_association_set_435_librs_65",
+      "type": "function",
+      "name": "has_association_set",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 436,
+        "endLine": 440
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "function_get_admin_446_librs_66",
+      "type": "function",
+      "name": "get_admin",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+      "span": {
+        "startLine": 447,
+        "endLine": 449
+      },
+      "meta": {
+        "parentContract": "contract_PrivacyPoolsContract_57_librs_0"
+      }
+    },
+    {
+      "id": "contract_MockToken_16_testrs_0",
+      "type": "contract",
+      "name": "MockToken",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+      "span": {
+        "startLine": 17,
+        "endLine": 17
+      }
+    },
+    {
+      "id": "function___constructor_20_testrs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+      "span": {
+        "startLine": 21,
+        "endLine": 32
+      },
+      "meta": {
+        "parentContract": "contract_MockToken_16_testrs_0"
+      }
+    },
+    {
+      "id": "function_mint_33_testrs_6",
+      "type": "function",
+      "name": "mint",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+      "span": {
+        "startLine": 34,
+        "endLine": 46
+      },
+      "meta": {
+        "parentContract": "contract_MockToken_16_testrs_0"
+      }
+    },
+    {
+      "id": "function_balance_47_testrs_12",
+      "type": "function",
+      "name": "balance",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+      "span": {
+        "startLine": 48,
+        "endLine": 50
+      },
+      "meta": {
+        "parentContract": "contract_MockToken_16_testrs_0"
+      }
+    },
+    {
+      "id": "function_transfer_51_testrs_15",
+      "type": "function",
+      "name": "transfer",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+      "span": {
+        "startLine": 52,
+        "endLine": 65
+      },
+      "meta": {
+        "parentContract": "contract_MockToken_16_testrs_0"
+      }
+    },
+    {
+      "id": "contract_SimpleAccount_10_librs_0",
+      "type": "contract",
+      "name": "SimpleAccount",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/simple_account/src/lib.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 11
+      }
+    },
+    {
+      "id": "function___constructor_23_librs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/simple_account/src/lib.rs",
+      "span": {
+        "startLine": 24,
+        "endLine": 29
+      },
+      "meta": {
+        "parentContract": "contract_SimpleAccount_10_librs_0"
+      }
+    },
+    {
+      "id": "function___check_auth_48_librs_4",
+      "type": "function",
+      "name": "__check_auth",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/simple_account/src/lib.rs",
+      "span": {
+        "startLine": 49,
+        "endLine": 62
+      },
+      "meta": {
+        "parentContract": "contract_SimpleAccount_10_librs_0"
+      }
+    },
+    {
+      "id": "contract_Offer_21_librs_0",
+      "type": "contract",
+      "name": "Offer",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/single_offer/src/lib.rs",
+      "span": {
+        "startLine": 22,
+        "endLine": 31
+      }
+    },
+    {
+      "id": "contract_SingleOffer_33_librs_1",
+      "type": "contract",
+      "name": "SingleOffer",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/single_offer/src/lib.rs",
+      "span": {
+        "startLine": 34,
+        "endLine": 34
+      }
+    },
+    {
+      "id": "function_create_50_librs_2",
+      "type": "function",
+      "name": "create",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/single_offer/src/lib.rs",
+      "span": {
+        "startLine": 51,
+        "endLine": 77
+      },
+      "meta": {
+        "parentContract": "contract_SingleOffer_33_librs_1"
+      }
+    },
+    {
+      "id": "function_trade_84_librs_4",
+      "type": "function",
+      "name": "trade",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/single_offer/src/lib.rs",
+      "span": {
+        "startLine": 85,
+        "endLine": 122
+      },
+      "meta": {
+        "parentContract": "contract_SingleOffer_33_librs_1"
+      }
+    },
+    {
+      "id": "function_withdraw_128_librs_8",
+      "type": "function",
+      "name": "withdraw",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/single_offer/src/lib.rs",
+      "span": {
+        "startLine": 129,
+        "endLine": 137
+      },
+      "meta": {
+        "parentContract": "contract_SingleOffer_33_librs_1"
+      }
+    },
+    {
+      "id": "function_updt_price_140_librs_9",
+      "type": "function",
+      "name": "updt_price",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/single_offer/src/lib.rs",
+      "span": {
+        "startLine": 141,
+        "endLine": 150
+      },
+      "meta": {
+        "parentContract": "contract_SingleOffer_33_librs_1"
+      }
+    },
+    {
+      "id": "function_get_offer_152_librs_10",
+      "type": "function",
+      "name": "get_offer",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/single_offer/src/lib.rs",
+      "span": {
+        "startLine": 153,
+        "endLine": 155
+      },
+      "meta": {
+        "parentContract": "contract_SingleOffer_33_librs_1"
+      }
+    },
+    {
+      "id": "contract_TimeBound_26_librs_0",
+      "type": "contract",
+      "name": "TimeBound",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/timelock/src/lib.rs",
+      "span": {
+        "startLine": 27,
+        "endLine": 30
+      }
+    },
+    {
+      "id": "contract_ClaimableBalance_33_librs_1",
+      "type": "contract",
+      "name": "ClaimableBalance",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/timelock/src/lib.rs",
+      "span": {
+        "startLine": 34,
+        "endLine": 39
+      }
+    },
+    {
+      "id": "contract_ClaimableBalanceContract_41_librs_2",
+      "type": "contract",
+      "name": "ClaimableBalanceContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/timelock/src/lib.rs",
+      "span": {
+        "startLine": 42,
+        "endLine": 42
+      }
+    },
+    {
+      "id": "function_deposit_56_librs_3",
+      "type": "function",
+      "name": "deposit",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/timelock/src/lib.rs",
+      "span": {
+        "startLine": 57,
+        "endLine": 91
+      },
+      "meta": {
+        "parentContract": "contract_ClaimableBalanceContract_41_librs_2"
+      }
+    },
+    {
+      "id": "function_claim_92_librs_6",
+      "type": "function",
+      "name": "claim",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/timelock/src/lib.rs",
+      "span": {
+        "startLine": 93,
+        "endLine": 120
+      },
+      "meta": {
+        "parentContract": "contract_ClaimableBalanceContract_41_librs_2"
+      }
+    },
+    {
+      "id": "contract_Token_23_contractrs_0",
+      "type": "contract",
+      "name": "Token",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 24,
+        "endLine": 24
+      }
+    },
+    {
+      "id": "contract_SetAdmin_28_contractrs_1",
+      "type": "contract",
+      "name": "SetAdmin",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 29,
+        "endLine": 33
+      }
+    },
+    {
+      "id": "function___constructor_36_contractrs_2",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 37,
+        "endLine": 50
+      },
+      "meta": {
+        "parentContract": "contract_SetAdmin_28_contractrs_1"
+      }
+    },
+    {
+      "id": "function_mint_51_contractrs_3",
+      "type": "function",
+      "name": "mint",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 52,
+        "endLine": 63
+      },
+      "meta": {
+        "parentContract": "contract_SetAdmin_28_contractrs_1"
+      }
+    },
+    {
+      "id": "function_set_admin_64_contractrs_5",
+      "type": "function",
+      "name": "set_admin",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 65,
+        "endLine": 75
+      },
+      "meta": {
+        "parentContract": "contract_SetAdmin_28_contractrs_1"
+      }
+    },
+    {
+      "id": "function_get_allowance_77_contractrs_6",
+      "type": "function",
+      "name": "get_allowance",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 78,
+        "endLine": 82
+      },
+      "meta": {
+        "parentContract": "contract_SetAdmin_28_contractrs_1"
+      }
+    },
+    {
+      "id": "function_allowance_86_contractrs_8",
+      "type": "function",
+      "name": "allowance",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 87,
+        "endLine": 92
+      },
+      "meta": {
+        "parentContract": "contract_SetAdmin_28_contractrs_1"
+      }
+    },
+    {
+      "id": "function_approve_93_contractrs_9",
+      "type": "function",
+      "name": "approve",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 94,
+        "endLine": 111
+      },
+      "meta": {
+        "parentContract": "contract_SetAdmin_28_contractrs_1"
+      }
+    },
+    {
+      "id": "function_balance_112_contractrs_11",
+      "type": "function",
+      "name": "balance",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 113,
+        "endLine": 118
+      },
+      "meta": {
+        "parentContract": "contract_SetAdmin_28_contractrs_1"
+      }
+    },
+    {
+      "id": "function_transfer_119_contractrs_12",
+      "type": "function",
+      "name": "transfer",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 120,
+        "endLine": 139
+      },
+      "meta": {
+        "parentContract": "contract_SetAdmin_28_contractrs_1"
+      }
+    },
+    {
+      "id": "function_transfer_from_140_contractrs_14",
+      "type": "function",
+      "name": "transfer_from",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 141,
+        "endLine": 161
+      },
+      "meta": {
+        "parentContract": "contract_SetAdmin_28_contractrs_1"
+      }
+    },
+    {
+      "id": "function_burn_162_contractrs_16",
+      "type": "function",
+      "name": "burn",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 163,
+        "endLine": 174
+      },
+      "meta": {
+        "parentContract": "contract_SetAdmin_28_contractrs_1"
+      }
+    },
+    {
+      "id": "function_burn_from_175_contractrs_18",
+      "type": "function",
+      "name": "burn_from",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 176,
+        "endLine": 188
+      },
+      "meta": {
+        "parentContract": "contract_SetAdmin_28_contractrs_1"
+      }
+    },
+    {
+      "id": "function_decimals_189_contractrs_20",
+      "type": "function",
+      "name": "decimals",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 190,
+        "endLine": 192
+      },
+      "meta": {
+        "parentContract": "contract_SetAdmin_28_contractrs_1"
+      }
+    },
+    {
+      "id": "function_name_193_contractrs_21",
+      "type": "function",
+      "name": "name",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 194,
+        "endLine": 196
+      },
+      "meta": {
+        "parentContract": "contract_SetAdmin_28_contractrs_1"
+      }
+    },
+    {
+      "id": "function_symbol_197_contractrs_22",
+      "type": "function",
+      "name": "symbol",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+      "span": {
+        "startLine": 198,
+        "endLine": 200
+      },
+      "meta": {
+        "parentContract": "contract_SetAdmin_28_contractrs_1"
+      }
+    },
+    {
+      "id": "contract_AllowanceDataKey_11_storage_typesrs_0",
+      "type": "contract",
+      "name": "AllowanceDataKey",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/storage_types.rs",
+      "span": {
+        "startLine": 12,
+        "endLine": 15
+      }
+    },
+    {
+      "id": "contract_AllowanceValue_17_storage_typesrs_1",
+      "type": "contract",
+      "name": "AllowanceValue",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/storage_types.rs",
+      "span": {
+        "startLine": 18,
+        "endLine": 21
+      }
+    },
+    {
+      "id": "contract_TtlContract_12_librs_0",
+      "type": "contract",
+      "name": "TtlContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/ttl/src/lib.rs",
+      "span": {
+        "startLine": 13,
+        "endLine": 13
+      }
+    },
+    {
+      "id": "function_setup_17_librs_1",
+      "type": "function",
+      "name": "setup",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/ttl/src/lib.rs",
+      "span": {
+        "startLine": 18,
+        "endLine": 22
+      },
+      "meta": {
+        "parentContract": "contract_TtlContract_12_librs_0"
+      }
+    },
+    {
+      "id": "function_extend_persistent_25_librs_5",
+      "type": "function",
+      "name": "extend_persistent",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/ttl/src/lib.rs",
+      "span": {
+        "startLine": 26,
+        "endLine": 30
+      },
+      "meta": {
+        "parentContract": "contract_TtlContract_12_librs_0"
+      }
+    },
+    {
+      "id": "function_extend_instance_33_librs_6",
+      "type": "function",
+      "name": "extend_instance",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/ttl/src/lib.rs",
+      "span": {
+        "startLine": 34,
+        "endLine": 36
+      },
+      "meta": {
+        "parentContract": "contract_TtlContract_12_librs_0"
+      }
+    },
+    {
+      "id": "function_extend_temporary_39_librs_7",
+      "type": "function",
+      "name": "extend_temporary",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/ttl/src/lib.rs",
+      "span": {
+        "startLine": 40,
+        "endLine": 44
+      },
+      "meta": {
+        "parentContract": "contract_TtlContract_12_librs_0"
+      }
+    },
+    {
+      "id": "contract_UpgradeableContract_12_librs_0",
+      "type": "contract",
+      "name": "UpgradeableContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/new_contract/src/lib.rs",
+      "span": {
+        "startLine": 13,
+        "endLine": 13
+      }
+    },
+    {
+      "id": "function___constructor_20_librs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/new_contract/src/lib.rs",
+      "span": {
+        "startLine": 21,
+        "endLine": 24
+      },
+      "meta": {
+        "parentContract": "contract_UpgradeableContract_12_librs_0"
+      }
+    },
+    {
+      "id": "function_handle_upgrade_25_librs_4",
+      "type": "function",
+      "name": "handle_upgrade",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/new_contract/src/lib.rs",
+      "span": {
+        "startLine": 26,
+        "endLine": 32
+      },
+      "meta": {
+        "parentContract": "contract_UpgradeableContract_12_librs_0"
+      }
+    },
+    {
+      "id": "function_version_33_librs_9",
+      "type": "function",
+      "name": "version",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/new_contract/src/lib.rs",
+      "span": {
+        "startLine": 34,
+        "endLine": 36
+      },
+      "meta": {
+        "parentContract": "contract_UpgradeableContract_12_librs_0"
+      }
+    },
+    {
+      "id": "function_new_v2_fn_37_librs_10",
+      "type": "function",
+      "name": "new_v2_fn",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/new_contract/src/lib.rs",
+      "span": {
+        "startLine": 38,
+        "endLine": 40
+      },
+      "meta": {
+        "parentContract": "contract_UpgradeableContract_12_librs_0"
+      }
+    },
+    {
+      "id": "function_upgrade_41_librs_11",
+      "type": "function",
+      "name": "upgrade",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/new_contract/src/lib.rs",
+      "span": {
+        "startLine": 42,
+        "endLine": 48
+      },
+      "meta": {
+        "parentContract": "contract_UpgradeableContract_12_librs_0"
+      }
+    },
+    {
+      "id": "contract_UpgradeableContract_11_librs_0",
+      "type": "contract",
+      "name": "UpgradeableContract",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/old_contract/src/lib.rs",
+      "span": {
+        "startLine": 12,
+        "endLine": 12
+      }
+    },
+    {
+      "id": "function___constructor_15_librs_1",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/old_contract/src/lib.rs",
+      "span": {
+        "startLine": 16,
+        "endLine": 18
+      },
+      "meta": {
+        "parentContract": "contract_UpgradeableContract_11_librs_0"
+      }
+    },
+    {
+      "id": "function_version_19_librs_3",
+      "type": "function",
+      "name": "version",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/old_contract/src/lib.rs",
+      "span": {
+        "startLine": 20,
+        "endLine": 22
+      },
+      "meta": {
+        "parentContract": "contract_UpgradeableContract_11_librs_0"
+      }
+    },
+    {
+      "id": "function_upgrade_23_librs_4",
+      "type": "function",
+      "name": "upgrade",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/old_contract/src/lib.rs",
+      "span": {
+        "startLine": 24,
+        "endLine": 30
+      },
+      "meta": {
+        "parentContract": "contract_UpgradeableContract_11_librs_0"
+      }
+    },
+    {
+      "id": "contract_ContractA_6_librs_0",
+      "type": "contract",
+      "name": "ContractA",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/workspace/contract_a/src/lib.rs",
+      "span": {
+        "startLine": 7,
+        "endLine": 7
+      }
+    },
+    {
+      "id": "function_add_10_librs_1",
+      "type": "function",
+      "name": "add",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/workspace/contract_a/src/lib.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 13
+      },
+      "meta": {
+        "parentContract": "contract_ContractA_6_librs_0"
+      }
+    },
+    {
+      "id": "contract_ContractB_6_librs_0",
+      "type": "contract",
+      "name": "ContractB",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/workspace/contract_b/src/lib.rs",
+      "span": {
+        "startLine": 7,
+        "endLine": 7
+      }
+    },
+    {
+      "id": "function_add_with_10_librs_1",
+      "type": "function",
+      "name": "add_with",
+      "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/workspace/contract_b/src/lib.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 14
+      },
+      "meta": {
+        "parentContract": "contract_ContractB_6_librs_0"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_write_storage_53_librs_2",
+      "from": "function___constructor_49_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/account/src/lib.rs",
+        "line": 54
+      }
+    },
+    {
+      "id": "edge_write_storage_55_librs_3",
+      "from": "function___constructor_49_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/account/src/lib.rs",
+        "line": 56
+      }
+    },
+    {
+      "id": "edge_write_storage_72_librs_5",
+      "from": "function_add_limit_64_librs_4",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/account/src/lib.rs",
+        "line": 73
+      }
+    },
+    {
+      "id": "edge_read_storage_117_librs_7",
+      "from": "function___check_auth_108_librs_6",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/account/src/lib.rs",
+        "line": 118
+      }
+    },
+    {
+      "id": "edge_read_storage_117_librs_8",
+      "from": "function___check_auth_108_librs_6",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/account/src/lib.rs",
+        "line": 118
+      }
+    },
+    {
+      "id": "edge_call_client_52_librs_3",
+      "from": "function_multi_swap_34_librs_2",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/atomic_multiswap/src/lib.rs",
+        "line": 53
+      }
+    },
+    {
+      "id": "edge_call_client_52_librs_4",
+      "from": "function_multi_swap_34_librs_2",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/atomic_multiswap/src/lib.rs",
+        "line": 53
+      }
+    },
+    {
+      "id": "edge_read_storage_51_librs_2",
+      "from": "function_increment_26_librs_1",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/auth/src/lib.rs",
+        "line": 52
+      }
+    },
+    {
+      "id": "edge_read_storage_51_librs_3",
+      "from": "function_increment_26_librs_1",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/auth/src/lib.rs",
+        "line": 52
+      }
+    },
+    {
+      "id": "edge_write_storage_57_librs_4",
+      "from": "function_increment_26_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/auth/src/lib.rs",
+        "line": 58
+      }
+    },
+    {
+      "id": "edge_write_storage_49_librs_2",
+      "from": "function___constructor_44_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/bls_signature/src/lib.rs",
+        "line": 50
+      }
+    },
+    {
+      "id": "edge_write_storage_50_librs_3",
+      "from": "function___constructor_44_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/bls_signature/src/lib.rs",
+        "line": 51
+      }
+    },
+    {
+      "id": "edge_write_storage_55_librs_4",
+      "from": "function___constructor_44_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/bls_signature/src/lib.rs",
+        "line": 56
+      }
+    },
+    {
+      "id": "edge_read_storage_60_librs_6",
+      "from": "function_increment_58_librs_5",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/bls_signature/src/lib.rs",
+        "line": 61
+      }
+    },
+    {
+      "id": "edge_read_storage_60_librs_7",
+      "from": "function_increment_58_librs_5",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/bls_signature/src/lib.rs",
+        "line": 61
+      }
+    },
+    {
+      "id": "edge_write_storage_62_librs_8",
+      "from": "function_increment_58_librs_5",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/bls_signature/src/lib.rs",
+        "line": 63
+      }
+    },
+    {
+      "id": "edge_read_storage_84_librs_10",
+      "from": "function___check_auth_74_librs_9",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/bls_signature/src/lib.rs",
+        "line": 85
+      }
+    },
+    {
+      "id": "edge_read_storage_84_librs_11",
+      "from": "function___check_auth_74_librs_9",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/bls_signature/src/lib.rs",
+        "line": 85
+      }
+    },
+    {
+      "id": "edge_read_storage_85_librs_12",
+      "from": "function_minter_80_librs_10",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+        "line": 86
+      }
+    },
+    {
+      "id": "edge_read_storage_85_librs_13",
+      "from": "function___check_auth_74_librs_9",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/bls_signature/src/lib.rs",
+        "line": 86
+      }
+    },
+    {
+      "id": "edge_call_client_17_librs_2",
+      "from": "function_add_with_15_librs_1",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/cross_contract/contract_b/src/lib.rs",
+        "line": 18
+      }
+    },
+    {
+      "id": "edge_write_storage_27_librs_2",
+      "from": "function_increment_18_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/custom_types/src/lib.rs",
+        "line": 28
+      }
+    },
+    {
+      "id": "edge_read_storage_34_librs_4",
+      "from": "function_get_state_33_librs_3",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/custom_types/src/lib.rs",
+        "line": 35
+      }
+    },
+    {
+      "id": "edge_read_storage_34_librs_5",
+      "from": "function_get_state_33_librs_3",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/custom_types/src/lib.rs",
+        "line": 35
+      }
+    },
+    {
+      "id": "edge_call_client_47_librs_2",
+      "from": "function_call_b_27_librs_1",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deep_contract_auth/src/lib.rs",
+        "line": 48
+      }
+    },
+    {
+      "id": "edge_call_client_65_librs_5",
+      "from": "function_authorized_fn_b_62_librs_4",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deep_contract_auth/src/lib.rs",
+        "line": 66
+      }
+    },
+    {
+      "id": "edge_write_storage_12_librs_2",
+      "from": "function___constructor_11_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deployer/contract/src/lib.rs",
+        "line": 13
+      }
+    },
+    {
+      "id": "edge_read_storage_16_librs_4",
+      "from": "function_value_15_librs_3",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deployer/contract/src/lib.rs",
+        "line": 17
+      }
+    },
+    {
+      "id": "edge_read_storage_16_librs_5",
+      "from": "function_value_15_librs_3",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/deployer/contract/src/lib.rs",
+        "line": 17
+      }
+    },
+    {
+      "id": "edge_write_storage_18_librs_2",
+      "from": "function_setup_17_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/ttl/src/lib.rs",
+        "line": 19
+      }
+    },
+    {
+      "id": "edge_read_storage_30_librs_4",
+      "from": "function_increment_29_librs_3",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_pause/src/lib.rs",
+        "line": 31
+      }
+    },
+    {
+      "id": "edge_read_storage_30_librs_5",
+      "from": "function_increment_29_librs_3",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_pause/src/lib.rs",
+        "line": 31
+      }
+    },
+    {
+      "id": "edge_read_storage_22_librs_2",
+      "from": "function_increment_20_librs_1",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/errors/src/lib.rs",
+        "line": 23
+      }
+    },
+    {
+      "id": "edge_read_storage_22_librs_3",
+      "from": "function_increment_20_librs_1",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/errors/src/lib.rs",
+        "line": 23
+      }
+    },
+    {
+      "id": "edge_write_storage_31_librs_4",
+      "from": "function_increment_20_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/errors/src/lib.rs",
+        "line": 32
+      }
+    },
+    {
+      "id": "edge_read_storage_21_librs_3",
+      "from": "function_increment_19_librs_2",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/events/src/lib.rs",
+        "line": 22
+      }
+    },
+    {
+      "id": "edge_read_storage_21_librs_4",
+      "from": "function_increment_19_librs_2",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/events/src/lib.rs",
+        "line": 22
+      }
+    },
+    {
+      "id": "edge_write_storage_27_librs_5",
+      "from": "function_increment_19_librs_2",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/events/src/lib.rs",
+        "line": 28
+      }
+    },
+    {
+      "id": "edge_write_storage_88_librs_4",
+      "from": "function_deposit_60_librs_3",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/fuzzing/src/lib.rs",
+        "line": 89
+      }
+    },
+    {
+      "id": "edge_write_storage_100_librs_5",
+      "from": "function_deposit_60_librs_3",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/fuzzing/src/lib.rs",
+        "line": 101
+      }
+    },
+    {
+      "id": "edge_read_storage_109_librs_7",
+      "from": "function_claim_103_librs_6",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/fuzzing/src/lib.rs",
+        "line": 110
+      }
+    },
+    {
+      "id": "edge_read_storage_109_librs_8",
+      "from": "function_get_count_108_librs_7",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+        "line": 110
+      }
+    },
+    {
+      "id": "edge_write_storage_137_librs_9",
+      "from": "function_claim_103_librs_6",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/fuzzing/src/lib.rs",
+        "line": 138
+      }
+    },
+    {
+      "id": "edge_read_storage_13_librs_2",
+      "from": "function_increment_11_librs_1",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_fuzz/src/lib.rs",
+        "line": 14
+      }
+    },
+    {
+      "id": "edge_read_storage_13_librs_3",
+      "from": "function_increment_11_librs_1",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_fuzz/src/lib.rs",
+        "line": 14
+      }
+    },
+    {
+      "id": "edge_write_storage_20_librs_4",
+      "from": "function_setup_17_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/ttl/src/lib.rs",
+        "line": 21
+      }
+    },
+    {
+      "id": "edge_write_storage_25_librs_2",
+      "from": "function___constructor_24_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_pause/src/lib.rs",
+        "line": 26
+      }
+    },
+    {
+      "id": "edge_read_storage_38_librs_6",
+      "from": "function_increment_29_librs_3",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_pause/src/lib.rs",
+        "line": 39
+      }
+    },
+    {
+      "id": "edge_read_storage_38_librs_7",
+      "from": "function_increment_29_librs_3",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_pause/src/lib.rs",
+        "line": 39
+      }
+    },
+    {
+      "id": "edge_write_storage_44_librs_8",
+      "from": "function_increment_29_librs_3",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/increment_with_pause/src/lib.rs",
+        "line": 45
+      }
+    },
+    {
+      "id": "edge_call_client_192_librs_4",
+      "from": "function_deposit_166_librs_3",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/liquidity_pool/src/lib.rs",
+        "line": 193
+      }
+    },
+    {
+      "id": "edge_call_client_193_librs_5",
+      "from": "function_deposit_166_librs_3",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/liquidity_pool/src/lib.rs",
+        "line": 194
+      }
+    },
+    {
+      "id": "edge_call_client_245_librs_7",
+      "from": "function_swap_216_librs_6",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/liquidity_pool/src/lib.rs",
+        "line": 246
+      }
+    },
+    {
+      "id": "edge_write_storage_59_librs_2",
+      "from": "function___constructor_52_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/merkle_distribution/src/lib.rs",
+        "line": 60
+      }
+    },
+    {
+      "id": "edge_write_storage_60_librs_3",
+      "from": "function___constructor_52_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/merkle_distribution/src/lib.rs",
+        "line": 61
+      }
+    },
+    {
+      "id": "edge_read_storage_87_librs_5",
+      "from": "function_claim_78_librs_4",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/merkle_distribution/src/lib.rs",
+        "line": 88
+      }
+    },
+    {
+      "id": "edge_read_storage_112_librs_6",
+      "from": "function_claim_78_librs_4",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/merkle_distribution/src/lib.rs",
+        "line": 113
+      }
+    },
+    {
+      "id": "edge_read_storage_112_librs_7",
+      "from": "function_claim_78_librs_4",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/merkle_distribution/src/lib.rs",
+        "line": 113
+      }
+    },
+    {
+      "id": "edge_read_storage_118_librs_8",
+      "from": "function_claim_78_librs_4",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/merkle_distribution/src/lib.rs",
+        "line": 119
+      }
+    },
+    {
+      "id": "edge_read_storage_118_librs_9",
+      "from": "function_claim_78_librs_4",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/merkle_distribution/src/lib.rs",
+        "line": 119
+      }
+    },
+    {
+      "id": "edge_write_storage_130_librs_10",
+      "from": "function_claim_78_librs_4",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/merkle_distribution/src/lib.rs",
+        "line": 131
+      }
+    },
+    {
+      "id": "edge_write_storage_52_librs_2",
+      "from": "function___constructor_51_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+        "line": 53
+      }
+    },
+    {
+      "id": "edge_write_storage_58_librs_4",
+      "from": "function_set_admin_56_librs_3",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+        "line": 59
+      }
+    },
+    {
+      "id": "edge_read_storage_63_librs_6",
+      "from": "function_admin_62_librs_5",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+        "line": 64
+      }
+    },
+    {
+      "id": "edge_read_storage_63_librs_7",
+      "from": "function_admin_62_librs_5",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+        "line": 64
+      }
+    },
+    {
+      "id": "edge_write_storage_73_librs_9",
+      "from": "function_set_minter_71_librs_8",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+        "line": 74
+      }
+    },
+    {
+      "id": "edge_read_storage_85_librs_11",
+      "from": "function_minter_80_librs_10",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+        "line": 86
+      }
+    },
+    {
+      "id": "edge_read_storage_91_librs_13",
+      "from": "function_minter_80_librs_10",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+        "line": 92
+      }
+    },
+    {
+      "id": "edge_read_storage_91_librs_14",
+      "from": "function_minter_80_librs_10",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+        "line": 92
+      }
+    },
+    {
+      "id": "edge_read_storage_125_librs_16",
+      "from": "function_mint_107_librs_15",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+        "line": 126
+      }
+    },
+    {
+      "id": "edge_read_storage_141_librs_17",
+      "from": "function_mint_107_librs_15",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+        "line": 142
+      }
+    },
+    {
+      "id": "edge_read_storage_141_librs_18",
+      "from": "function_mint_107_librs_15",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+        "line": 142
+      }
+    },
+    {
+      "id": "edge_write_storage_152_librs_19",
+      "from": "function_mint_107_librs_15",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+        "line": 153
+      }
+    },
+    {
+      "id": "edge_call_client_167_librs_20",
+      "from": "function_mint_107_librs_15",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/mint-lock/src/lib.rs",
+        "line": 168
+      }
+    },
+    {
+      "id": "edge_write_storage_32_librs_2",
+      "from": "function___constructor_30_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/modular_account/src/lib.rs",
+        "line": 33
+      }
+    },
+    {
+      "id": "edge_read_storage_65_librs_4",
+      "from": "function___check_auth_46_librs_3",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/modular_account/src/lib.rs",
+        "line": 66
+      }
+    },
+    {
+      "id": "edge_write_storage_42_testrs_2",
+      "from": "function___check_auth_36_testrs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/modular_account/src/test.rs",
+        "line": 43
+      }
+    },
+    {
+      "id": "edge_write_storage_38_librs_2",
+      "from": "function___constructor_36_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/multisig_1_of_n_account/contract/src/lib.rs",
+        "line": 39
+      }
+    },
+    {
+      "id": "edge_read_storage_59_librs_4",
+      "from": "function___check_auth_53_librs_3",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/multisig_1_of_n_account/contract/src/lib.rs",
+        "line": 60
+      }
+    },
+    {
+      "id": "edge_read_storage_109_librs_9",
+      "from": "function_get_count_108_librs_7",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+        "line": 110
+      }
+    },
+    {
+      "id": "edge_read_storage_114_librs_11",
+      "from": "function_inc_113_librs_10",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+        "line": 115
+      }
+    },
+    {
+      "id": "edge_read_storage_114_librs_12",
+      "from": "function_inc_113_librs_10",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+        "line": 115
+      }
+    },
+    {
+      "id": "edge_write_storage_116_librs_13",
+      "from": "function_inc_113_librs_10",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/other_custom_types/src/lib.rs",
+        "line": 117
+      }
+    },
+    {
+      "id": "edge_read_storage_11_librs_2",
+      "from": "function_paused_10_librs_1",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/pause/src/lib.rs",
+        "line": 12
+      }
+    },
+    {
+      "id": "edge_read_storage_11_librs_3",
+      "from": "function_paused_10_librs_1",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/pause/src/lib.rs",
+        "line": 12
+      }
+    },
+    {
+      "id": "edge_write_storage_15_librs_5",
+      "from": "function_set_14_librs_4",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/pause/src/lib.rs",
+        "line": 16
+      }
+    },
+    {
+      "id": "edge_write_storage_69_librs_2",
+      "from": "function___constructor_61_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 70
+      }
+    },
+    {
+      "id": "edge_write_storage_71_librs_3",
+      "from": "function___constructor_61_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 72
+      }
+    },
+    {
+      "id": "edge_write_storage_72_librs_4",
+      "from": "function___constructor_61_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 73
+      }
+    },
+    {
+      "id": "edge_write_storage_73_librs_5",
+      "from": "function___constructor_61_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 74
+      }
+    },
+    {
+      "id": "edge_write_storage_80_librs_6",
+      "from": "function___constructor_61_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 81
+      }
+    },
+    {
+      "id": "edge_write_storage_81_librs_7",
+      "from": "function___constructor_61_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 82
+      }
+    },
+    {
+      "id": "edge_write_storage_82_librs_8",
+      "from": "function___constructor_61_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 83
+      }
+    },
+    {
+      "id": "edge_read_storage_95_librs_10",
+      "from": "function_store_commitment_93_librs_9",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 96
+      }
+    },
+    {
+      "id": "edge_read_storage_95_librs_11",
+      "from": "function_store_commitment_93_librs_9",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 96
+      }
+    },
+    {
+      "id": "edge_read_storage_100_librs_12",
+      "from": "function_store_commitment_93_librs_9",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 101
+      }
+    },
+    {
+      "id": "edge_read_storage_100_librs_13",
+      "from": "function_store_commitment_93_librs_9",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 101
+      }
+    },
+    {
+      "id": "edge_read_storage_101_librs_14",
+      "from": "function_store_commitment_93_librs_9",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 102
+      }
+    },
+    {
+      "id": "edge_read_storage_101_librs_15",
+      "from": "function_store_commitment_93_librs_9",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 102
+      }
+    },
+    {
+      "id": "edge_write_storage_116_librs_16",
+      "from": "function_store_commitment_93_librs_9",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 117
+      }
+    },
+    {
+      "id": "edge_write_storage_117_librs_17",
+      "from": "function_store_commitment_93_librs_9",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 118
+      }
+    },
+    {
+      "id": "edge_write_storage_118_librs_18",
+      "from": "function_store_commitment_93_librs_9",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 119
+      }
+    },
+    {
+      "id": "edge_read_storage_154_librs_20",
+      "from": "function_deposit_150_librs_19",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 155
+      }
+    },
+    {
+      "id": "edge_read_storage_154_librs_21",
+      "from": "function_deposit_150_librs_19",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 155
+      }
+    },
+    {
+      "id": "edge_call_client_158_librs_22",
+      "from": "function_deposit_150_librs_19",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 159
+      }
+    },
+    {
+      "id": "edge_read_storage_219_librs_24",
+      "from": "function_withdraw_205_librs_23",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 220
+      }
+    },
+    {
+      "id": "edge_read_storage_219_librs_25",
+      "from": "function_withdraw_205_librs_23",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 220
+      }
+    },
+    {
+      "id": "edge_call_client_223_librs_26",
+      "from": "function_withdraw_205_librs_23",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 224
+      }
+    },
+    {
+      "id": "edge_read_storage_228_librs_27",
+      "from": "function_withdraw_205_librs_23",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 229
+      }
+    },
+    {
+      "id": "edge_read_storage_228_librs_28",
+      "from": "function_withdraw_205_librs_23",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 229
+      }
+    },
+    {
+      "id": "edge_read_storage_249_librs_29",
+      "from": "function_withdraw_205_librs_23",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 250
+      }
+    },
+    {
+      "id": "edge_read_storage_249_librs_30",
+      "from": "function_withdraw_205_librs_23",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 250
+      }
+    },
+    {
+      "id": "edge_read_storage_258_librs_31",
+      "from": "function_withdraw_205_librs_23",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 259
+      }
+    },
+    {
+      "id": "edge_read_storage_258_librs_32",
+      "from": "function_withdraw_205_librs_23",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 259
+      }
+    },
+    {
+      "id": "edge_read_storage_272_librs_33",
+      "from": "function_withdraw_205_librs_23",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 273
+      }
+    },
+    {
+      "id": "edge_read_storage_272_librs_34",
+      "from": "function_withdraw_205_librs_23",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 273
+      }
+    },
+    {
+      "id": "edge_call_client_303_librs_35",
+      "from": "function_withdraw_205_librs_23",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 304
+      }
+    },
+    {
+      "id": "edge_write_storage_310_librs_36",
+      "from": "function_withdraw_205_librs_23",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 311
+      }
+    },
+    {
+      "id": "edge_call_client_313_librs_37",
+      "from": "function_withdraw_205_librs_23",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 314
+      }
+    },
+    {
+      "id": "edge_read_storage_323_librs_39",
+      "from": "function_get_merkle_root_322_librs_38",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 324
+      }
+    },
+    {
+      "id": "edge_read_storage_323_librs_40",
+      "from": "function_get_merkle_root_322_librs_38",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 324
+      }
+    },
+    {
+      "id": "edge_read_storage_331_librs_42",
+      "from": "function_get_merkle_depth_330_librs_41",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 332
+      }
+    },
+    {
+      "id": "edge_read_storage_331_librs_43",
+      "from": "function_get_merkle_depth_330_librs_41",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 332
+      }
+    },
+    {
+      "id": "edge_read_storage_336_librs_45",
+      "from": "function_get_commitment_count_335_librs_44",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 337
+      }
+    },
+    {
+      "id": "edge_read_storage_336_librs_46",
+      "from": "function_get_commitment_count_335_librs_44",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 337
+      }
+    },
+    {
+      "id": "edge_read_storage_346_librs_48",
+      "from": "function_get_commitments_345_librs_47",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 347
+      }
+    },
+    {
+      "id": "edge_read_storage_346_librs_49",
+      "from": "function_get_commitments_345_librs_47",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 347
+      }
+    },
+    {
+      "id": "edge_read_storage_353_librs_51",
+      "from": "function_get_nullifiers_352_librs_50",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 354
+      }
+    },
+    {
+      "id": "edge_read_storage_353_librs_52",
+      "from": "function_get_nullifiers_352_librs_50",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 354
+      }
+    },
+    {
+      "id": "edge_read_storage_358_librs_54",
+      "from": "function_get_balance_357_librs_53",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 359
+      }
+    },
+    {
+      "id": "edge_read_storage_358_librs_55",
+      "from": "function_get_balance_357_librs_53",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 359
+      }
+    },
+    {
+      "id": "edge_call_client_360_librs_56",
+      "from": "function_get_balance_357_librs_53",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 361
+      }
+    },
+    {
+      "id": "edge_read_storage_374_librs_58",
+      "from": "function_is_admin_373_librs_57",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 375
+      }
+    },
+    {
+      "id": "edge_read_storage_374_librs_59",
+      "from": "function_is_admin_373_librs_57",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 375
+      }
+    },
+    {
+      "id": "edge_write_storage_412_librs_61",
+      "from": "function_set_association_root_400_librs_60",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 413
+      }
+    },
+    {
+      "id": "edge_read_storage_424_librs_63",
+      "from": "function_get_association_root_423_librs_62",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 425
+      }
+    },
+    {
+      "id": "edge_read_storage_424_librs_64",
+      "from": "function_get_association_root_423_librs_62",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 425
+      }
+    },
+    {
+      "id": "edge_read_storage_447_librs_67",
+      "from": "function_get_admin_446_librs_66",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 448
+      }
+    },
+    {
+      "id": "edge_read_storage_447_librs_68",
+      "from": "function_get_admin_446_librs_66",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/lib.rs",
+        "line": 448
+      }
+    },
+    {
+      "id": "edge_write_storage_21_testrs_2",
+      "from": "function___constructor_20_testrs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 22
+      }
+    },
+    {
+      "id": "edge_write_storage_24_testrs_3",
+      "from": "function___constructor_20_testrs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 25
+      }
+    },
+    {
+      "id": "edge_write_storage_27_testrs_4",
+      "from": "function___constructor_20_testrs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 28
+      }
+    },
+    {
+      "id": "edge_write_storage_28_testrs_5",
+      "from": "function___constructor_20_testrs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 29
+      }
+    },
+    {
+      "id": "edge_read_storage_34_testrs_7",
+      "from": "function_mint_33_testrs_6",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 35
+      }
+    },
+    {
+      "id": "edge_read_storage_34_testrs_8",
+      "from": "function_mint_33_testrs_6",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 35
+      }
+    },
+    {
+      "id": "edge_read_storage_41_testrs_9",
+      "from": "function_mint_33_testrs_6",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 42
+      }
+    },
+    {
+      "id": "edge_read_storage_41_testrs_10",
+      "from": "function_mint_33_testrs_6",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 42
+      }
+    },
+    {
+      "id": "edge_write_storage_42_testrs_11",
+      "from": "function_mint_33_testrs_6",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 43
+      }
+    },
+    {
+      "id": "edge_read_storage_48_testrs_13",
+      "from": "function_balance_47_testrs_12",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 49
+      }
+    },
+    {
+      "id": "edge_read_storage_48_testrs_14",
+      "from": "function_balance_47_testrs_12",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 49
+      }
+    },
+    {
+      "id": "edge_read_storage_54_testrs_16",
+      "from": "function_transfer_51_testrs_15",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 55
+      }
+    },
+    {
+      "id": "edge_read_storage_54_testrs_17",
+      "from": "function_transfer_51_testrs_15",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 55
+      }
+    },
+    {
+      "id": "edge_read_storage_59_testrs_18",
+      "from": "function_transfer_51_testrs_15",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 60
+      }
+    },
+    {
+      "id": "edge_read_storage_59_testrs_19",
+      "from": "function_transfer_51_testrs_15",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 60
+      }
+    },
+    {
+      "id": "edge_write_storage_60_testrs_20",
+      "from": "function_transfer_51_testrs_15",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 61
+      }
+    },
+    {
+      "id": "edge_write_storage_63_testrs_21",
+      "from": "function_transfer_51_testrs_15",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/privacy-pools/contract/src/test.rs",
+        "line": 64
+      }
+    },
+    {
+      "id": "edge_read_storage_24_librs_2",
+      "from": "function___constructor_23_librs_1",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/simple_account/src/lib.rs",
+        "line": 25
+      }
+    },
+    {
+      "id": "edge_write_storage_27_librs_3",
+      "from": "function___constructor_23_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/simple_account/src/lib.rs",
+        "line": 28
+      }
+    },
+    {
+      "id": "edge_read_storage_54_librs_5",
+      "from": "function___check_auth_48_librs_4",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/simple_account/src/lib.rs",
+        "line": 55
+      }
+    },
+    {
+      "id": "edge_read_storage_54_librs_6",
+      "from": "function___check_auth_48_librs_4",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/simple_account/src/lib.rs",
+        "line": 55
+      }
+    },
+    {
+      "id": "edge_read_storage_58_librs_3",
+      "from": "function_create_50_librs_2",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/single_offer/src/lib.rs",
+        "line": 59
+      }
+    },
+    {
+      "id": "edge_call_client_116_librs_5",
+      "from": "function_trade_84_librs_4",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/single_offer/src/lib.rs",
+        "line": 117
+      }
+    },
+    {
+      "id": "edge_call_client_118_librs_6",
+      "from": "function_trade_84_librs_4",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/single_offer/src/lib.rs",
+        "line": 119
+      }
+    },
+    {
+      "id": "edge_call_client_120_librs_7",
+      "from": "function_trade_84_librs_4",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/single_offer/src/lib.rs",
+        "line": 121
+      }
+    },
+    {
+      "id": "edge_write_storage_77_librs_4",
+      "from": "function_deposit_56_librs_3",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/timelock/src/lib.rs",
+        "line": 78
+      }
+    },
+    {
+      "id": "edge_write_storage_89_librs_5",
+      "from": "function_deposit_56_librs_3",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/timelock/src/lib.rs",
+        "line": 90
+      }
+    },
+    {
+      "id": "edge_read_storage_99_librs_7",
+      "from": "function_claim_92_librs_6",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/timelock/src/lib.rs",
+        "line": 100
+      }
+    },
+    {
+      "id": "edge_read_storage_99_librs_8",
+      "from": "function_claim_92_librs_6",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/timelock/src/lib.rs",
+        "line": 100
+      }
+    },
+    {
+      "id": "edge_emit_event_61_contractrs_4",
+      "from": "function_mint_51_contractrs_3",
+      "to": null,
+      "type": "emits_event",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+        "line": 62
+      }
+    },
+    {
+      "id": "edge_read_storage_79_contractrs_7",
+      "from": "function_get_allowance_77_contractrs_6",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+        "line": 80
+      }
+    },
+    {
+      "id": "edge_emit_event_103_contractrs_10",
+      "from": "function_approve_93_contractrs_9",
+      "to": null,
+      "type": "emits_event",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+        "line": 104
+      }
+    },
+    {
+      "id": "edge_emit_event_131_contractrs_13",
+      "from": "function_transfer_119_contractrs_12",
+      "to": null,
+      "type": "emits_event",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+        "line": 132
+      }
+    },
+    {
+      "id": "edge_emit_event_152_contractrs_15",
+      "from": "function_transfer_from_140_contractrs_14",
+      "to": null,
+      "type": "emits_event",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+        "line": 153
+      }
+    },
+    {
+      "id": "edge_emit_event_172_contractrs_17",
+      "from": "function_burn_162_contractrs_16",
+      "to": null,
+      "type": "emits_event",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+        "line": 173
+      }
+    },
+    {
+      "id": "edge_emit_event_186_contractrs_19",
+      "from": "function_burn_from_175_contractrs_18",
+      "to": null,
+      "type": "emits_event",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/token/src/contract.rs",
+        "line": 187
+      }
+    },
+    {
+      "id": "edge_write_storage_19_librs_3",
+      "from": "function_setup_17_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/ttl/src/lib.rs",
+        "line": 20
+      }
+    },
+    {
+      "id": "edge_write_storage_21_librs_2",
+      "from": "function___constructor_20_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/new_contract/src/lib.rs",
+        "line": 22
+      }
+    },
+    {
+      "id": "edge_write_storage_22_librs_3",
+      "from": "function___constructor_20_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/new_contract/src/lib.rs",
+        "line": 23
+      }
+    },
+    {
+      "id": "edge_read_storage_26_librs_5",
+      "from": "function_handle_upgrade_25_librs_4",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/new_contract/src/lib.rs",
+        "line": 27
+      }
+    },
+    {
+      "id": "edge_read_storage_26_librs_6",
+      "from": "function_handle_upgrade_25_librs_4",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/new_contract/src/lib.rs",
+        "line": 27
+      }
+    },
+    {
+      "id": "edge_read_storage_28_librs_7",
+      "from": "function_handle_upgrade_25_librs_4",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/new_contract/src/lib.rs",
+        "line": 29
+      }
+    },
+    {
+      "id": "edge_write_storage_29_librs_8",
+      "from": "function_handle_upgrade_25_librs_4",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/new_contract/src/lib.rs",
+        "line": 30
+      }
+    },
+    {
+      "id": "edge_read_storage_42_librs_12",
+      "from": "function_upgrade_41_librs_11",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/new_contract/src/lib.rs",
+        "line": 43
+      }
+    },
+    {
+      "id": "edge_read_storage_42_librs_13",
+      "from": "function_upgrade_41_librs_11",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/new_contract/src/lib.rs",
+        "line": 43
+      }
+    },
+    {
+      "id": "edge_write_storage_16_librs_2",
+      "from": "function___constructor_15_librs_1",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/old_contract/src/lib.rs",
+        "line": 17
+      }
+    },
+    {
+      "id": "edge_read_storage_24_librs_5",
+      "from": "function_upgrade_23_librs_4",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/old_contract/src/lib.rs",
+        "line": 25
+      }
+    },
+    {
+      "id": "edge_read_storage_24_librs_6",
+      "from": "function_upgrade_23_librs_4",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/upgradeable_contract/old_contract/src/lib.rs",
+        "line": 25
+      }
+    },
+    {
+      "id": "edge_call_client_12_librs_2",
+      "from": "function_add_with_10_librs_1",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/Users/tejaschavan1907/CodeGraph/fixtures/real-repos/soroban-examples/workspace/contract_b/src/lib.rs",
+        "line": 13
+      }
+    },
+    {
+      "id": "dep_soroban-fuzzing-contract-fuzzer_soroban-fuzzing-contract",
+      "from": "soroban-fuzzing-contract-fuzzer",
+      "to": "soroban-fuzzing-contract",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_soroban-increment-with-fuzz-contract-fuzz_soroban-increment-with-fuzz-contract",
+      "from": "soroban-increment-with-fuzz-contract-fuzz",
+      "to": "soroban-increment-with-fuzz-contract",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_merkle-tree-tests_lean-imt",
+      "from": "merkle-tree-tests",
+      "to": "lean-imt",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_circom2soroban_zk",
+      "from": "circom2soroban",
+      "to": "zk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_coinutils_lean-imt",
+      "from": "coinutils",
+      "to": "lean-imt",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_privacy-pools_zk",
+      "from": "privacy-pools",
+      "to": "zk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_privacy-pools_lean-imt",
+      "from": "privacy-pools",
+      "to": "lean-imt",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    }
+  ]
+}
