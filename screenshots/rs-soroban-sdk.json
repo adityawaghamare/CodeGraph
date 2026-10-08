@@ -1,0 +1,6712 @@
+{
+  "schemaVersion": 1,
+  "nodes": [
+    {
+      "id": "contract_ContractContext_authrs",
+      "type": "contract",
+      "name": "ContractContext",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/auth.rs",
+      "span": {
+        "startLine": 167,
+        "endLine": 171
+      }
+    },
+    {
+      "id": "contract_CreateContractHostFnContext_authrs",
+      "type": "contract",
+      "name": "CreateContractHostFnContext",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/auth.rs",
+      "span": {
+        "startLine": 177,
+        "endLine": 180
+      }
+    },
+    {
+      "id": "contract_CreateContractWithConstructorHostFnContext_authrs",
+      "type": "contract",
+      "name": "CreateContractWithConstructorHostFnContext",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/auth.rs",
+      "span": {
+        "startLine": 188,
+        "endLine": 192
+      }
+    },
+    {
+      "id": "contract_SubContractInvocation_authrs",
+      "type": "contract",
+      "name": "SubContractInvocation",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/auth.rs",
+      "span": {
+        "startLine": 215,
+        "endLine": 218
+      }
+    },
+    {
+      "id": "contract_ContractExecutableRef_librs",
+      "type": "contract",
+      "name": "ContractExecutableRef",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/lib.rs",
+      "span": {
+        "startLine": 1295,
+        "endLine": 1298
+      }
+    },
+    {
+      "id": "contract_TestContract_addressrs",
+      "type": "contract",
+      "name": "TestContract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/address.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 9
+      }
+    },
+    {
+      "id": "contract_Contract_auth_06_register_native_constructorrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_06_register_native_constructor.rs",
+      "span": {
+        "startLine": 14,
+        "endLine": 14
+      }
+    },
+    {
+      "id": "function_Contract____constructor_auth_06_register_native_constructorrs",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_06_register_native_constructor.rs",
+      "span": {
+        "startLine": 18,
+        "endLine": 21
+      },
+      "meta": {
+        "parentContract": "contract_Contract_auth_06_register_native_constructorrs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Probe_auth_06_register_native_constructorrs",
+      "type": "contract",
+      "name": "Probe",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_06_register_native_constructor.rs",
+      "span": {
+        "startLine": 25,
+        "endLine": 25
+      }
+    },
+    {
+      "id": "function_Probe__need_auth_auth_06_register_native_constructorrs",
+      "type": "function",
+      "name": "need_auth",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_06_register_native_constructor.rs",
+      "span": {
+        "startLine": 29,
+        "endLine": 31
+      },
+      "meta": {
+        "parentContract": "contract_Probe_auth_06_register_native_constructorrs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_auth_10_oners",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_10_one.rs",
+      "span": {
+        "startLine": 12,
+        "endLine": 12
+      }
+    },
+    {
+      "id": "function_Contract__add_auth_10_oners",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_10_one.rs",
+      "span": {
+        "startLine": 16,
+        "endLine": 19
+      },
+      "meta": {
+        "parentContract": "contract_Contract_auth_10_oners",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_auth_15_one_repeatrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_15_one_repeat.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 15
+      }
+    },
+    {
+      "id": "function_Contract__add_auth_15_one_repeatrs",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_15_one_repeat.rs",
+      "span": {
+        "startLine": 19,
+        "endLine": 23
+      },
+      "meta": {
+        "parentContract": "contract_Contract_auth_15_one_repeatrs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_auth_17_no_consume_requirementrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_17_no_consume_requirement.rs",
+      "span": {
+        "startLine": 21,
+        "endLine": 21
+      }
+    },
+    {
+      "id": "function_Contract__add_auth_17_no_consume_requirementrs",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_17_no_consume_requirement.rs",
+      "span": {
+        "startLine": 25,
+        "endLine": 28
+      },
+      "meta": {
+        "parentContract": "contract_Contract_auth_17_no_consume_requirementrs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_ContractA_auth_20_deep_one_addressrs",
+      "type": "contract",
+      "name": "ContractA",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_20_deep_one_address.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 10
+      }
+    },
+    {
+      "id": "function_ContractA__fna_auth_20_deep_one_addressrs",
+      "type": "function",
+      "name": "fna",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_20_deep_one_address.rs",
+      "span": {
+        "startLine": 14,
+        "endLine": 17
+      },
+      "meta": {
+        "parentContract": "contract_ContractA_auth_20_deep_one_addressrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_ContractB_auth_20_deep_one_addressrs",
+      "type": "contract",
+      "name": "ContractB",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_20_deep_one_address.rs",
+      "span": {
+        "startLine": 21,
+        "endLine": 21
+      }
+    },
+    {
+      "id": "function_ContractB__fnb_auth_20_deep_one_addressrs",
+      "type": "function",
+      "name": "fnb",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_20_deep_one_address.rs",
+      "span": {
+        "startLine": 25,
+        "endLine": 28
+      },
+      "meta": {
+        "parentContract": "contract_ContractB_auth_20_deep_one_addressrs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_ContractA_auth_30_deep_one_address_repeatrs",
+      "type": "contract",
+      "name": "ContractA",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_30_deep_one_address_repeat.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 10
+      }
+    },
+    {
+      "id": "function_ContractA__fna_auth_30_deep_one_address_repeatrs",
+      "type": "function",
+      "name": "fna",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_30_deep_one_address_repeat.rs",
+      "span": {
+        "startLine": 14,
+        "endLine": 17
+      },
+      "meta": {
+        "parentContract": "contract_ContractA_auth_30_deep_one_address_repeatrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_ContractB_auth_30_deep_one_address_repeatrs",
+      "type": "contract",
+      "name": "ContractB",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_30_deep_one_address_repeat.rs",
+      "span": {
+        "startLine": 21,
+        "endLine": 21
+      }
+    },
+    {
+      "id": "function_ContractB__fnb_auth_30_deep_one_address_repeatrs",
+      "type": "function",
+      "name": "fnb",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_30_deep_one_address_repeat.rs",
+      "span": {
+        "startLine": 25,
+        "endLine": 29
+      },
+      "meta": {
+        "parentContract": "contract_ContractB_auth_30_deep_one_address_repeatrs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_ContractA_auth_35_deep_one_address_repeat_groupedrs",
+      "type": "contract",
+      "name": "ContractA",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_35_deep_one_address_repeat_grouped.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 10
+      }
+    },
+    {
+      "id": "function_ContractA__fna_auth_35_deep_one_address_repeat_groupedrs",
+      "type": "function",
+      "name": "fna",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_35_deep_one_address_repeat_grouped.rs",
+      "span": {
+        "startLine": 14,
+        "endLine": 17
+      },
+      "meta": {
+        "parentContract": "contract_ContractA_auth_35_deep_one_address_repeat_groupedrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_ContractB_auth_35_deep_one_address_repeat_groupedrs",
+      "type": "contract",
+      "name": "ContractB",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_35_deep_one_address_repeat_grouped.rs",
+      "span": {
+        "startLine": 21,
+        "endLine": 21
+      }
+    },
+    {
+      "id": "function_ContractB__fnb_auth_35_deep_one_address_repeat_groupedrs",
+      "type": "function",
+      "name": "fnb",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_35_deep_one_address_repeat_grouped.rs",
+      "span": {
+        "startLine": 25,
+        "endLine": 29
+      },
+      "meta": {
+        "parentContract": "contract_ContractB_auth_35_deep_one_address_repeat_groupedrs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_ContractA_auth_40_multi_one_addressrs",
+      "type": "contract",
+      "name": "ContractA",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_40_multi_one_address.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 10
+      }
+    },
+    {
+      "id": "function_ContractA__fna_auth_40_multi_one_addressrs",
+      "type": "function",
+      "name": "fna",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_40_multi_one_address.rs",
+      "span": {
+        "startLine": 14,
+        "endLine": 18
+      },
+      "meta": {
+        "parentContract": "contract_ContractA_auth_40_multi_one_addressrs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_ContractB_auth_40_multi_one_addressrs",
+      "type": "contract",
+      "name": "ContractB",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_40_multi_one_address.rs",
+      "span": {
+        "startLine": 22,
+        "endLine": 22
+      }
+    },
+    {
+      "id": "function_ContractB__fnb_auth_40_multi_one_addressrs",
+      "type": "function",
+      "name": "fnb",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_40_multi_one_address.rs",
+      "span": {
+        "startLine": 26,
+        "endLine": 29
+      },
+      "meta": {
+        "parentContract": "contract_ContractB_auth_40_multi_one_addressrs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contract_add_i32rs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_add_i32.rs",
+      "span": {
+        "startLine": 8,
+        "endLine": 8
+      }
+    },
+    {
+      "id": "function_Contract__add_contract_add_i32rs",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_add_i32.rs",
+      "span": {
+        "startLine": 12,
+        "endLine": 14
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_add_i32rs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contract_assertrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_assert.rs",
+      "span": {
+        "startLine": 5,
+        "endLine": 5
+      }
+    },
+    {
+      "id": "function_Contract__assert_contract_assertrs",
+      "type": "function",
+      "name": "assert",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_assert.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 18
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_assertrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contract_custom_account_implrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_custom_account_impl.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 10
+      }
+    },
+    {
+      "id": "function_Contract____check_auth_contract_custom_account_implrs",
+      "type": "function",
+      "name": "__check_auth",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_custom_account_impl.rs",
+      "span": {
+        "startLine": 24,
+        "endLine": 31
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_custom_account_implrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "contract_Contract_contract_docsrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_docs.rs",
+      "span": {
+        "startLine": 7,
+        "endLine": 7
+      }
+    },
+    {
+      "id": "function_Contract__add_contract_docsrs",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_docs.rs",
+      "span": {
+        "startLine": 14,
+        "endLine": 14
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_docsrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_S_contract_docsrs",
+      "type": "contract",
+      "name": "S",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_docs.rs",
+      "span": {
+        "startLine": 47,
+        "endLine": 53
+      }
+    },
+    {
+      "id": "contract_S_contract_docsrs_1",
+      "type": "contract",
+      "name": "S",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_docs.rs",
+      "span": {
+        "startLine": 90,
+        "endLine": 96
+      }
+    },
+    {
+      "id": "contract_Contract_contract_durationrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_duration.rs",
+      "span": {
+        "startLine": 5,
+        "endLine": 5
+      }
+    },
+    {
+      "id": "function_Contract__exec_contract_durationrs",
+      "type": "function",
+      "name": "exec",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_duration.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 9
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_durationrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contract_error_referencesrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_error_references.rs",
+      "span": {
+        "startLine": 41,
+        "endLine": 41
+      }
+    },
+    {
+      "id": "function_Contract__sdk_contract_error_referencesrs",
+      "type": "function",
+      "name": "sdk",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_error_references.rs",
+      "span": {
+        "startLine": 45,
+        "endLine": 47
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_error_referencesrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__local_contract_error_referencesrs",
+      "type": "function",
+      "name": "local",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_error_references.rs",
+      "span": {
+        "startLine": 49,
+        "endLine": 51
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_error_referencesrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__a_contract_error_referencesrs",
+      "type": "function",
+      "name": "a",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_error_references.rs",
+      "span": {
+        "startLine": 53,
+        "endLine": 55
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_error_referencesrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__b_contract_error_referencesrs",
+      "type": "function",
+      "name": "b",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_error_references.rs",
+      "span": {
+        "startLine": 57,
+        "endLine": 59
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_error_referencesrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 12,
+        "endLine": 12
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 16,
+        "endLine": 20
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_1",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 56,
+        "endLine": 56
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_1",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 60,
+        "endLine": 64
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_2",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 106,
+        "endLine": 106
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_2",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 110,
+        "endLine": 114
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_3",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 150,
+        "endLine": 150
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_3",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 154,
+        "endLine": 156
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_4",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 191,
+        "endLine": 191
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_4",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 195,
+        "endLine": 195
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_5",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 221,
+        "endLine": 221
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_5",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 225,
+        "endLine": 225
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_6",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 251,
+        "endLine": 251
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_6",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 255,
+        "endLine": 259
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_7",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 288,
+        "endLine": 288
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_7",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 292,
+        "endLine": 295
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_8",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 323,
+        "endLine": 323
+      }
+    },
+    {
+      "id": "contract_MyType1_contract_eventrs",
+      "type": "contract",
+      "name": "MyType1",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 327,
+        "endLine": 329
+      }
+    },
+    {
+      "id": "contract_MyType2_contract_eventrs",
+      "type": "contract",
+      "name": "MyType2",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 332,
+        "endLine": 332
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_8",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 345,
+        "endLine": 356
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_9",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 402,
+        "endLine": 402
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_9",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 406,
+        "endLine": 409
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_10",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 437,
+        "endLine": 437
+      }
+    },
+    {
+      "id": "contract_Deposit_contract_eventrs",
+      "type": "contract",
+      "name": "Deposit",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 442,
+        "endLine": 447
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_11",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 477,
+        "endLine": 477
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_10",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 481,
+        "endLine": 486
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_12",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 527,
+        "endLine": 527
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_11",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 531,
+        "endLine": 536
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_13",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 575,
+        "endLine": 575
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_12",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 579,
+        "endLine": 584
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_14",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 624,
+        "endLine": 624
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_13",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 634,
+        "endLine": 639
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_15",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 674,
+        "endLine": 674
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_14",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 678,
+        "endLine": 681
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_16",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 709,
+        "endLine": 709
+      }
+    },
+    {
+      "id": "contract_Deposit_contract_eventrs_1",
+      "type": "contract",
+      "name": "Deposit",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 713,
+        "endLine": 718
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_17",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 759,
+        "endLine": 759
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_15",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 763,
+        "endLine": 768
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_18",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 809,
+        "endLine": 809
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_16",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 813,
+        "endLine": 817
+      }
+    },
+    {
+      "id": "contract_Contract_contract_eventrs_19",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 855,
+        "endLine": 855
+      }
+    },
+    {
+      "id": "contract_MyEvent_contract_eventrs_17",
+      "type": "contract",
+      "name": "MyEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_event.rs",
+      "span": {
+        "startLine": 860,
+        "endLine": 864
+      }
+    },
+    {
+      "id": "contract_OwnerContract_contract_executable_refrs",
+      "type": "contract",
+      "name": "OwnerContract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_executable_ref.rs",
+      "span": {
+        "startLine": 29,
+        "endLine": 29
+      }
+    },
+    {
+      "id": "function_OwnerContract__set_executable_contract_executable_refrs",
+      "type": "function",
+      "name": "set_executable",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_executable_ref.rs",
+      "span": {
+        "startLine": 33,
+        "endLine": 35
+      },
+      "meta": {
+        "parentContract": "contract_OwnerContract_contract_executable_refrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_OwnerContract__upgrade_to_own_ref_contract_executable_refrs",
+      "type": "function",
+      "name": "upgrade_to_own_ref",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_executable_ref.rs",
+      "span": {
+        "startLine": 39,
+        "endLine": 45
+      },
+      "meta": {
+        "parentContract": "contract_OwnerContract_contract_executable_refrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_DeployerContract_contract_executable_refrs",
+      "type": "contract",
+      "name": "DeployerContract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_executable_ref.rs",
+      "span": {
+        "startLine": 51,
+        "endLine": 51
+      }
+    },
+    {
+      "id": "function_DeployerContract__deploy_contract_executable_refrs",
+      "type": "function",
+      "name": "deploy",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_executable_ref.rs",
+      "span": {
+        "startLine": 55,
+        "endLine": 60
+      },
+      "meta": {
+        "parentContract": "contract_DeployerContract_contract_executable_refrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_DeployerContract__upgrade_to_ref_contract_executable_refrs",
+      "type": "function",
+      "name": "upgrade_to_ref",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_executable_ref.rs",
+      "span": {
+        "startLine": 62,
+        "endLine": 68
+      },
+      "meta": {
+        "parentContract": "contract_DeployerContract_contract_executable_refrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_DeployerContract__deploy_with_args_contract_executable_refrs",
+      "type": "function",
+      "name": "deploy_with_args",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_executable_ref.rs",
+      "span": {
+        "startLine": 70,
+        "endLine": 82
+      },
+      "meta": {
+        "parentContract": "contract_DeployerContract_contract_executable_refrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_DeployerContract__deploy_for_contract_executable_refrs",
+      "type": "function",
+      "name": "deploy_for",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_executable_ref.rs",
+      "span": {
+        "startLine": 84,
+        "endLine": 95
+      },
+      "meta": {
+        "parentContract": "contract_DeployerContract_contract_executable_refrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_RecordingAccount_contract_executable_refrs",
+      "type": "contract",
+      "name": "RecordingAccount",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_executable_ref.rs",
+      "span": {
+        "startLine": 102,
+        "endLine": 102
+      }
+    },
+    {
+      "id": "function_RecordingAccount____check_auth_contract_executable_refrs",
+      "type": "function",
+      "name": "__check_auth",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_executable_ref.rs",
+      "span": {
+        "startLine": 115,
+        "endLine": 129
+      },
+      "meta": {
+        "parentContract": "contract_RecordingAccount_contract_executable_refrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "contract_Contract_contract_fnrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_fn.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 9
+      }
+    },
+    {
+      "id": "function_Contract__add_contract_fnrs",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_fn.rs",
+      "span": {
+        "startLine": 13,
+        "endLine": 15
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_fnrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__add_with_unused_arg_contract_fnrs",
+      "type": "function",
+      "name": "add_with_unused_arg",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_fn.rs",
+      "span": {
+        "startLine": 17,
+        "endLine": 19
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_fnrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__add_with_mut_arg_contract_fnrs",
+      "type": "function",
+      "name": "add_with_mut_arg",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_fn.rs",
+      "span": {
+        "startLine": 21,
+        "endLine": 24
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_fnrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__add_with_ref_arg_contract_fnrs",
+      "type": "function",
+      "name": "add_with_ref_arg",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_fn.rs",
+      "span": {
+        "startLine": 26,
+        "endLine": 28
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_fnrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__void_fn_contract_fnrs",
+      "type": "function",
+      "name": "void_fn",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_fn.rs",
+      "span": {
+        "startLine": 30,
+        "endLine": 30
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_fnrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__tuple_single_fn_contract_fnrs",
+      "type": "function",
+      "name": "tuple_single_fn",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_fn.rs",
+      "span": {
+        "startLine": 32,
+        "endLine": 34
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_fnrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__tuple_two_fn_contract_fnrs",
+      "type": "function",
+      "name": "tuple_two_fn",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_fn.rs",
+      "span": {
+        "startLine": 36,
+        "endLine": 38
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_fnrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract2_contract_fnrs",
+      "type": "contract",
+      "name": "Contract2",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_fn.rs",
+      "span": {
+        "startLine": 42,
+        "endLine": 42
+      }
+    },
+    {
+      "id": "function_Contract2__add_contract_fnrs",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_fn.rs",
+      "span": {
+        "startLine": 46,
+        "endLine": 48
+      },
+      "meta": {
+        "parentContract": "contract_Contract2_contract_fnrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contract_fn_macro_rulesrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_fn_macro_rules.rs",
+      "span": {
+        "startLine": 5,
+        "endLine": 5
+      }
+    },
+    {
+      "id": "contract_Contract_contract_invokers",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_invoke.rs",
+      "span": {
+        "startLine": 5,
+        "endLine": 5
+      }
+    },
+    {
+      "id": "function_Contract__panic_contract_invokers",
+      "type": "function",
+      "name": "panic",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_invoke.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 11
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_invokers",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contract_invoke_arg_countrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_invoke_arg_count.rs",
+      "span": {
+        "startLine": 5,
+        "endLine": 5
+      }
+    },
+    {
+      "id": "function_Contract__add_with_contract_invoke_arg_countrs",
+      "type": "function",
+      "name": "add_with",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_invoke_arg_count.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 18
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_invoke_arg_countrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_AddContract_contract_invoke_arg_countrs",
+      "type": "contract",
+      "name": "AddContract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_invoke_arg_count.rs",
+      "span": {
+        "startLine": 22,
+        "endLine": 22
+      }
+    },
+    {
+      "id": "function_AddContract__add_contract_invoke_arg_countrs",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_invoke_arg_count.rs",
+      "span": {
+        "startLine": 26,
+        "endLine": 28
+      },
+      "meta": {
+        "parentContract": "contract_AddContract_contract_invoke_arg_countrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contract_invoke_panicsrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_invoke_panics.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 9
+      }
+    },
+    {
+      "id": "function_Contract__panic_contract_invoke_panicsrs",
+      "type": "function",
+      "name": "panic",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_invoke_panics.rs",
+      "span": {
+        "startLine": 13,
+        "endLine": 15
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_invoke_panicsrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__need_auth_contract_invoke_panicsrs",
+      "type": "function",
+      "name": "need_auth",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_invoke_panics.rs",
+      "span": {
+        "startLine": 17,
+        "endLine": 19
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_invoke_panicsrs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_State_contract_overlapping_type_fn_namesrs",
+      "type": "contract",
+      "name": "State",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_overlapping_type_fn_names.rs",
+      "span": {
+        "startLine": 6,
+        "endLine": 8
+      }
+    },
+    {
+      "id": "contract_Contract_contract_overlapping_type_fn_namesrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_overlapping_type_fn_names.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 11
+      }
+    },
+    {
+      "id": "function_Contract__state_contract_overlapping_type_fn_namesrs",
+      "type": "function",
+      "name": "state",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_overlapping_type_fn_names.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 17
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_overlapping_type_fn_namesrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contract_snapshotrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_snapshot.rs",
+      "span": {
+        "startLine": 5,
+        "endLine": 5
+      }
+    },
+    {
+      "id": "function_Contract__store_contract_snapshotrs",
+      "type": "function",
+      "name": "store",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_snapshot.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 11
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_snapshotrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__get_contract_snapshotrs",
+      "type": "function",
+      "name": "get",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_snapshot.rs",
+      "span": {
+        "startLine": 12,
+        "endLine": 14
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_snapshotrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contract_storers",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+      "span": {
+        "startLine": 12,
+        "endLine": 12
+      }
+    },
+    {
+      "id": "function_Contract__get_persistent_contract_storers",
+      "type": "function",
+      "name": "get_persistent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+      "span": {
+        "startLine": 16,
+        "endLine": 18
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_storers",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__set_persistent_contract_storers",
+      "type": "function",
+      "name": "set_persistent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+      "span": {
+        "startLine": 20,
+        "endLine": 22
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_storers",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__get_temporary_contract_storers",
+      "type": "function",
+      "name": "get_temporary",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+      "span": {
+        "startLine": 24,
+        "endLine": 26
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_storers",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__set_temporary_contract_storers",
+      "type": "function",
+      "name": "set_temporary",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+      "span": {
+        "startLine": 28,
+        "endLine": 30
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_storers",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__get_instance_contract_storers",
+      "type": "function",
+      "name": "get_instance",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+      "span": {
+        "startLine": 32,
+        "endLine": 34
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_storers",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__set_instance_contract_storers",
+      "type": "function",
+      "name": "set_instance",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+      "span": {
+        "startLine": 36,
+        "endLine": 38
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_storers",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__extend_ttl_persistent_contract_storers",
+      "type": "function",
+      "name": "extend_ttl_persistent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+      "span": {
+        "startLine": 40,
+        "endLine": 44
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_storers",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__extend_ttl_temporary_contract_storers",
+      "type": "function",
+      "name": "extend_ttl_temporary",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+      "span": {
+        "startLine": 46,
+        "endLine": 50
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_storers",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__extend_ttl_instance_contract_storers",
+      "type": "function",
+      "name": "extend_ttl_instance",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+      "span": {
+        "startLine": 52,
+        "endLine": 54
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_storers",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__ext_ttl_persistent_lim_contract_storers",
+      "type": "function",
+      "name": "ext_ttl_persistent_lim",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+      "span": {
+        "startLine": 57,
+        "endLine": 64
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_storers",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__ext_ttl_instance_lim_contract_storers",
+      "type": "function",
+      "name": "ext_ttl_instance_lim",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+      "span": {
+        "startLine": 66,
+        "endLine": 70
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_storers",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contract_timepointrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_timepoint.rs",
+      "span": {
+        "startLine": 5,
+        "endLine": 5
+      }
+    },
+    {
+      "id": "function_Contract__exec_contract_timepointrs",
+      "type": "function",
+      "name": "exec",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_timepoint.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 9
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_timepointrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contract_trait_emptyrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_trait_empty.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 10
+      }
+    },
+    {
+      "id": "contract_Contract_contract_type_aliasesrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_type_aliases.rs",
+      "span": {
+        "startLine": 43,
+        "endLine": 43
+      }
+    },
+    {
+      "id": "function_Contract__aliased_contract_type_aliasesrs",
+      "type": "function",
+      "name": "aliased",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_type_aliases.rs",
+      "span": {
+        "startLine": 47,
+        "endLine": 50
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_type_aliasesrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Udt2_contract_udt_enumrs",
+      "type": "contract",
+      "name": "Udt2",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_enum.rs",
+      "span": {
+        "startLine": 20,
+        "endLine": 22
+      }
+    },
+    {
+      "id": "contract_Contract_contract_udt_enumrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_enum.rs",
+      "span": {
+        "startLine": 25,
+        "endLine": 25
+      }
+    },
+    {
+      "id": "function_Contract__add_contract_udt_enumrs",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_enum.rs",
+      "span": {
+        "startLine": 29,
+        "endLine": 31
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_udt_enumrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contract_udt_enum_errorrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_enum_error.rs",
+      "span": {
+        "startLine": 5,
+        "endLine": 5
+      }
+    },
+    {
+      "id": "function_Contract__f_contract_udt_enum_errorrs",
+      "type": "function",
+      "name": "f",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_enum_error.rs",
+      "span": {
+        "startLine": 20,
+        "endLine": 25
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_udt_enum_errorrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok",
+          "Err"
+        ]
+      }
+    },
+    {
+      "id": "contract_Udt_contract_udt_optionrs",
+      "type": "contract",
+      "name": "Udt",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_option.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 12
+      }
+    },
+    {
+      "id": "contract_Contract_contract_udt_optionrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_option.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 15
+      }
+    },
+    {
+      "id": "function_Contract__add_contract_udt_optionrs",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_option.rs",
+      "span": {
+        "startLine": 19,
+        "endLine": 21
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_udt_optionrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_UdtAllOptional_contract_udt_optionrs",
+      "type": "contract",
+      "name": "UdtAllOptional",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_option.rs",
+      "span": {
+        "startLine": 65,
+        "endLine": 67
+      }
+    },
+    {
+      "id": "contract_UdtUnit_contract_udt_optionrs",
+      "type": "contract",
+      "name": "UdtUnit",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_option.rs",
+      "span": {
+        "startLine": 82,
+        "endLine": 85
+      }
+    },
+    {
+      "id": "contract_rContract_contract_udt_raw_identifierrs",
+      "type": "contract",
+      "name": "r#Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_raw_identifier.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 15
+      }
+    },
+    {
+      "id": "contract_rTestEvent_contract_udt_raw_identifierrs",
+      "type": "contract",
+      "name": "r#TestEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_raw_identifier.rs",
+      "span": {
+        "startLine": 24,
+        "endLine": 28
+      }
+    },
+    {
+      "id": "contract_rTupleStruct_contract_udt_raw_identifierrs",
+      "type": "contract",
+      "name": "r#TupleStruct",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_raw_identifier.rs",
+      "span": {
+        "startLine": 70,
+        "endLine": 70
+      }
+    },
+    {
+      "id": "function_rTupleStruct__rtype_contract_udt_raw_identifierrs",
+      "type": "function",
+      "name": "r#type",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_raw_identifier.rs",
+      "span": {
+        "startLine": 74,
+        "endLine": 89
+      },
+      "meta": {
+        "parentContract": "contract_rTupleStruct_contract_udt_raw_identifierrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok",
+          "Err"
+        ]
+      }
+    },
+    {
+      "id": "contract_Udt_contract_udt_structrs",
+      "type": "contract",
+      "name": "Udt",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_struct.rs",
+      "span": {
+        "startLine": 13,
+        "endLine": 16
+      }
+    },
+    {
+      "id": "contract_UdtWithLongName_contract_udt_structrs",
+      "type": "contract",
+      "name": "UdtWithLongName",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_struct.rs",
+      "span": {
+        "startLine": 20,
+        "endLine": 22
+      }
+    },
+    {
+      "id": "contract_UdtWithNonAlphabeticallyOrderedFields_contract_udt_structrs",
+      "type": "contract",
+      "name": "UdtWithNonAlphabeticallyOrderedFields",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_struct.rs",
+      "span": {
+        "startLine": 26,
+        "endLine": 31
+      }
+    },
+    {
+      "id": "contract_Contract_contract_udt_structrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_struct.rs",
+      "span": {
+        "startLine": 34,
+        "endLine": 34
+      }
+    },
+    {
+      "id": "function_Contract__add_contract_udt_structrs",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_struct.rs",
+      "span": {
+        "startLine": 38,
+        "endLine": 40
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_udt_structrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__add_udt_with_long_name_contract_udt_structrs",
+      "type": "function",
+      "name": "add_udt_with_long_name",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_struct.rs",
+      "span": {
+        "startLine": 42,
+        "endLine": 44
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_udt_structrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Inner_contract_udt_struct_aliased_importrs",
+      "type": "contract",
+      "name": "Inner",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_struct_aliased_import.rs",
+      "span": {
+        "startLine": 33,
+        "endLine": 36
+      }
+    },
+    {
+      "id": "contract_Outer_contract_udt_struct_aliased_importrs",
+      "type": "contract",
+      "name": "Outer",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_struct_aliased_import.rs",
+      "span": {
+        "startLine": 43,
+        "endLine": 46
+      }
+    },
+    {
+      "id": "contract_Contract_contract_udt_struct_aliased_importrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_struct_aliased_import.rs",
+      "span": {
+        "startLine": 49,
+        "endLine": 49
+      }
+    },
+    {
+      "id": "function_Contract__add_contract_udt_struct_aliased_importrs",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_struct_aliased_import.rs",
+      "span": {
+        "startLine": 53,
+        "endLine": 55
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_udt_struct_aliased_importrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Udt_contract_udt_struct_tuplers",
+      "type": "contract",
+      "name": "Udt",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_struct_tuple.rs",
+      "span": {
+        "startLine": 13,
+        "endLine": 13
+      }
+    },
+    {
+      "id": "contract_Contract_contract_udt_struct_tuplers",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_struct_tuple.rs",
+      "span": {
+        "startLine": 16,
+        "endLine": 16
+      }
+    },
+    {
+      "id": "function_Contract__add_contract_udt_struct_tuplers",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_udt_struct_tuple.rs",
+      "span": {
+        "startLine": 20,
+        "endLine": 22
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contract_udt_struct_tuplers",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contractimpl_trait_call_resolutionrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contractimpl_trait_call_resolution.rs",
+      "span": {
+        "startLine": 20,
+        "endLine": 20
+      }
+    },
+    {
+      "id": "function_Contract__value_contractimpl_trait_call_resolutionrs",
+      "type": "function",
+      "name": "value",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contractimpl_trait_call_resolution.rs",
+      "span": {
+        "startLine": 37,
+        "endLine": 39
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contractimpl_trait_call_resolutionrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contractimportrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contractimport.rs",
+      "span": {
+        "startLine": 18,
+        "endLine": 18
+      }
+    },
+    {
+      "id": "function_Contract__sub_contractimportrs",
+      "type": "function",
+      "name": "sub",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contractimport.rs",
+      "span": {
+        "startLine": 21,
+        "endLine": 23
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contractimportrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contractimportrs_1",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contractimport.rs",
+      "span": {
+        "startLine": 28,
+        "endLine": 28
+      }
+    },
+    {
+      "id": "function_Contract__add_with_contractimportrs",
+      "type": "function",
+      "name": "add_with",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contractimport.rs",
+      "span": {
+        "startLine": 32,
+        "endLine": 34
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contractimportrs_1",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__sub_with_contractimportrs",
+      "type": "function",
+      "name": "sub_with",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contractimport.rs",
+      "span": {
+        "startLine": 35,
+        "endLine": 37
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contractimportrs_1",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contractimport_with_errorrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contractimport_with_error.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 10
+      }
+    },
+    {
+      "id": "function_Contract__hello_with_contractimport_with_errorrs",
+      "type": "function",
+      "name": "hello_with",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contractimport_with_error.rs",
+      "span": {
+        "startLine": 14,
+        "endLine": 16
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contractimport_with_errorrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_contracttrait_crate_pathrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contracttrait_crate_path.rs",
+      "span": {
+        "startLine": 25,
+        "endLine": 25
+      }
+    },
+    {
+      "id": "function_Contract__overridden_method_contracttrait_crate_pathrs",
+      "type": "function",
+      "name": "overridden_method",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contracttrait_crate_path.rs",
+      "span": {
+        "startLine": 29,
+        "endLine": 32
+      },
+      "meta": {
+        "parentContract": "contract_Contract_contracttrait_crate_pathrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_crypto_bls12_381rs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/crypto_bls12_381.rs",
+      "span": {
+        "startLine": 269,
+        "endLine": 269
+      }
+    },
+    {
+      "id": "function_Contract__g1_mul_with_crypto_bls12_381rs",
+      "type": "function",
+      "name": "g1_mul_with",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/crypto_bls12_381.rs",
+      "span": {
+        "startLine": 273,
+        "endLine": 275
+      },
+      "meta": {
+        "parentContract": "contract_Contract_crypto_bls12_381rs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__verify_with_crypto_bls12_381rs",
+      "type": "function",
+      "name": "verify_with",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/crypto_bls12_381.rs",
+      "span": {
+        "startLine": 277,
+        "endLine": 279
+      },
+      "meta": {
+        "parentContract": "contract_Contract_crypto_bls12_381rs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_ModularAccount_delegate_authrs",
+      "type": "contract",
+      "name": "ModularAccount",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+      "span": {
+        "startLine": 43,
+        "endLine": 43
+      }
+    },
+    {
+      "id": "function_ModularAccount____constructor_delegate_authrs",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+      "span": {
+        "startLine": 47,
+        "endLine": 52
+      },
+      "meta": {
+        "parentContract": "contract_ModularAccount_delegate_authrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_ModularAccount____check_auth_delegate_authrs",
+      "type": "function",
+      "name": "__check_auth",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+      "span": {
+        "startLine": 60,
+        "endLine": 88
+      },
+      "meta": {
+        "parentContract": "contract_ModularAccount_delegate_authrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "record_authorized_calls",
+          "Err",
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "contract_DelegateAccount_delegate_authrs",
+      "type": "contract",
+      "name": "DelegateAccount",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+      "span": {
+        "startLine": 94,
+        "endLine": 94
+      }
+    },
+    {
+      "id": "function_DelegateAccount____constructor_delegate_authrs",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+      "span": {
+        "startLine": 98,
+        "endLine": 102
+      },
+      "meta": {
+        "parentContract": "contract_DelegateAccount_delegate_authrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_DelegateAccount____check_auth_delegate_authrs",
+      "type": "function",
+      "name": "__check_auth",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+      "span": {
+        "startLine": 110,
+        "endLine": 121
+      },
+      "meta": {
+        "parentContract": "contract_DelegateAccount_delegate_authrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "record_authorized_calls",
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "contract_Protected_delegate_authrs",
+      "type": "contract",
+      "name": "Protected",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+      "span": {
+        "startLine": 126,
+        "endLine": 126
+      }
+    },
+    {
+      "id": "function_Protected__protected_delegate_authrs",
+      "type": "function",
+      "name": "protected",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+      "span": {
+        "startLine": 130,
+        "endLine": 132
+      },
+      "meta": {
+        "parentContract": "contract_Protected_delegate_authrs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_envrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/env.rs",
+      "span": {
+        "startLine": 24,
+        "endLine": 24
+      }
+    },
+    {
+      "id": "function_Contract__test_envrs",
+      "type": "function",
+      "name": "test",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/env.rs",
+      "span": {
+        "startLine": 28,
+        "endLine": 33
+      },
+      "meta": {
+        "parentContract": "contract_Contract_envrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__need_auth_envrs",
+      "type": "function",
+      "name": "need_auth",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/env.rs",
+      "span": {
+        "startLine": 35,
+        "endLine": 38
+      },
+      "meta": {
+        "parentContract": "contract_Contract_envrs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_env_test_state_in_contractrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/env_test_state_in_contract.rs",
+      "span": {
+        "startLine": 20,
+        "endLine": 20
+      }
+    },
+    {
+      "id": "function_Contract__gen_address_env_test_state_in_contractrs",
+      "type": "function",
+      "name": "gen_address",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/env_test_state_in_contract.rs",
+      "span": {
+        "startLine": 25,
+        "endLine": 27
+      },
+      "meta": {
+        "parentContract": "contract_Contract_env_test_state_in_contractrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__register_env_test_state_in_contractrs",
+      "type": "function",
+      "name": "register",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/env_test_state_in_contract.rs",
+      "span": {
+        "startLine": 30,
+        "endLine": 32
+      },
+      "meta": {
+        "parentContract": "contract_Contract_env_test_state_in_contractrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__auth_count_env_test_state_in_contractrs",
+      "type": "function",
+      "name": "auth_count",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/env_test_state_in_contract.rs",
+      "span": {
+        "startLine": 35,
+        "endLine": 38
+      },
+      "meta": {
+        "parentContract": "contract_Contract_env_test_state_in_contractrs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__set_config_env_test_state_in_contractrs",
+      "type": "function",
+      "name": "set_config",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/env_test_state_in_contract.rs",
+      "span": {
+        "startLine": 41,
+        "endLine": 46
+      },
+      "meta": {
+        "parentContract": "contract_Contract_env_test_state_in_contractrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__to_ledger_snapshot_env_test_state_in_contractrs",
+      "type": "function",
+      "name": "to_ledger_snapshot",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/env_test_state_in_contract.rs",
+      "span": {
+        "startLine": 49,
+        "endLine": 51
+      },
+      "meta": {
+        "parentContract": "contract_Contract_env_test_state_in_contractrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__to_snapshot_env_test_state_in_contractrs",
+      "type": "function",
+      "name": "to_snapshot",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/env_test_state_in_contract.rs",
+      "span": {
+        "startLine": 54,
+        "endLine": 56
+      },
+      "meta": {
+        "parentContract": "contract_Contract_env_test_state_in_contractrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_env_uploadrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/env_upload.rs",
+      "span": {
+        "startLine": 4,
+        "endLine": 4
+      }
+    },
+    {
+      "id": "function_Contract__hello_env_uploadrs",
+      "type": "function",
+      "name": "hello",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/env_upload.rs",
+      "span": {
+        "startLine": 8,
+        "endLine": 10
+      },
+      "meta": {
+        "parentContract": "contract_Contract_env_uploadrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_OtherContract_env_uploadrs",
+      "type": "contract",
+      "name": "OtherContract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/env_upload.rs",
+      "span": {
+        "startLine": 14,
+        "endLine": 14
+      }
+    },
+    {
+      "id": "function_OtherContract__hello_env_uploadrs",
+      "type": "function",
+      "name": "hello",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/env_upload.rs",
+      "span": {
+        "startLine": 18,
+        "endLine": 20
+      },
+      "meta": {
+        "parentContract": "contract_OtherContract_env_uploadrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_extend_ttl_overflowrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/extend_ttl_overflow.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 11
+      }
+    },
+    {
+      "id": "function_Contract__set_persistent_extend_ttl_overflowrs",
+      "type": "function",
+      "name": "set_persistent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/extend_ttl_overflow.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 17
+      },
+      "meta": {
+        "parentContract": "contract_Contract_extend_ttl_overflowrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__extend_persistent_extend_ttl_overflowrs",
+      "type": "function",
+      "name": "extend_persistent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/extend_ttl_overflow.rs",
+      "span": {
+        "startLine": 19,
+        "endLine": 23
+      },
+      "meta": {
+        "parentContract": "contract_Contract_extend_ttl_overflowrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__extend_instance_extend_ttl_overflowrs",
+      "type": "function",
+      "name": "extend_instance",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/extend_ttl_overflow.rs",
+      "span": {
+        "startLine": 25,
+        "endLine": 27
+      },
+      "meta": {
+        "parentContract": "contract_Contract_extend_ttl_overflowrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_max_ttlrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/max_ttl.rs",
+      "span": {
+        "startLine": 5,
+        "endLine": 5
+      }
+    },
+    {
+      "id": "contract_Udt_muxed_addressrs",
+      "type": "contract",
+      "name": "Udt",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/muxed_address.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 18
+      }
+    },
+    {
+      "id": "contract_MuxedAddressContract_muxed_addressrs",
+      "type": "contract",
+      "name": "MuxedAddressContract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/muxed_address.rs",
+      "span": {
+        "startLine": 21,
+        "endLine": 21
+      }
+    },
+    {
+      "id": "function_MuxedAddressContract__get_muxed_ids_muxed_addressrs",
+      "type": "function",
+      "name": "get_muxed_ids",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/muxed_address.rs",
+      "span": {
+        "startLine": 25,
+        "endLine": 31
+      },
+      "meta": {
+        "parentContract": "contract_MuxedAddressContract_muxed_addressrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_MuxedAddressContract__echo_udt_muxed_addressrs",
+      "type": "function",
+      "name": "echo_udt",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/muxed_address.rs",
+      "span": {
+        "startLine": 33,
+        "endLine": 35
+      },
+      "meta": {
+        "parentContract": "contract_MuxedAddressContract_muxed_addressrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_TestPrngContract_prngrs",
+      "type": "contract",
+      "name": "TestPrngContract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/prng.rs",
+      "span": {
+        "startLine": 6,
+        "endLine": 6
+      }
+    },
+    {
+      "id": "contract_TestPrngRangeContract_prng_rangers",
+      "type": "contract",
+      "name": "TestPrngRangeContract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/prng_range.rs",
+      "span": {
+        "startLine": 7,
+        "endLine": 7
+      }
+    },
+    {
+      "id": "contract_Contract_register_at_stellar_asset_contractrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/register_at_stellar_asset_contract.rs",
+      "span": {
+        "startLine": 5,
+        "endLine": 5
+      }
+    },
+    {
+      "id": "function_Contract__hello_register_at_stellar_asset_contractrs",
+      "type": "function",
+      "name": "hello",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/register_at_stellar_asset_contract.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 11
+      },
+      "meta": {
+        "parentContract": "contract_Contract_register_at_stellar_asset_contractrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__decimals_register_at_stellar_asset_contractrs",
+      "type": "function",
+      "name": "decimals",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/register_at_stellar_asset_contract.rs",
+      "span": {
+        "startLine": 13,
+        "endLine": 15
+      },
+      "meta": {
+        "parentContract": "contract_Contract_register_at_stellar_asset_contractrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_snapshot_source_native_wasm_hashrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/snapshot_source_native_wasm_hash.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 10
+      }
+    },
+    {
+      "id": "function_Contract__hello_snapshot_source_native_wasm_hashrs",
+      "type": "function",
+      "name": "hello",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/snapshot_source_native_wasm_hash.rs",
+      "span": {
+        "startLine": 14,
+        "endLine": 14
+      },
+      "meta": {
+        "parentContract": "contract_Contract_snapshot_source_native_wasm_hashrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Contract_storage_testutilsrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/storage_testutils.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 10
+      }
+    },
+    {
+      "id": "contract_TestContract_token_clientrs",
+      "type": "contract",
+      "name": "TestContract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/token_client.rs",
+      "span": {
+        "startLine": 23,
+        "endLine": 23
+      }
+    },
+    {
+      "id": "function_TestContract__init_token_clientrs",
+      "type": "function",
+      "name": "init",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/token_client.rs",
+      "span": {
+        "startLine": 27,
+        "endLine": 29
+      },
+      "meta": {
+        "parentContract": "contract_TestContract_token_clientrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_TestContract__get_token_token_clientrs",
+      "type": "function",
+      "name": "get_token",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/token_client.rs",
+      "span": {
+        "startLine": 31,
+        "endLine": 33
+      },
+      "meta": {
+        "parentContract": "contract_TestContract_token_clientrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "get_token"
+        ]
+      }
+    },
+    {
+      "id": "function_TestContract__approve_token_clientrs",
+      "type": "function",
+      "name": "approve",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/token_client.rs",
+      "span": {
+        "startLine": 35,
+        "endLine": 37
+      },
+      "meta": {
+        "parentContract": "contract_TestContract_token_clientrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "get_token"
+        ]
+      }
+    },
+    {
+      "id": "function_TestContract__allowance_token_clientrs",
+      "type": "function",
+      "name": "allowance",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/token_client.rs",
+      "span": {
+        "startLine": 39,
+        "endLine": 41
+      },
+      "meta": {
+        "parentContract": "contract_TestContract_token_clientrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "get_token"
+        ]
+      }
+    },
+    {
+      "id": "contract_MockAuthContract_mock_authrs",
+      "type": "contract",
+      "name": "MockAuthContract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/testutils/mock_auth.rs",
+      "span": {
+        "startLine": 7,
+        "endLine": 7
+      }
+    },
+    {
+      "id": "function_MockAuthContract____check_auth_mock_authrs",
+      "type": "function",
+      "name": "__check_auth",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/testutils/mock_auth.rs",
+      "span": {
+        "startLine": 12,
+        "endLine": 12
+      },
+      "meta": {
+        "parentContract": "contract_MockAuthContract_mock_authrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_Address_contractevent_contracterror_name_errorsrs",
+      "type": "contract",
+      "name": "Address",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contractevent_contracterror_name_errors.rs",
+      "span": {
+        "startLine": 7,
+        "endLine": 9
+      }
+    },
+    {
+      "id": "contract_Generic_contractevent_contracterror_name_errorsrs",
+      "type": "contract",
+      "name": "Generic",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contractevent_contracterror_name_errors.rs",
+      "span": {
+        "startLine": 21,
+        "endLine": 23
+      }
+    },
+    {
+      "id": "contract_Ev_contractevent_sparse_arg_errorsrs",
+      "type": "contract",
+      "name": "Ev",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contractevent_sparse_arg_errors.rs",
+      "span": {
+        "startLine": 6,
+        "endLine": 8
+      }
+    },
+    {
+      "id": "contract_Ev2_contractevent_sparse_arg_errorsrs",
+      "type": "contract",
+      "name": "Ev2",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contractevent_sparse_arg_errors.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 13
+      }
+    },
+    {
+      "id": "contract_ExplicitTopic_contractevent_topic_length_errorsrs",
+      "type": "contract",
+      "name": "ExplicitTopic",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contractevent_topic_length_errors.rs",
+      "span": {
+        "startLine": 4,
+        "endLine": 6
+      }
+    },
+    {
+      "id": "contract_AbCdEfGhIjKlMnOpQrStUvWx_contractevent_topic_length_errorsrs",
+      "type": "contract",
+      "name": "AbCdEfGhIjKlMnOpQrStUvWx",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contractevent_topic_length_errors.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 13
+      }
+    },
+    {
+      "id": "contract_Fits_contractevent_topic_length_errorsrs",
+      "type": "contract",
+      "name": "Fits",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contractevent_topic_length_errors.rs",
+      "span": {
+        "startLine": 16,
+        "endLine": 18
+      }
+    },
+    {
+      "id": "contract_C_contracttrait_cfg_errorsrs",
+      "type": "contract",
+      "name": "C",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contracttrait_cfg_errors.rs",
+      "span": {
+        "startLine": 30,
+        "endLine": 30
+      }
+    },
+    {
+      "id": "function_C__hidden_contracttrait_cfg_errorsrs",
+      "type": "function",
+      "name": "hidden",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contracttrait_cfg_errors.rs",
+      "span": {
+        "startLine": 35,
+        "endLine": 38
+      },
+      "meta": {
+        "parentContract": "contract_C_contracttrait_cfg_errorsrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_D_contracttrait_cfg_errorsrs",
+      "type": "contract",
+      "name": "D",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contracttrait_cfg_errors.rs",
+      "span": {
+        "startLine": 45,
+        "endLine": 45
+      }
+    },
+    {
+      "id": "function_D__hidden_contracttrait_cfg_errorsrs",
+      "type": "function",
+      "name": "hidden",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contracttrait_cfg_errors.rs",
+      "span": {
+        "startLine": 49,
+        "endLine": 52
+      },
+      "meta": {
+        "parentContract": "contract_D_contracttrait_cfg_errorsrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_C_contracttrait_without_traitrs",
+      "type": "contract",
+      "name": "C",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contracttrait_without_trait.rs",
+      "span": {
+        "startLine": 4,
+        "endLine": 4
+      }
+    },
+    {
+      "id": "function_C__f_contracttrait_without_traitrs",
+      "type": "function",
+      "name": "f",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contracttrait_without_trait.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 13
+      },
+      "meta": {
+        "parentContract": "contract_C_contracttrait_without_traitrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_S_contracttype_lib_removedrs",
+      "type": "contract",
+      "name": "S",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contracttype_lib_removed.rs",
+      "span": {
+        "startLine": 6,
+        "endLine": 8
+      }
+    },
+    {
+      "id": "contract_Ev_contracttype_lib_removedrs",
+      "type": "contract",
+      "name": "Ev",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/contracttype_lib_removed.rs",
+      "span": {
+        "startLine": 18,
+        "endLine": 20
+      }
+    },
+    {
+      "id": "contract_S_export_arg_errorsrs",
+      "type": "contract",
+      "name": "S",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/export_arg_errors.rs",
+      "span": {
+        "startLine": 4,
+        "endLine": 6
+      }
+    },
+    {
+      "id": "contract_S2_export_arg_errorsrs",
+      "type": "contract",
+      "name": "S2",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/export_arg_errors.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 11
+      }
+    },
+    {
+      "id": "contract_Ev_export_arg_errorsrs",
+      "type": "contract",
+      "name": "Ev",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/export_arg_errors.rs",
+      "span": {
+        "startLine": 20,
+        "endLine": 23
+      }
+    },
+    {
+      "id": "contract_Contract_hash_arg_errorsrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/hash_arg_errors.rs",
+      "span": {
+        "startLine": 7,
+        "endLine": 7
+      }
+    },
+    {
+      "id": "function_Contract__f_hash_arg_errorsrs",
+      "type": "function",
+      "name": "f",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/hash_arg_errors.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 11
+      },
+      "meta": {
+        "parentContract": "contract_Contract_hash_arg_errorsrs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_TooLong_spec_name_length_errorsrs",
+      "type": "contract",
+      "name": "TooLong",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/spec_name_length_errors.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 12
+      }
+    },
+    {
+      "id": "contract_TooLongEvent_spec_name_length_errorsrs",
+      "type": "contract",
+      "name": "TooLongEvent",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/spec_name_length_errors.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 17
+      }
+    },
+    {
+      "id": "contract_Refers_spec_name_length_errorsrs",
+      "type": "contract",
+      "name": "Refers",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/spec_name_length_errors.rs",
+      "span": {
+        "startLine": 22,
+        "endLine": 24
+      }
+    },
+    {
+      "id": "contract_HoldsHuge_spec_type_def_bytesn_length_errorsrs",
+      "type": "contract",
+      "name": "HoldsHuge",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/tests/compile_fails/spec_type_def_bytesn_length_errors.rs",
+      "span": {
+        "startLine": 8,
+        "endLine": 10
+      }
+    },
+    {
+      "id": "contract_Approve_eventsrs",
+      "type": "contract",
+      "name": "Approve",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-token-sdk/src/events.rs",
+      "span": {
+        "startLine": 4,
+        "endLine": 11
+      }
+    },
+    {
+      "id": "contract_TransferWithAmountOnly_eventsrs",
+      "type": "contract",
+      "name": "TransferWithAmountOnly",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-token-sdk/src/events.rs",
+      "span": {
+        "startLine": 14,
+        "endLine": 20
+      }
+    },
+    {
+      "id": "contract_Transfer_eventsrs",
+      "type": "contract",
+      "name": "Transfer",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-token-sdk/src/events.rs",
+      "span": {
+        "startLine": 23,
+        "endLine": 30
+      }
+    },
+    {
+      "id": "contract_Burn_eventsrs",
+      "type": "contract",
+      "name": "Burn",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-token-sdk/src/events.rs",
+      "span": {
+        "startLine": 33,
+        "endLine": 37
+      }
+    },
+    {
+      "id": "contract_MintWithAmountOnly_eventsrs",
+      "type": "contract",
+      "name": "MintWithAmountOnly",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-token-sdk/src/events.rs",
+      "span": {
+        "startLine": 40,
+        "endLine": 44
+      }
+    },
+    {
+      "id": "contract_Mint_eventsrs",
+      "type": "contract",
+      "name": "Mint",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-token-sdk/src/events.rs",
+      "span": {
+        "startLine": 47,
+        "endLine": 52
+      }
+    },
+    {
+      "id": "contract_Clawback_eventsrs",
+      "type": "contract",
+      "name": "Clawback",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-token-sdk/src/events.rs",
+      "span": {
+        "startLine": 55,
+        "endLine": 59
+      }
+    },
+    {
+      "id": "contract_TokenMetadata_metadatars",
+      "type": "contract",
+      "name": "TokenMetadata",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-token-sdk/src/metadata.rs",
+      "span": {
+        "startLine": 7,
+        "endLine": 11
+      }
+    },
+    {
+      "id": "contract_Contract_eventsrs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/soroban-token-sdk/src/tests/events.rs",
+      "span": {
+        "startLine": 17,
+        "endLine": 17
+      }
+    },
+    {
+      "id": "contract_Approve_librs",
+      "type": "contract",
+      "name": "Approve",
+      "file": "/private/tmp/rs-soroban-sdk/stellar-asset-spec/src/lib.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 24
+      }
+    },
+    {
+      "id": "contract_TransferWithAmountOnly_librs",
+      "type": "contract",
+      "name": "TransferWithAmountOnly",
+      "file": "/private/tmp/rs-soroban-sdk/stellar-asset-spec/src/lib.rs",
+      "span": {
+        "startLine": 27,
+        "endLine": 35
+      }
+    },
+    {
+      "id": "contract_Transfer_librs",
+      "type": "contract",
+      "name": "Transfer",
+      "file": "/private/tmp/rs-soroban-sdk/tests/events_ref/src/lib.rs",
+      "span": {
+        "startLine": 8,
+        "endLine": 15
+      }
+    },
+    {
+      "id": "contract_TransferWithMuxedString_librs",
+      "type": "contract",
+      "name": "TransferWithMuxedString",
+      "file": "/private/tmp/rs-soroban-sdk/stellar-asset-spec/src/lib.rs",
+      "span": {
+        "startLine": 50,
+        "endLine": 59
+      }
+    },
+    {
+      "id": "contract_TransferWithMuxedBytes_librs",
+      "type": "contract",
+      "name": "TransferWithMuxedBytes",
+      "file": "/private/tmp/rs-soroban-sdk/stellar-asset-spec/src/lib.rs",
+      "span": {
+        "startLine": 62,
+        "endLine": 71
+      }
+    },
+    {
+      "id": "contract_Burn_librs",
+      "type": "contract",
+      "name": "Burn",
+      "file": "/private/tmp/rs-soroban-sdk/stellar-asset-spec/src/lib.rs",
+      "span": {
+        "startLine": 74,
+        "endLine": 80
+      }
+    },
+    {
+      "id": "contract_MintWithAmountOnly_librs",
+      "type": "contract",
+      "name": "MintWithAmountOnly",
+      "file": "/private/tmp/rs-soroban-sdk/stellar-asset-spec/src/lib.rs",
+      "span": {
+        "startLine": 83,
+        "endLine": 89
+      }
+    },
+    {
+      "id": "contract_Mint_librs",
+      "type": "contract",
+      "name": "Mint",
+      "file": "/private/tmp/rs-soroban-sdk/stellar-asset-spec/src/lib.rs",
+      "span": {
+        "startLine": 92,
+        "endLine": 99
+      }
+    },
+    {
+      "id": "contract_MintWithMuxedString_librs",
+      "type": "contract",
+      "name": "MintWithMuxedString",
+      "file": "/private/tmp/rs-soroban-sdk/stellar-asset-spec/src/lib.rs",
+      "span": {
+        "startLine": 102,
+        "endLine": 109
+      }
+    },
+    {
+      "id": "contract_MintWithMuxedBytes_librs",
+      "type": "contract",
+      "name": "MintWithMuxedBytes",
+      "file": "/private/tmp/rs-soroban-sdk/stellar-asset-spec/src/lib.rs",
+      "span": {
+        "startLine": 112,
+        "endLine": 119
+      }
+    },
+    {
+      "id": "contract_Clawback_librs",
+      "type": "contract",
+      "name": "Clawback",
+      "file": "/private/tmp/rs-soroban-sdk/stellar-asset-spec/src/lib.rs",
+      "span": {
+        "startLine": 122,
+        "endLine": 128
+      }
+    },
+    {
+      "id": "contract_SetAdmin_librs",
+      "type": "contract",
+      "name": "SetAdmin",
+      "file": "/private/tmp/rs-soroban-sdk/stellar-asset-spec/src/lib.rs",
+      "span": {
+        "startLine": 131,
+        "endLine": 137
+      }
+    },
+    {
+      "id": "contract_SetAuthorized_librs",
+      "type": "contract",
+      "name": "SetAuthorized",
+      "file": "/private/tmp/rs-soroban-sdk/stellar-asset-spec/src/lib.rs",
+      "span": {
+        "startLine": 140,
+        "endLine": 146
+      }
+    },
+    {
+      "id": "contract_Contract_librs",
+      "type": "contract",
+      "name": "Contract",
+      "file": "/private/tmp/rs-soroban-sdk/tests/workspace_contract/src/lib.rs",
+      "span": {
+        "startLine": 7,
+        "endLine": 7
+      }
+    },
+    {
+      "id": "function_Contract____check_auth_librs",
+      "type": "function",
+      "name": "__check_auth",
+      "file": "/private/tmp/rs-soroban-sdk/tests/account/src/lib.rs",
+      "span": {
+        "startLine": 21,
+        "endLine": 28
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__add_librs",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/tests/udt/src/lib.rs",
+      "span": {
+        "startLine": 58,
+        "endLine": 72
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__safe_add_librs",
+      "type": "function",
+      "name": "safe_add",
+      "file": "/private/tmp/rs-soroban-sdk/tests/add_u64/src/lib.rs",
+      "span": {
+        "startLine": 24,
+        "endLine": 26
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__safe_add_two_librs",
+      "type": "function",
+      "name": "safe_add_two",
+      "file": "/private/tmp/rs-soroban-sdk/tests/add_u64/src/lib.rs",
+      "span": {
+        "startLine": 27,
+        "endLine": 29
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__num_list_librs",
+      "type": "function",
+      "name": "num_list",
+      "file": "/private/tmp/rs-soroban-sdk/tests/alloc/src/lib.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 21
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__exec_librs",
+      "type": "function",
+      "name": "exec",
+      "file": "/private/tmp/rs-soroban-sdk/tests/generics/src/lib.rs",
+      "span": {
+        "startLine": 18,
+        "endLine": 20
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__set_val_librs",
+      "type": "function",
+      "name": "set_val",
+      "file": "/private/tmp/rs-soroban-sdk/tests/associated_type_chained/src/lib.rs",
+      "span": {
+        "startLine": 29,
+        "endLine": 31
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__get_val_librs",
+      "type": "function",
+      "name": "get_val",
+      "file": "/private/tmp/rs-soroban-sdk/tests/associated_type_chained/src/lib.rs",
+      "span": {
+        "startLine": 33,
+        "endLine": 35
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__both_librs",
+      "type": "function",
+      "name": "both",
+      "file": "/private/tmp/rs-soroban-sdk/tests/associated_type_chained/src/lib.rs",
+      "span": {
+        "startLine": 37,
+        "endLine": 39
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__wrapped_librs",
+      "type": "function",
+      "name": "wrapped",
+      "file": "/private/tmp/rs-soroban-sdk/tests/associated_type_chained/src/lib.rs",
+      "span": {
+        "startLine": 41,
+        "endLine": 51
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Err",
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__double_wrapped_librs",
+      "type": "function",
+      "name": "double_wrapped",
+      "file": "/private/tmp/rs-soroban-sdk/tests/associated_type_chained/src/lib.rs",
+      "span": {
+        "startLine": 53,
+        "endLine": 58
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok",
+          "Err"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__valval_librs",
+      "type": "function",
+      "name": "valval",
+      "file": "/private/tmp/rs-soroban-sdk/tests/associated_type_chained/src/lib.rs",
+      "span": {
+        "startLine": 60,
+        "endLine": 62
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Some"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__tuple_librs",
+      "type": "function",
+      "name": "tuple",
+      "file": "/private/tmp/rs-soroban-sdk/tests/associated_type_chained/src/lib.rs",
+      "span": {
+        "startLine": 64,
+        "endLine": 66
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__valref_librs",
+      "type": "function",
+      "name": "valref",
+      "file": "/private/tmp/rs-soroban-sdk/tests/associated_type_chained/src/lib.rs",
+      "span": {
+        "startLine": 68,
+        "endLine": 70
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__exec2_librs",
+      "type": "function",
+      "name": "exec2",
+      "file": "/private/tmp/rs-soroban-sdk/tests/associated_type_contracttrait/src/lib.rs",
+      "span": {
+        "startLine": 64,
+        "endLine": 66
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_AttributeEvent_librs",
+      "type": "contract",
+      "name": "AttributeEvent",
+      "file": "/private/tmp/rs-soroban-sdk/tests/attributes/src/lib.rs",
+      "span": {
+        "startLine": 12,
+        "endLine": 16
+      }
+    },
+    {
+      "id": "function_Contract__always_librs",
+      "type": "function",
+      "name": "always",
+      "file": "/private/tmp/rs-soroban-sdk/tests/attributes/src/lib.rs",
+      "span": {
+        "startLine": 54,
+        "endLine": 56
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__cfg_included_librs",
+      "type": "function",
+      "name": "cfg_included",
+      "file": "/private/tmp/rs-soroban-sdk/tests/attributes/src/lib.rs",
+      "span": {
+        "startLine": 59,
+        "endLine": 61
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__cfg_excluded_librs",
+      "type": "function",
+      "name": "cfg_excluded",
+      "file": "/private/tmp/rs-soroban-sdk/tests/attributes/src/lib.rs",
+      "span": {
+        "startLine": 64,
+        "endLine": 66
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__publish_librs",
+      "type": "function",
+      "name": "publish",
+      "file": "/private/tmp/rs-soroban-sdk/tests/attributes/src/lib.rs",
+      "span": {
+        "startLine": 68,
+        "endLine": 70
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__trait_override_librs",
+      "type": "function",
+      "name": "trait_override",
+      "file": "/private/tmp/rs-soroban-sdk/tests/attributes/src/lib.rs",
+      "span": {
+        "startLine": 76,
+        "endLine": 78
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__trait_default_librs",
+      "type": "function",
+      "name": "trait_default",
+      "file": "/private/tmp/rs-soroban-sdk/tests/attributes/src/lib.rs",
+      "span": {
+        "startLine": 81,
+        "endLine": 83
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__trait_default_stacked_cfg_librs",
+      "type": "function",
+      "name": "trait_default_stacked_cfg",
+      "file": "/private/tmp/rs-soroban-sdk/tests/attributes/src/lib.rs",
+      "span": {
+        "startLine": 87,
+        "endLine": 89
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__trait_override_stacked_cfg_librs",
+      "type": "function",
+      "name": "trait_override_stacked_cfg",
+      "file": "/private/tmp/rs-soroban-sdk/tests/attributes/src/lib.rs",
+      "span": {
+        "startLine": 93,
+        "endLine": 95
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__trait_override_negated_cfg_librs",
+      "type": "function",
+      "name": "trait_override_negated_cfg",
+      "file": "/private/tmp/rs-soroban-sdk/tests/attributes/src/lib.rs",
+      "span": {
+        "startLine": 98,
+        "endLine": 100
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__trait_override_dual_cfg_librs",
+      "type": "function",
+      "name": "trait_override_dual_cfg",
+      "file": "/private/tmp/rs-soroban-sdk/tests/attributes/src/lib.rs",
+      "span": {
+        "startLine": 105,
+        "endLine": 107
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__trait_override_dual_cfg_librs_1",
+      "type": "function",
+      "name": "trait_override_dual_cfg",
+      "file": "/private/tmp/rs-soroban-sdk/tests/attributes/src/lib.rs",
+      "span": {
+        "startLine": 109,
+        "endLine": 111
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__trait_default_dual_cfg_librs",
+      "type": "function",
+      "name": "trait_default_dual_cfg",
+      "file": "/private/tmp/rs-soroban-sdk/tests/attributes/src/lib.rs",
+      "span": {
+        "startLine": 116,
+        "endLine": 118
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__trait_default_dual_cfg_librs_1",
+      "type": "function",
+      "name": "trait_default_dual_cfg",
+      "file": "/private/tmp/rs-soroban-sdk/tests/attributes/src/lib.rs",
+      "span": {
+        "startLine": 120,
+        "endLine": 122
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_ContractA_librs",
+      "type": "contract",
+      "name": "ContractA",
+      "file": "/private/tmp/rs-soroban-sdk/tests/auth/src/lib.rs",
+      "span": {
+        "startLine": 5,
+        "endLine": 5
+      }
+    },
+    {
+      "id": "function_ContractA__fn1_librs",
+      "type": "function",
+      "name": "fn1",
+      "file": "/private/tmp/rs-soroban-sdk/tests/auth/src/lib.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 12
+      },
+      "meta": {
+        "parentContract": "contract_ContractA_librs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_ContractB_librs",
+      "type": "contract",
+      "name": "ContractB",
+      "file": "/private/tmp/rs-soroban-sdk/tests/auth/src/lib.rs",
+      "span": {
+        "startLine": 222,
+        "endLine": 222
+      }
+    },
+    {
+      "id": "function_ContractB__fn2_librs",
+      "type": "function",
+      "name": "fn2",
+      "file": "/private/tmp/rs-soroban-sdk/tests/auth/src/lib.rs",
+      "span": {
+        "startLine": 226,
+        "endLine": 230
+      },
+      "meta": {
+        "parentContract": "contract_ContractB_librs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_DummyProof_librs",
+      "type": "contract",
+      "name": "DummyProof",
+      "file": "/private/tmp/rs-soroban-sdk/tests/bls/src/lib.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 16
+      }
+    },
+    {
+      "id": "function_Contract__g1_mul_librs",
+      "type": "function",
+      "name": "g1_mul",
+      "file": "/private/tmp/rs-soroban-sdk/tests/bn254/src/lib.rs",
+      "span": {
+        "startLine": 28,
+        "endLine": 30
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__g2_mul_librs",
+      "type": "function",
+      "name": "g2_mul",
+      "file": "/private/tmp/rs-soroban-sdk/tests/bls/src/lib.rs",
+      "span": {
+        "startLine": 27,
+        "endLine": 29
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__dummy_verify_librs",
+      "type": "function",
+      "name": "dummy_verify",
+      "file": "/private/tmp/rs-soroban-sdk/tests/bls/src/lib.rs",
+      "span": {
+        "startLine": 33,
+        "endLine": 45
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__fr_vec_get_librs",
+      "type": "function",
+      "name": "fr_vec_get",
+      "file": "/private/tmp/rs-soroban-sdk/tests/bn254/src/lib.rs",
+      "span": {
+        "startLine": 32,
+        "endLine": 34
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_MockProof_librs",
+      "type": "contract",
+      "name": "MockProof",
+      "file": "/private/tmp/rs-soroban-sdk/tests/bn254/src/lib.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 13
+      }
+    },
+    {
+      "id": "function_Contract__verify_pairing_librs",
+      "type": "function",
+      "name": "verify_pairing",
+      "file": "/private/tmp/rs-soroban-sdk/tests/bn254/src/lib.rs",
+      "span": {
+        "startLine": 20,
+        "endLine": 22
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__g1_add_librs",
+      "type": "function",
+      "name": "g1_add",
+      "file": "/private/tmp/rs-soroban-sdk/tests/bn254/src/lib.rs",
+      "span": {
+        "startLine": 24,
+        "endLine": 26
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract____constructor_librs",
+      "type": "function",
+      "name": "__constructor",
+      "file": "/private/tmp/rs-soroban-sdk/tests/constructor_with_auth/src/lib.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 12
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": true,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__get_data_librs",
+      "type": "function",
+      "name": "get_data",
+      "file": "/private/tmp/rs-soroban-sdk/tests/constructor/src/lib.rs",
+      "span": {
+        "startLine": 28,
+        "endLine": 34
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__put_librs",
+      "type": "function",
+      "name": "put",
+      "file": "/private/tmp/rs-soroban-sdk/tests/contract_data/src/lib.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 11
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__get_librs",
+      "type": "function",
+      "name": "get",
+      "file": "/private/tmp/rs-soroban-sdk/tests/contract_data/src/lib.rs",
+      "span": {
+        "startLine": 13,
+        "endLine": 15
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__del_librs",
+      "type": "function",
+      "name": "del",
+      "file": "/private/tmp/rs-soroban-sdk/tests/contract_data/src/lib.rs",
+      "span": {
+        "startLine": 17,
+        "endLine": 19
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__test_u32_librs",
+      "type": "function",
+      "name": "test_u32",
+      "file": "/private/tmp/rs-soroban-sdk/tests/contracttrait_impl_partial/src/lib.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 17
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__test_string_librs",
+      "type": "function",
+      "name": "test_string",
+      "file": "/private/tmp/rs-soroban-sdk/tests/contracttrait_impl_partial/src/lib.rs",
+      "span": {
+        "startLine": 19,
+        "endLine": 21
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__test_env_param_librs",
+      "type": "function",
+      "name": "test_env_param",
+      "file": "/private/tmp/rs-soroban-sdk/tests/contracttrait_impl_partial/src/lib.rs",
+      "span": {
+        "startLine": 23,
+        "endLine": 25
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__test_struct_librs",
+      "type": "function",
+      "name": "test_struct",
+      "file": "/private/tmp/rs-soroban-sdk/tests/contracttrait_impl_partial/src/lib.rs",
+      "span": {
+        "startLine": 27,
+        "endLine": 32
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_ContractCratePath_librs",
+      "type": "contract",
+      "name": "ContractCratePath",
+      "file": "/private/tmp/rs-soroban-sdk/tests/contracttrait_path_crate/src/lib.rs",
+      "span": {
+        "startLine": 22,
+        "endLine": 22
+      }
+    },
+    {
+      "id": "contract_ContractGlobalPath_librs",
+      "type": "contract",
+      "name": "ContractGlobalPath",
+      "file": "/private/tmp/rs-soroban-sdk/tests/contracttrait_path_global/src/lib.rs",
+      "span": {
+        "startLine": 17,
+        "endLine": 17
+      }
+    },
+    {
+      "id": "contract_ContractRelativePath_librs",
+      "type": "contract",
+      "name": "ContractRelativePath",
+      "file": "/private/tmp/rs-soroban-sdk/tests/contracttrait_path_relative/src/lib.rs",
+      "span": {
+        "startLine": 22,
+        "endLine": 22
+      }
+    },
+    {
+      "id": "contract_ContractSelfPath_librs",
+      "type": "contract",
+      "name": "ContractSelfPath",
+      "file": "/private/tmp/rs-soroban-sdk/tests/contracttrait_path_self/src/lib.rs",
+      "span": {
+        "startLine": 18,
+        "endLine": 18
+      }
+    },
+    {
+      "id": "contract_ContractSuperPath_librs",
+      "type": "contract",
+      "name": "ContractSuperPath",
+      "file": "/private/tmp/rs-soroban-sdk/tests/contracttrait_path_super/src/lib.rs",
+      "span": {
+        "startLine": 21,
+        "endLine": 21
+      }
+    },
+    {
+      "id": "function_Contract__empty_librs",
+      "type": "function",
+      "name": "empty",
+      "file": "/private/tmp/rs-soroban-sdk/tests/multiimpl/src/lib.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 9
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__hello_librs",
+      "type": "function",
+      "name": "hello",
+      "file": "/private/tmp/rs-soroban-sdk/tests/logging/src/lib.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 26
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__persisted_librs",
+      "type": "function",
+      "name": "persisted",
+      "file": "/private/tmp/rs-soroban-sdk/tests/errors/src/lib.rs",
+      "span": {
+        "startLine": 48,
+        "endLine": 53
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract_SingleValue_librs",
+      "type": "contract",
+      "name": "SingleValue",
+      "file": "/private/tmp/rs-soroban-sdk/tests/events/src/lib.rs",
+      "span": {
+        "startLine": 19,
+        "endLine": 23
+      }
+    },
+    {
+      "id": "contract_SingleValueVoid_librs",
+      "type": "contract",
+      "name": "SingleValueVoid",
+      "file": "/private/tmp/rs-soroban-sdk/tests/events/src/lib.rs",
+      "span": {
+        "startLine": 28,
+        "endLine": 31
+      }
+    },
+    {
+      "id": "contract_VecValues_librs",
+      "type": "contract",
+      "name": "VecValues",
+      "file": "/private/tmp/rs-soroban-sdk/tests/events/src/lib.rs",
+      "span": {
+        "startLine": 35,
+        "endLine": 40
+      }
+    },
+    {
+      "id": "contract_MapValues_librs",
+      "type": "contract",
+      "name": "MapValues",
+      "file": "/private/tmp/rs-soroban-sdk/tests/events/src/lib.rs",
+      "span": {
+        "startLine": 44,
+        "endLine": 49
+      }
+    },
+    {
+      "id": "function_MapValues__single_value_librs",
+      "type": "function",
+      "name": "single_value",
+      "file": "/private/tmp/rs-soroban-sdk/tests/events/src/lib.rs",
+      "span": {
+        "startLine": 53,
+        "endLine": 55
+      },
+      "meta": {
+        "parentContract": "contract_MapValues_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_MapValues__single_value_void_librs",
+      "type": "function",
+      "name": "single_value_void",
+      "file": "/private/tmp/rs-soroban-sdk/tests/events/src/lib.rs",
+      "span": {
+        "startLine": 57,
+        "endLine": 59
+      },
+      "meta": {
+        "parentContract": "contract_MapValues_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_MapValues__vec_values_librs",
+      "type": "function",
+      "name": "vec_values",
+      "file": "/private/tmp/rs-soroban-sdk/tests/events/src/lib.rs",
+      "span": {
+        "startLine": 61,
+        "endLine": 63
+      },
+      "meta": {
+        "parentContract": "contract_MapValues_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_MapValues__map_values_librs",
+      "type": "function",
+      "name": "map_values",
+      "file": "/private/tmp/rs-soroban-sdk/tests/events/src/lib.rs",
+      "span": {
+        "startLine": 65,
+        "endLine": 67
+      },
+      "meta": {
+        "parentContract": "contract_MapValues_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_MapValues__transfer_librs",
+      "type": "function",
+      "name": "transfer",
+      "file": "/private/tmp/rs-soroban-sdk/tests/events/src/lib.rs",
+      "span": {
+        "startLine": 69,
+        "endLine": 77
+      },
+      "meta": {
+        "parentContract": "contract_MapValues_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_MapValues__failed_transfer_librs",
+      "type": "function",
+      "name": "failed_transfer",
+      "file": "/private/tmp/rs-soroban-sdk/tests/events/src/lib.rs",
+      "span": {
+        "startLine": 79,
+        "endLine": 88
+      },
+      "meta": {
+        "parentContract": "contract_MapValues_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Transfer__transfer_librs",
+      "type": "function",
+      "name": "transfer",
+      "file": "/private/tmp/rs-soroban-sdk/tests/events_ref/src/lib.rs",
+      "span": {
+        "startLine": 19,
+        "endLine": 27
+      },
+      "meta": {
+        "parentContract": "contract_Transfer_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Transfer__failed_transfer_librs",
+      "type": "function",
+      "name": "failed_transfer",
+      "file": "/private/tmp/rs-soroban-sdk/tests/events_ref/src/lib.rs",
+      "span": {
+        "startLine": 29,
+        "endLine": 38
+      },
+      "meta": {
+        "parentContract": "contract_Transfer_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__run_librs",
+      "type": "function",
+      "name": "run",
+      "file": "/private/tmp/rs-soroban-sdk/tests/fuzz_afl/src/lib.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 13
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__add_with_librs",
+      "type": "function",
+      "name": "add_with",
+      "file": "/private/tmp/rs-soroban-sdk/tests/invoke_contract/src/lib.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 16
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__safe_add_with_librs",
+      "type": "function",
+      "name": "safe_add_with",
+      "file": "/private/tmp/rs-soroban-sdk/tests/import_contract/src/lib.rs",
+      "span": {
+        "startLine": 27,
+        "endLine": 33
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok",
+          "Err",
+          "Err"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__safe_add_with_two_librs",
+      "type": "function",
+      "name": "safe_add_with_two",
+      "file": "/private/tmp/rs-soroban-sdk/tests/import_contract/src/lib.rs",
+      "span": {
+        "startLine": 34,
+        "endLine": 40
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok",
+          "Err",
+          "Err"
+        ]
+      }
+    },
+    {
+      "id": "contract_AddContract_librs",
+      "type": "contract",
+      "name": "AddContract",
+      "file": "/private/tmp/rs-soroban-sdk/tests/invoke_contract/src/lib.rs",
+      "span": {
+        "startLine": 20,
+        "endLine": 20
+      }
+    },
+    {
+      "id": "function_AddContract__add_librs",
+      "type": "function",
+      "name": "add",
+      "file": "/private/tmp/rs-soroban-sdk/tests/invoke_contract/src/lib.rs",
+      "span": {
+        "startLine": 24,
+        "endLine": 26
+      },
+      "meta": {
+        "parentContract": "contract_AddContract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_one_feat1rs",
+      "type": "function",
+      "name": "one",
+      "file": "/private/tmp/rs-soroban-sdk/tests/modular/src/feat1.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 11
+      },
+      "meta": {
+        "parentContract": null,
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_two_feat2rs",
+      "type": "function",
+      "name": "two",
+      "file": "/private/tmp/rs-soroban-sdk/tests/modular/src/feat2.rs",
+      "span": {
+        "startLine": 8,
+        "endLine": 10
+      },
+      "meta": {
+        "parentContract": null,
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__zero_librs",
+      "type": "function",
+      "name": "zero",
+      "file": "/private/tmp/rs-soroban-sdk/tests/modular/src/lib.rs",
+      "span": {
+        "startLine": 13,
+        "endLine": 15
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__empty2_librs",
+      "type": "function",
+      "name": "empty2",
+      "file": "/private/tmp/rs-soroban-sdk/tests/multiimpl/src/lib.rs",
+      "span": {
+        "startLine": 14,
+        "endLine": 14
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__empty3_librs",
+      "type": "function",
+      "name": "empty3",
+      "file": "/private/tmp/rs-soroban-sdk/tests/multiimpl/src/lib.rs",
+      "span": {
+        "startLine": 23,
+        "endLine": 23
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__calc_librs",
+      "type": "function",
+      "name": "calc",
+      "file": "/private/tmp/rs-soroban-sdk/tests/mutability/src/lib.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 18
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__fn_struct_a_librs",
+      "type": "function",
+      "name": "fn_struct_a",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_import/src/lib.rs",
+      "span": {
+        "startLine": 10,
+        "endLine": 12
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__fn_struct_tuple_a_librs",
+      "type": "function",
+      "name": "fn_struct_tuple_a",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_import/src/lib.rs",
+      "span": {
+        "startLine": 14,
+        "endLine": 16
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "StructTupleA"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__fn_enum_a_librs",
+      "type": "function",
+      "name": "fn_enum_a",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_import/src/lib.rs",
+      "span": {
+        "startLine": 18,
+        "endLine": 20
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__fn_enum_int_a_librs",
+      "type": "function",
+      "name": "fn_enum_int_a",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_import/src/lib.rs",
+      "span": {
+        "startLine": 22,
+        "endLine": 24
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__fn_error_a_librs",
+      "type": "function",
+      "name": "fn_error_a",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_import/src/lib.rs",
+      "span": {
+        "startLine": 26,
+        "endLine": 32
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Err",
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__fn_event_a_librs",
+      "type": "function",
+      "name": "fn_event_a",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_import/src/lib.rs",
+      "span": {
+        "startLine": 34,
+        "endLine": 36
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__fn_event_d_librs",
+      "type": "function",
+      "name": "fn_event_d",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_import/src/lib.rs",
+      "span": {
+        "startLine": 38,
+        "endLine": 40
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_param_librs",
+      "type": "function",
+      "name": "with_param",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 371,
+        "endLine": 371
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_return_librs",
+      "type": "function",
+      "name": "with_return",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 373,
+        "endLine": 375
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_error_librs",
+      "type": "function",
+      "name": "with_error",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 377,
+        "endLine": 379
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__with_panic_error_librs",
+      "type": "function",
+      "name": "with_panic_error",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 381,
+        "endLine": 385
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_assert_error_librs",
+      "type": "function",
+      "name": "with_assert_error",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 387,
+        "endLine": 389
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_panic_raw_error_librs",
+      "type": "function",
+      "name": "with_panic_raw_error",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 394,
+        "endLine": 398
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_vec_librs",
+      "type": "function",
+      "name": "with_vec",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 400,
+        "endLine": 400
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_vec_nested_librs",
+      "type": "function",
+      "name": "with_vec_nested",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 402,
+        "endLine": 402
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_map_librs",
+      "type": "function",
+      "name": "with_map",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 404,
+        "endLine": 404
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_option_librs",
+      "type": "function",
+      "name": "with_option",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 406,
+        "endLine": 406
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_result_librs",
+      "type": "function",
+      "name": "with_result",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 408,
+        "endLine": 410
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__with_recursion_librs",
+      "type": "function",
+      "name": "with_recursion",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 412,
+        "endLine": 412
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_auth_contexts_librs",
+      "type": "function",
+      "name": "with_auth_contexts",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 414,
+        "endLine": 414
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_invoker_auth_librs",
+      "type": "function",
+      "name": "with_invoker_auth",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 416,
+        "endLine": 416
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_executable_librs",
+      "type": "function",
+      "name": "with_executable",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 418,
+        "endLine": 418
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__publish_simple_librs",
+      "type": "function",
+      "name": "publish_simple",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 420,
+        "endLine": 426
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [
+          {
+            "key": "transfer",
+            "durability": "unknown"
+          }
+        ],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__publish_topic_type_librs",
+      "type": "function",
+      "name": "publish_topic_type",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 428,
+        "endLine": 434
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__publish_data_type_librs",
+      "type": "function",
+      "name": "publish_data_type",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 436,
+        "endLine": 442
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [
+          {
+            "key": "coords",
+            "durability": "unknown"
+          }
+        ],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__publish_nested_topic_librs",
+      "type": "function",
+      "name": "publish_nested_topic",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 444,
+        "endLine": 452
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__publish_nested_data_librs",
+      "type": "function",
+      "name": "publish_nested_data",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 454,
+        "endLine": 462
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [
+          {
+            "key": "nested",
+            "durability": "unknown"
+          }
+        ],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_lib_struct_librs",
+      "type": "function",
+      "name": "with_lib_struct",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 464,
+        "endLine": 464
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_wasm_imported_librs",
+      "type": "function",
+      "name": "with_wasm_imported",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 466,
+        "endLine": 466
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_non_pub_librs",
+      "type": "function",
+      "name": "with_non_pub",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 468,
+        "endLine": 468
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_non_pub_error_librs",
+      "type": "function",
+      "name": "with_non_pub_error",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 470,
+        "endLine": 472
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__with_tuple_librs",
+      "type": "function",
+      "name": "with_tuple",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 474,
+        "endLine": 474
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__with_tuple_return_librs",
+      "type": "function",
+      "name": "with_tuple_return",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 476,
+        "endLine": 478
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__publish_ref_event_librs",
+      "type": "function",
+      "name": "publish_ref_event",
+      "file": "/private/tmp/rs-soroban-sdk/tests/spec_shaking_v2/src/lib.rs",
+      "span": {
+        "startLine": 480,
+        "endLine": 490
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__void_fn_librs",
+      "type": "function",
+      "name": "void_fn",
+      "file": "/private/tmp/rs-soroban-sdk/tests/tuples/src/lib.rs",
+      "span": {
+        "startLine": 9,
+        "endLine": 9
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__tuple1_librs",
+      "type": "function",
+      "name": "tuple1",
+      "file": "/private/tmp/rs-soroban-sdk/tests/tuples/src/lib.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 13
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__tuple2_librs",
+      "type": "function",
+      "name": "tuple2",
+      "file": "/private/tmp/rs-soroban-sdk/tests/tuples/src/lib.rs",
+      "span": {
+        "startLine": 15,
+        "endLine": 17
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "function_Contract__recursive_librs",
+      "type": "function",
+      "name": "recursive",
+      "file": "/private/tmp/rs-soroban-sdk/tests/udt/src/lib.rs",
+      "span": {
+        "startLine": 74,
+        "endLine": 80
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Some"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__recursive_enum_librs",
+      "type": "function",
+      "name": "recursive_enum",
+      "file": "/private/tmp/rs-soroban-sdk/tests/udt/src/lib.rs",
+      "span": {
+        "startLine": 82,
+        "endLine": 87
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": [
+          "Ok",
+          "Ok"
+        ]
+      }
+    },
+    {
+      "id": "function_Contract__value_librs",
+      "type": "function",
+      "name": "value",
+      "file": "/private/tmp/rs-soroban-sdk/tests/workspace_contract/src/lib.rs",
+      "span": {
+        "startLine": 11,
+        "endLine": 13
+      },
+      "meta": {
+        "parentContract": "contract_Contract_librs",
+        "has_auth_check": false,
+        "storage_keys": [],
+        "internal_calls": []
+      }
+    },
+    {
+      "id": "contract__Contract_librs",
+      "type": "contract",
+      "name": "_Contract",
+      "file": "/private/tmp/rs-soroban-sdk/tests/zero/src/lib.rs",
+      "span": {
+        "startLine": 5,
+        "endLine": 5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge___constructor__write_storage_auth_06_register_native_constructorrs",
+      "from": "function_Contract____constructor_auth_06_register_native_constructorrs",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_06_register_native_constructor.rs",
+        "line": 20
+      }
+    },
+    {
+      "id": "edge_fna__call_client_auth_20_deep_one_addressrs",
+      "from": "function_ContractA__fna_auth_20_deep_one_addressrs",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_20_deep_one_address.rs",
+        "line": 15
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge_fna__call_client_auth_20_deep_one_addressrs_1",
+      "from": "function_ContractA__fna_auth_20_deep_one_addressrs",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_20_deep_one_address.rs",
+        "line": 16
+      }
+    },
+    {
+      "id": "edge_fna__call_client_auth_30_deep_one_address_repeatrs",
+      "from": "function_ContractA__fna_auth_30_deep_one_address_repeatrs",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_30_deep_one_address_repeat.rs",
+        "line": 15
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge_fna__call_client_auth_30_deep_one_address_repeatrs_1",
+      "from": "function_ContractA__fna_auth_30_deep_one_address_repeatrs",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_30_deep_one_address_repeat.rs",
+        "line": 16
+      }
+    },
+    {
+      "id": "edge_fna__call_client_auth_35_deep_one_address_repeat_groupedrs",
+      "from": "function_ContractA__fna_auth_35_deep_one_address_repeat_groupedrs",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_35_deep_one_address_repeat_grouped.rs",
+        "line": 15
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge_fna__call_client_auth_35_deep_one_address_repeat_groupedrs_1",
+      "from": "function_ContractA__fna_auth_35_deep_one_address_repeat_groupedrs",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_35_deep_one_address_repeat_grouped.rs",
+        "line": 16
+      }
+    },
+    {
+      "id": "edge_fna__call_client_auth_40_multi_one_addressrs",
+      "from": "function_ContractA__fna_auth_40_multi_one_addressrs",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_40_multi_one_address.rs",
+        "line": 16
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge_fna__call_client_auth_40_multi_one_addressrs_1",
+      "from": "function_ContractA__fna_auth_40_multi_one_addressrs",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_40_multi_one_address.rs",
+        "line": 17
+      }
+    },
+    {
+      "id": "edge___check_auth__write_storage_contract_executable_refrs",
+      "from": "function_RecordingAccount____check_auth_contract_executable_refrs",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_executable_ref.rs",
+        "line": 123
+      }
+    },
+    {
+      "id": "edge_add_with__call_dynamic_contract_invoke_arg_countrs",
+      "from": "function_Contract__add_with_contract_invoke_arg_countrs",
+      "to": null,
+      "type": "calls",
+      "confidence": "high",
+      "resolved": false,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_invoke_arg_count.rs",
+        "line": 17
+      }
+    },
+    {
+      "id": "edge_store__write_storage_contract_snapshotrs",
+      "from": "function_Contract__store_contract_snapshotrs",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_snapshot.rs",
+        "line": 10
+      }
+    },
+    {
+      "id": "edge_get__read_storage_contract_snapshotrs",
+      "from": "function_Contract__get_contract_snapshotrs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_snapshot.rs",
+        "line": 13
+      }
+    },
+    {
+      "id": "edge_get__read_storage_contract_snapshotrs_1",
+      "from": "function_Contract__get_contract_snapshotrs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_snapshot.rs",
+        "line": 13
+      }
+    },
+    {
+      "id": "edge_get_persistent__read_storage_contract_storers",
+      "from": "function_Contract__get_persistent_contract_storers",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+        "line": 17
+      }
+    },
+    {
+      "id": "edge_set_persistent__write_storage_contract_storers",
+      "from": "function_Contract__set_persistent_contract_storers",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+        "line": 21
+      }
+    },
+    {
+      "id": "edge_get_temporary__read_storage_contract_storers",
+      "from": "function_Contract__get_temporary_contract_storers",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+        "line": 25
+      }
+    },
+    {
+      "id": "edge_set_temporary__write_storage_contract_storers",
+      "from": "function_Contract__set_temporary_contract_storers",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+        "line": 29
+      }
+    },
+    {
+      "id": "edge_get_instance__read_storage_contract_storers",
+      "from": "function_Contract__get_instance_contract_storers",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+        "line": 33
+      }
+    },
+    {
+      "id": "edge_set_instance__write_storage_contract_storers",
+      "from": "function_Contract__set_instance_contract_storers",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+        "line": 37
+      }
+    },
+    {
+      "id": "edge_add_with__call_client_contractimportrs",
+      "from": "function_Contract__add_with_contractimportrs",
+      "to": "contract_addcontract",
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contractimport.rs",
+        "line": 33
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge_sub_with__call_client_contractimportrs",
+      "from": "function_Contract__sub_with_contractimportrs",
+      "to": "contract_subcontract",
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contractimport.rs",
+        "line": 36
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge_hello_with__call_client_contractimport_with_errorrs",
+      "from": "function_Contract__hello_with_contractimport_with_errorrs",
+      "to": "contract_errcontract",
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contractimport_with_error.rs",
+        "line": 15
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge_g1_mul_with__call_client_crypto_bls12_381rs",
+      "from": "function_Contract__g1_mul_with_crypto_bls12_381rs",
+      "to": "contract_blscontract",
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/crypto_bls12_381.rs",
+        "line": 274
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge_verify_with__call_client_crypto_bls12_381rs",
+      "from": "function_Contract__verify_with_crypto_bls12_381rs",
+      "to": "contract_blscontract",
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/crypto_bls12_381.rs",
+        "line": 278
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge___constructor__write_storage_delegate_authrs",
+      "from": "function_ModularAccount____constructor_delegate_authrs",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+        "line": 48
+      }
+    },
+    {
+      "id": "edge___constructor__write_storage_delegate_authrs_1",
+      "from": "function_ModularAccount____constructor_delegate_authrs",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+        "line": 51
+      }
+    },
+    {
+      "id": "edge___check_auth__read_storage_delegate_authrs",
+      "from": "function_ModularAccount____check_auth_delegate_authrs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+        "line": 68
+      }
+    },
+    {
+      "id": "edge___check_auth__read_storage_delegate_authrs_1",
+      "from": "function_ModularAccount____check_auth_delegate_authrs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+        "line": 68
+      }
+    },
+    {
+      "id": "edge___check_auth__read_storage_delegate_authrs_2",
+      "from": "function_ModularAccount____check_auth_delegate_authrs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+        "line": 77
+      }
+    },
+    {
+      "id": "edge___check_auth__read_storage_delegate_authrs_3",
+      "from": "function_ModularAccount____check_auth_delegate_authrs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+        "line": 77
+      }
+    },
+    {
+      "id": "edge___constructor__write_storage_delegate_authrs_2",
+      "from": "function_DelegateAccount____constructor_delegate_authrs",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+        "line": 99
+      }
+    },
+    {
+      "id": "edge___check_auth__read_storage_delegate_authrs_4",
+      "from": "function_DelegateAccount____check_auth_delegate_authrs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+        "line": 116
+      }
+    },
+    {
+      "id": "edge___check_auth__read_storage_delegate_authrs_5",
+      "from": "function_DelegateAccount____check_auth_delegate_authrs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/delegate_auth.rs",
+        "line": 116
+      }
+    },
+    {
+      "id": "edge_set_persistent__write_storage_extend_ttl_overflowrs",
+      "from": "function_Contract__set_persistent_extend_ttl_overflowrs",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/extend_ttl_overflow.rs",
+        "line": 16
+      }
+    },
+    {
+      "id": "edge_init__write_storage_token_clientrs",
+      "from": "function_TestContract__init_token_clientrs",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/token_client.rs",
+        "line": 28
+      }
+    },
+    {
+      "id": "edge_approve__call_client_token_clientrs",
+      "from": "function_TestContract__approve_token_clientrs",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/token_client.rs",
+        "line": 36
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge_allowance__call_client_token_clientrs",
+      "from": "function_TestContract__allowance_token_clientrs",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/token_client.rs",
+        "line": 40
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge_set_val__write_storage_librs",
+      "from": "function_Contract__set_val_librs",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/associated_type_chained/src/lib.rs",
+        "line": 30
+      }
+    },
+    {
+      "id": "edge_get_val__read_storage_librs",
+      "from": "function_Contract__get_val_librs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/associated_type_chained/src/lib.rs",
+        "line": 34
+      }
+    },
+    {
+      "id": "edge_get_val__read_storage_librs_1",
+      "from": "function_Contract__get_val_librs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/associated_type_chained/src/lib.rs",
+        "line": 34
+      }
+    },
+    {
+      "id": "edge_fn2__call_client_librs",
+      "from": "function_ContractB__fn2_librs",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/auth/src/lib.rs",
+        "line": 228
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge_fn2__call_client_librs_1",
+      "from": "function_ContractB__fn2_librs",
+      "to": null,
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": false,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/auth/src/lib.rs",
+        "line": 229
+      }
+    },
+    {
+      "id": "edge___constructor__write_storage_librs",
+      "from": "function_Contract____constructor_librs",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/constructor_with_auth/src/lib.rs",
+        "line": 11
+      }
+    },
+    {
+      "id": "edge___constructor__write_storage_librs_1",
+      "from": "function_Contract____constructor_librs",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/constructor/src/lib.rs",
+        "line": 20
+      }
+    },
+    {
+      "id": "edge___constructor__write_storage_librs_2",
+      "from": "function_Contract____constructor_librs",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/constructor/src/lib.rs",
+        "line": 23
+      }
+    },
+    {
+      "id": "edge_get_data__read_storage_librs",
+      "from": "function_Contract__get_data_librs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/constructor/src/lib.rs",
+        "line": 30
+      }
+    },
+    {
+      "id": "edge_get_data__read_storage_librs_1",
+      "from": "function_Contract__get_data_librs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/constructor/src/lib.rs",
+        "line": 31
+      }
+    },
+    {
+      "id": "edge_get_data__read_storage_librs_2",
+      "from": "function_Contract__get_data_librs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/constructor/src/lib.rs",
+        "line": 32
+      }
+    },
+    {
+      "id": "edge_put__write_storage_librs",
+      "from": "function_Contract__put_librs",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/contract_data/src/lib.rs",
+        "line": 10
+      }
+    },
+    {
+      "id": "edge_get__read_storage_librs",
+      "from": "function_Contract__get_librs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/contract_data/src/lib.rs",
+        "line": 14
+      }
+    },
+    {
+      "id": "edge_hello__write_storage_librs",
+      "from": "function_Contract__hello_librs",
+      "to": null,
+      "type": "writes_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/errors/src/lib.rs",
+        "line": 29
+      }
+    },
+    {
+      "id": "edge_persisted__read_storage_librs",
+      "from": "function_Contract__persisted_librs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/errors/src/lib.rs",
+        "line": 49
+      }
+    },
+    {
+      "id": "edge_persisted__read_storage_librs_1",
+      "from": "function_Contract__persisted_librs",
+      "to": null,
+      "type": "reads_storage",
+      "confidence": "high",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/errors/src/lib.rs",
+        "line": 49
+      }
+    },
+    {
+      "id": "edge_add_with__call_client_librs",
+      "from": "function_Contract__add_with_librs",
+      "to": "contract_addcontract",
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/import_contract/src/lib.rs",
+        "line": 25
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge_safe_add_with__call_client_librs",
+      "from": "function_Contract__safe_add_with_librs",
+      "to": "contract_addcontract",
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/import_contract/src/lib.rs",
+        "line": 28
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge_safe_add_with_two__call_client_librs",
+      "from": "function_Contract__safe_add_with_two_librs",
+      "to": "contract_addcontract",
+      "type": "calls",
+      "confidence": "medium",
+      "resolved": true,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/import_contract/src/lib.rs",
+        "line": 35
+      },
+      "meta": {
+        "addressSource": "runtime"
+      }
+    },
+    {
+      "id": "edge_add_with__call_dynamic_librs",
+      "from": "function_Contract__add_with_librs",
+      "to": null,
+      "type": "calls",
+      "confidence": "high",
+      "resolved": false,
+      "evidence": {
+        "file": "/private/tmp/rs-soroban-sdk/tests/invoke_contract/src/lib.rs",
+        "line": 11
+      }
+    },
+    {
+      "id": "dep_test_account_soroban-sdk",
+      "from": "test_account",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_add_i128_soroban-sdk",
+      "from": "test_add_i128",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_add_u128_soroban-sdk",
+      "from": "test_add_u128",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_add_u64_soroban-sdk",
+      "from": "test_add_u64",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_alloc_soroban-sdk",
+      "from": "test_alloc",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_associated_types_soroban-sdk",
+      "from": "test_associated_types",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_associated_type_chained_soroban-sdk",
+      "from": "test_associated_type_chained",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_associated_types_contracttrait_soroban-sdk",
+      "from": "test_associated_types_contracttrait",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_attributes_soroban-sdk",
+      "from": "test_attributes",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_auth_soroban-sdk",
+      "from": "test_auth",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_bls_soroban-sdk",
+      "from": "test_bls",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_bn254_soroban-sdk",
+      "from": "test_bn254",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_constructor_soroban-sdk",
+      "from": "test_constructor",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_constructor_with_auth_soroban-sdk",
+      "from": "test_constructor_with_auth",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_contract_data_soroban-sdk",
+      "from": "test_contract_data",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_contracttrait_impl_full_soroban-sdk",
+      "from": "test_contracttrait_impl_full",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_contracttrait_impl_full_test_contracttrait_trait",
+      "from": "test_contracttrait_impl_full",
+      "to": "test_contracttrait_trait",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_contracttrait_impl_partial_soroban-sdk",
+      "from": "test_contracttrait_impl_partial",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_contracttrait_impl_partial_test_contracttrait_trait",
+      "from": "test_contracttrait_impl_partial",
+      "to": "test_contracttrait_trait",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_contracttrait_path_crate_soroban-sdk",
+      "from": "test_contracttrait_path_crate",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_contracttrait_path_global_soroban-sdk",
+      "from": "test_contracttrait_path_global",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_contracttrait_path_global_test_contracttrait_trait",
+      "from": "test_contracttrait_path_global",
+      "to": "test_contracttrait_trait",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_contracttrait_path_relative_soroban-sdk",
+      "from": "test_contracttrait_path_relative",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_contracttrait_path_self_soroban-sdk",
+      "from": "test_contracttrait_path_self",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_contracttrait_path_super_soroban-sdk",
+      "from": "test_contracttrait_path_super",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_contracttrait_trait_soroban-sdk",
+      "from": "test_contracttrait_trait",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_empty_soroban-sdk",
+      "from": "test_empty",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_empty2_soroban-sdk",
+      "from": "test_empty2",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_errors_soroban-sdk",
+      "from": "test_errors",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_events_soroban-sdk",
+      "from": "test_events",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_events_ref_soroban-sdk",
+      "from": "test_events_ref",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_fuzz_soroban-sdk",
+      "from": "test_fuzz",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_fuzz-fuzz_soroban-sdk",
+      "from": "test_fuzz-fuzz",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_fuzz-fuzz_test_fuzz",
+      "from": "test_fuzz-fuzz",
+      "to": "test_fuzz",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_fuzz_afl_soroban-sdk",
+      "from": "test_fuzz_afl",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_fuzz_afl-fuzz_soroban-sdk",
+      "from": "test_fuzz_afl-fuzz",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_fuzz_afl-fuzz_test_fuzz_afl",
+      "from": "test_fuzz_afl-fuzz",
+      "to": "test_fuzz_afl",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_generics_soroban-sdk",
+      "from": "test_generics",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_import_contract_soroban-sdk",
+      "from": "test_import_contract",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_invoke_contract_soroban-sdk",
+      "from": "test_invoke_contract",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_logging_soroban-sdk",
+      "from": "test_logging",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_macros_soroban-sdk",
+      "from": "test_macros",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_macros_proc_macros",
+      "from": "test_macros",
+      "to": "proc_macros",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_modular_soroban-sdk",
+      "from": "test_modular",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_multiimpl_soroban-sdk",
+      "from": "test_multiimpl",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_mutability_soroban-sdk",
+      "from": "test_mutability",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_spec_import_soroban-sdk",
+      "from": "test_spec_import",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_spec_import_test_spec_lib",
+      "from": "test_spec_import",
+      "to": "test_spec_lib",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_spec_lib_soroban-sdk",
+      "from": "test_spec_lib",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_spec_shaking_v2_soroban-sdk",
+      "from": "test_spec_shaking_v2",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_spec_shaking_v2_test_spec_lib",
+      "from": "test_spec_shaking_v2",
+      "to": "test_spec_lib",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_tuples_soroban-sdk",
+      "from": "test_tuples",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_udt_soroban-sdk",
+      "from": "test_udt",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_workspace_contract_soroban-sdk",
+      "from": "test_workspace_contract",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_workspace_contract_test_workspace_lib",
+      "from": "test_workspace_contract",
+      "to": "test_workspace_lib",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_workspace_lib_soroban-sdk",
+      "from": "test_workspace_lib",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    },
+    {
+      "id": "dep_test_zero_soroban-sdk",
+      "from": "test_zero",
+      "to": "soroban-sdk",
+      "type": "depends_on",
+      "confidence": "high",
+      "resolved": true
+    }
+  ],
+  "heuristics": [
+    {
+      "id": "unresolved-calls",
+      "name": "Unresolved Cross-Contract Calls",
+      "description": "Found calls to other contracts that could not be statically resolved to a specific target contract.",
+      "count": 14,
+      "evidence": [
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_20_deep_one_address.rs",
+          "line": 15,
+          "detail": "Call from function_ContractA__fna_auth_20_deep_one_addressrs unresolved"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_20_deep_one_address.rs",
+          "line": 16,
+          "detail": "Call from function_ContractA__fna_auth_20_deep_one_addressrs unresolved"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_30_deep_one_address_repeat.rs",
+          "line": 15,
+          "detail": "Call from function_ContractA__fna_auth_30_deep_one_address_repeatrs unresolved"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_30_deep_one_address_repeat.rs",
+          "line": 16,
+          "detail": "Call from function_ContractA__fna_auth_30_deep_one_address_repeatrs unresolved"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_35_deep_one_address_repeat_grouped.rs",
+          "line": 15,
+          "detail": "Call from function_ContractA__fna_auth_35_deep_one_address_repeat_groupedrs unresolved"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_35_deep_one_address_repeat_grouped.rs",
+          "line": 16,
+          "detail": "Call from function_ContractA__fna_auth_35_deep_one_address_repeat_groupedrs unresolved"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_40_multi_one_address.rs",
+          "line": 16,
+          "detail": "Call from function_ContractA__fna_auth_40_multi_one_addressrs unresolved"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/auth/auth_40_multi_one_address.rs",
+          "line": 17,
+          "detail": "Call from function_ContractA__fna_auth_40_multi_one_addressrs unresolved"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_invoke_arg_count.rs",
+          "line": 17,
+          "detail": "Call from function_Contract__add_with_contract_invoke_arg_countrs unresolved"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/token_client.rs",
+          "line": 36,
+          "detail": "Call from function_TestContract__approve_token_clientrs unresolved"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/token_client.rs",
+          "line": 40,
+          "detail": "Call from function_TestContract__allowance_token_clientrs unresolved"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/tests/auth/src/lib.rs",
+          "line": 228,
+          "detail": "Call from function_ContractB__fn2_librs unresolved"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/tests/auth/src/lib.rs",
+          "line": 229,
+          "detail": "Call from function_ContractB__fn2_librs unresolved"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/tests/invoke_contract/src/lib.rs",
+          "line": 11,
+          "detail": "Call from function_Contract__add_with_librs unresolved"
+        }
+      ],
+      "falsePositiveNote": "Dynamic dispatch (e.g. invoke_contract) or complex client wrappers often cannot be resolved statically."
+    },
+    {
+      "id": "no-auth-state-change",
+      "name": "State-Changing Functions Without Auth",
+      "description": "Functions that write to storage but have no visible authorization check.",
+      "count": 9,
+      "evidence": [
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_snapshot.rs",
+          "line": 9,
+          "detail": "Function store writes to storage without auth"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+          "line": 20,
+          "detail": "Function set_persistent writes to storage without auth"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+          "line": 28,
+          "detail": "Function set_temporary writes to storage without auth"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/contract_store.rs",
+          "line": 36,
+          "detail": "Function set_instance writes to storage without auth"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/extend_ttl_overflow.rs",
+          "line": 15,
+          "detail": "Function set_persistent writes to storage without auth"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/soroban-sdk/src/tests/token_client.rs",
+          "line": 27,
+          "detail": "Function init writes to storage without auth"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/tests/associated_type_chained/src/lib.rs",
+          "line": 29,
+          "detail": "Function set_val writes to storage without auth"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/tests/contract_data/src/lib.rs",
+          "line": 9,
+          "detail": "Function put writes to storage without auth"
+        },
+        {
+          "file": "/private/tmp/rs-soroban-sdk/tests/logging/src/lib.rs",
+          "line": 9,
+          "detail": "Function hello writes to storage without auth"
+        }
+      ],
+      "falsePositiveNote": "Authorization might be handled by an upstream caller, a macro, or through trait implementations not tracked by the AST.",
+      "severity": "info"
+    }
+  ],
+  "coverage": {
+    "filesAnalyzed": 812,
+    "skippedFiles": []
+  }
+}
